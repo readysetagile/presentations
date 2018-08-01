@@ -1,0 +1,170 @@
+
+/*********************************/
+/* Custom CSS for my presentations 
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+}
+
+/* text align all table cells to the top */
+.reveal table td {
+	vertical-align: top;
+}
+
+#logo-title {
+	border:0;
+	background: white;
+}
+
+#logo-end {
+	border:0;
+	background: white;
+}
+
+/* hide title h3 but show on footer */
+.hide-h3 {
+	display: none;
+}
+
+#title-right-split {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+  vertical-align: bottom;
+  display: block;
+  font-size: 18pt;
+}
+
+
+.social-media-block {
+	background: rgb(0,0,0,0.5);
+	text-align: left;
+	padding: 5px;
+	border-radius: 25px;
+}
+
+.social-media-block img {
+	vertical-align: middle;
+}
+
+.social-media-block a {
+	text-align: top;
+	font-size: 24pt;
+}
+
+.objective {
+	background: rgb(0,0,0,0.5);
+	text-align: left;
+	border-radius: 25px;
+}
+.materials {
+	background: rgb(0,0,0,0.5);
+	text-align: left;
+	border-radius: 25px;
+}
+.table-setup {
+	background: rgb(0,0,0,0.5);
+	text-align: left;
+	border-radius: 25px;
+}
+
+.activities {
+	background: rgb(0,0,0,0.5);
+	text-align: left;
+	border-radius: 25px;
+}
+
+.activities td {
+	font-size: 24pt;
+}
+
+/* classic half-screen layout */
+#left-split {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right-split {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+#booklogo {
+	display: block;
+	width: 550px;
+}
+
+#subtitle {
+	font-size: 12pt;
+	display: block;
+	text-align: right;
+	vertical-align: right;
+}
+
+#presenter-name {
+	font-size: 24pt;
+	display: block;
+	text-align: right;
+	vertical-align: right;
+}
+
+#presenter-job-title {
+	font-size: 18pt;
+	display: block;
+	text-align: right;
+	vertical-align: right;
+}
+
+/* hide the FlipClock labels */
+.flip-clock-label { 
+	display: none !important; 
+}
+
+/* FlipClock blinking dots */
+.flip-clock-dot {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+/*override AnswerGarden so questionbox does not appear */
+#questionbox {
+    margin: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 1px;
+    height: 104px;
+    min-height: 104px;
+    background-color: #e5e5e5;
+    color: #696969;
+    display: none;
