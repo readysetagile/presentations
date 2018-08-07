@@ -1,18 +1,28 @@
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
+body { 
+  background-image: url( '../../lib/img/global/logo_watermark.png' );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif; 
+}
 
 h1 { color: white; }
 
-	a { 
-		text-decoration: none;
-		font-size: 22pt;
-		color: white;
-	}
+a { 
+	text-decoration: none;
+	font-size: 22pt;
+	color: white;
+}
 	
 	a:hover {color: black; }
-	
-/* ---- grid ---- */
+
+	/* ---- grid ---- */
 
 .grid {
   background: #EEE;

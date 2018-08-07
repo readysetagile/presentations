@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>DevOps: A Bird's-eye View | Presentations | Ready Set Agile</title>
+
+		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- custom styles -->
+		<link rel="stylesheet" href="john/css/RSA.css">
+		<link rel="stylesheet" href="john/css/DevOps.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<table>
+						<tr>
+							<td>
+								<h2>DevOps: A Bird's-eye View</h2>
+								<h3>@ReadySetAgile</h3>
+							</td>
+							<td><div id="subtitle"><br><br><br><br><br><br><br><br><br>A brief overview of today's DevOps culture</div></td>
+						</tr>
+						<tr>
+							<td><img id="logo-title" src="lib/img/global/RSALogoFull.png"></td>
+							<td><div id="presenter-name">John Riley</div><br><div id="presenter-job-title">Principle Agile Coach and Trainer</div></td>
+						</tr>
+					</table>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### About John
+					---
+					
+					![rodizio](lib/img/DevOps/1204.jpg)
+					</div>
+				</section>
+				<section>
+					<div data-markdown data-template data-separator-notes="^Note:">
+					### Activity: What Brings you here?
+					---
+					
+					Note: 
+					POLL THE AUDIENCE
+					Anyone from LOPSA here???
+					</div>
+				</section>
+				<section>
+					<!-- from https://dzone.com/articles/36-devops-terms-you-need-to-know -->
+					
+					<img alt="devops-wordcloud" src="lib/img/DevOps/devops-wordcloud.jpg">
+				</section>
+				<section>
+					<div id="left-split">
+						<div class="complex-image"><img src="lib/img/DevOps/complex-image.png"></div>
+					</div>
+					<div id="right-split" data-markdown data-template>
+						### It's about 
+						### responding 
+						### to 
+						### complexity!
+					</div>
+					<aside class="notes">
+					Talk about wall of confusion
+					</aside>
+				</section>
+				<section>
+					<div id="left-split">
+						<div class="IC-DevOps-Venn-Diagram"><img src="lib/img/DevOps/IC-DevOps-Venn-Diagram.jpg"></div>
+					</div>
+					<div id="right-split" data-markdown data-template>
+						### It's about software delivery!
+					</div>
+					<aside class="notes">
+					- Once We Had Three Silos - Each With Its Own Goal<br>
+					- Dev: Deliver Features, QA: Limit Prod defects, Ops: Limit downtime<br>
+					- Then DEV and QA came together with delivering features without prod defects<br>
+					- Then all three saw the need to come together<br>
+					</aside>
+				</section>
+				<section>					
+					<div id="left-split">
+						<div class="vanillaice"><img src="lib/img/DevOps/vanillaice.jpg"></div>
+					</div>
+					<div id="right-split" data-markdown data-template data-separator-notes="^Note:">
+						### It was a thing in the 1990's!
+						
+						Note: 
+						- Diskless workstations!
+					</div>
+				</section>
+				<section>
+					<div id="left-split">
+						<div class="Extreme_Programming"><img src="lib/img/DevOps/1200px-Extreme_Programming.png"></div>
+					</div>
+					<div id="right-split" data-markdown data-template>
+						### It's about continuous delivery!
+					</div>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### It's about Shared Goals
+					---
+					</div>
+					<section>
+					<blockquote>“DevOps isn't simply a piece of software, a job title, or giving pagers to your developers.
+
+						It's a cultural and professional movement. It is everyone working together toward a shared goal - delighting customers. Anyone who tries to sell you something else is pushing you some manure.”
+					</blockquote>
+					<div id="quote-source">- Shared Goals not horse manure<br>chef.io/solutions/devops</div>
+
+					<aside class="notes">
+					“DevOps isn't simply a piece of software, a job title, or giving pagers to your developers.
+
+					It's a cultural and professional movement. It is everyone working together toward a shared goal - 
+					delighting customers. Anyone who tries to sell you something else is pushing you some manure.”
+					</aside>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### New Techniques Introduced
+					---
+					</div>
+<!-- 					<section>
+					<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+						</section>
+ -->				<section data-markdown data-template>
+					#### Continuous Delivery Pipelines
+					![continuous-delivery](lib/img/DevOps/continuous-delivery.png)
+					</section>
+					<section data-markdown data-template data-separator-notes="^Note:">
+					__Test-first Mindset__
+					![testing-pyramid](lib/img/DevOps/testing-pyramid.png)
+					
+					Note: 
+					- New testing strategies like this pyramid
+					- Mindset developed
+					- Easily fit into automated tools
+					</section>
+					<section data-markdown data-template>
+					__Automated Builds__
+					![devbuilddeployprocess](lib/img/DevOps/devbuilddeployprocess.png)
+					</section>
+					<section>
+						<div id="left-split">
+							<br>qa-server
+						<pre><code data-trim data-noescape>
+						---
+						- hosts: qa-server
+						  sudo: yes
+						  sudo_user: root
+
+						  tasks:
+
+						  - name: install mysql-server
+							apt: name=mysql-server state=present update_cache=yes
+
+						  - name: install ansible dependencies
+							apt: name=python-mysqldb state=present
+
+						  - name: Ensure mysql is running 
+							service: name=mysql state=started
+
+						  - name: Create user with the password and all previleges
+							mysql_user: login_user=root login_password="" name={{ mysql_user }} password={{ mysql_password }} priv=*.*:ALL host=% state=present
+
+						  - name: Delete test database
+							mysql_db: name=test state=absent
+
+						  - name: Create ansible_example database
+							mysql_db: name=ansible_example state=present
+						</code></pre>							
+						</div>
+						<div id="right-split">
+							<br>prod-server
+						<pre><code data-trim data-noescape>
+						---
+						- hosts: prod-server
+						  sudo: yes
+						  sudo_user: root
+
+						  tasks:
+
+						  - name: install mysql-server
+							apt: name=mysql-server state=present update_cache=no
+
+						  - name: install ansible dependencies
+							apt: name=python-mysqldb state=present
+
+						  - name: Ensure mysql is running 
+							service: name=mysql state=started
+
+						  - name: Create user with the password and all previleges
+							mysql_user: login_user=root login_password="" name={{ mysql_user }} password={{ mysql_password }} priv=*.*:ALL host=% state=present
+
+    					  - name: Copy mysql back up dump to the remote_user
+							copy: src=dump.sql.bz2 dest=/tmp
+
+						  - name: Restore the dump into ansible_example database
+							mysql_db: name=ansible_example state=import target=/tmp/dump.sql.bz2
+							</code></pre>
+						</div>
+						<b>Infrastructure as Code</b>
+						
+						<aside class="notes">
+							- FKA: Configuration as code
+							- above are ansible file examples
+						</aside>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Pain Points Addressed
+					---
+					</div>
+					<section>
+						<div id="left-split-pain">
+							Time to Release (stabilization)
+							<p class="fragment fade-up"><img alt="decrease-arrow" src="lib/img/DevOps/decrease-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<p class="fragment current-visible"><img alt="release-management-process" src="lib/img/DevOps/release-management-process.png"></p>
+						</div>			
+					</section>
+					<section>
+						<div id="left-split-pain">
+							<br>Feedback From Users
+							<p class="fragment fade-up"><img alt="increase-arrow" src="lib/img/DevOps/increase-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<p class="fragment current-visible"><img alt="User-Feedback-Loop" src="lib/img/DevOps/User-Feedback-Loop.jpeg"></p>
+						</div>			
+					</section>
+					<section>
+						<div id="left-split-pain">
+							Communication between teams
+							<p class="fragment fade-up"><img alt="increase-arrow" src="lib/img/DevOps/increase-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<p class="fragment current-visible"><img alt="Release_cycle_roles" src="lib/img/DevOps/Release_cycle_roles.png"></p>
+						</div>			
+					</section>
+					<section>					
+						<div id="left-split-pain">
+							<br><br>Product Maintainability
+							<p class="fragment fade-up"><img alt="increase-arrow" src="lib/img/DevOps/increase-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<br><p class="fragment current-visible"><img alt="Agile-Development" src="lib/img/DevOps/Agile-Development.jpg"></p>
+						</div>			
+					</section>
+					<section>
+						<div id="left-split-pain">
+							<br><br>Time To Market
+							<p class="fragment fade-up"><img alt="decrease-arrow" src="lib/img/DevOps/decrease-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<br><p class="fragment current-visible"><img alt="time-to-market" src="lib/img/DevOps/time-to-market.jpg"></p>
+						</div>			
+					</section>
+					<section>
+					
+						<div id="left-split-pain">
+							<br><br>Overall Quality
+							<p class="fragment fade-up"><img alt="increase-arrow" src="lib/img/DevOps/increase-arrow.png"></p>
+						</div>
+						<div id="right-split-pain">
+							<br><p class="fragment current-visible"><img alt="quality-value" src="lib/img/DevOps/quality-value.png"></p>
+						</div>			
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Adopting DevOps
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<br><p class="fragment current-visible"><h4>Assess the need!</h4></p>
+						</div>
+						<div id="right-split" 
+							<p class="fragment current-visible">
+							<ul>
+								<li>Create a plan</li>
+								<li>Create a process</li>
+								<li>No one solution</li>
+							</ul>
+							</p>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<br><p class="fragment current-visible"><h4>Proof-of-concept</h4></p>
+						</div>
+						<div id="right-split" 
+							<p class="fragment current-visible">
+							<ul>
+								<li>Experiment with teams</li>
+								<li>Try experts on each team</li>
+								<li>Inspect and Adapt</li>
+								<li>Iterate and Scale</li>
+							</ul>
+							</p>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<br><p class="fragment current-visible"><h4>Get some tools and training</h4></p>
+						</div>
+						<div id="right-split" 
+							<p class="fragment current-visible">
+							<ul>
+								<li>Continuous Delivery Pipeline</li>
+								<li>Learn your *DDs</li>
+								<li>Auto deploy solutions</li>
+								<li>Infrastructure solutions</li>
+							</ul>
+							</p>
+						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Evolution of Technology
+					---
+					</div>					
+					<section>
+						<div id="left-split">
+							Batch processing (Command line)
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![batch-file tools](http://icons.iconarchive.com/icons/harwen/pleasant/256/MS-DOS-Batch-File-icon.png)
+							![powershell tools](https://3yc37h14h35m13y3cm3whn1w-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/powershell-1030x770.png)
+							![unix-shell tools](https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/unix--tojpeg_1440498641820_x2.jpg)
+							![unix-make tools](https://helloacm.com/wp-content/uploads/2016/06/makefile-mini-logo.jpg)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							Remote desktop
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![remote-desktop tools](https://bigideatech.com/wp-content/uploads/2015/07/Remote_desktop_connection_icon.png)
+							![windows-2008 tools](https://support.eapps.com/eapps_images/win_images/rdp_img/rdp_portal_console_screen.png)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<br>Version Control and Deployment
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![sourcesafe tools](https://images-na.ssl-images-amazon.com/images/I/51EMR98E5GL._SX385_.jpg)
+							![subversion tools](https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Subversion_Logo.svg/1200px-Subversion_Logo.svg.png)
+							![cvs tools](https://k2bsolutions.files.wordpress.com/2015/04/cvs-source-code-management.png)
+							![git tools](http://blog.klocwork.com/wp-content/uploads/fly-images/10881/git-logo1-348x350-c.png)
+						</div>
+					</section>
+					<section>
+						<br>
+						<div id="left-split" data-markdown data-template>
+							
+							#### Application Lifecycle Management
+							![specflow tools](https://automationpanda.files.wordpress.com/2018/05/specflow_logo.png?w=230)
+							![junit tools](http://javacodingnerd.com/wp-content/uploads/2017/08/874086.png)
+							![selenium tools](https://www.seleniumhq.org/images/big-logo.png)
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![tfs tools](https://inedo.com/den/logos/TFS-large.png)
+							![jenkins tools](https://cdn.freebiesupply.com/logos/thumbs/2x/jenkins-1-logo.png)
+							![code-coverage tools](https://diel93p9zo1w0.cloudfront.net/assets/global/logo-ncover-header-d76597153a328efb9a8c4dc8acd7036e.png)
+							![ruby-cucumber tools](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQzSJ-ISK0gGn_1cZOMzumuIVNZQvqnTkBnuYWw6JesdJRR2Bm)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							Virtual Environments
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![virtualbox tools](https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png)
+							![virtual-pc tools](http://vpc.visualwin.com/help.PNG)
+							![vmware tools](https://www.uwosh.edu/cob/is/images/vmware-logo.jpg/image)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<br>Package Management / Deployment
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![apt-get tools](https://www.abeautifulsite.net/uploads/2016/04/nodejs.png)
+							![nu-get tools](https://cdn.gapotchenko.com/website/blog/2014/05/NuGet%20Logo%202.png)
+							![chef tools](https://www.chef.io/wp-content/uploads/2017/03/logo-1.png)
+							![puppet tools](https://s24255.pcdn.co/wp-content/uploads/2014/01/Puppet-logo.png)
+							![ansible tools](https://cdn.iconscout.com/public/images/icon/free/png-512/ansible-logo-brand-35f1afb14996a9d9-512x512.png)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							Cloud Computing Service models<br>
+							*aaA (as a service)
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![saas tools](http://www.scopidea.com/blog/wp-content/uploads/2016/12/saas.png)
+							![paas tools](https://www.cbronline.com/wp-content/uploads/2016/11/PaaS-Platform-As-A-Service.png)
+							![dbaas tools](https://pbs.twimg.com/media/CoSrYpcUsAEwicJ.jpg)
+							![iaas tools](https://www.servercloudcanada.com/wp-content/uploads/2016/11/engaging-to-fit.png)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							Complete Infrastructure Solutions
+						</div>
+						<div id="right-split" data-markdown data-template>
+							![aws tools](https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png)
+							![azure tools](https://www.denodo.com/sites/default/files/public/images/msazurelogo.png)
+							![google-cloud tools](https://betanews.com/wp-content/uploads/2018/06/google-cloud-logo.jpg)
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							Containers
+						</div>
+						<div id="right-split" data-markdown data-template data-templatedata-separator-notes="^Note:">
+							![docker tools](http://www.small-servers.com/wp-content/uploads/2015/07/docker-logo.png)
+							![vagrant tools](https://sutepulu.com/wp-content/uploads/2017/06/vagrant-logo.png)
+							![kubernetes tools](https://www.stratoscale.com/wp-content/uploads/Kubernetes-logo.png)
+							
+							Note: 
+							- Containers are a popular way to deploy microservices
+							
+						</div>
+					</section>
+				</section>
+				<section data-markdown data-template>
+				DevOps is a CULTURE!
+				---
+				
+				![devops-culture](http://examstudy.maanavan.com/wp-content/uploads/2017/12/lang-3.jpg)
+				</section>
+				<section>
+					<div data-markdown data-template>
+						### Thank you!
+						---
+					</div>
+					<section>
+						<img id="logo-end" src="lib/img/global/letterhead.png" width="600px" height="150px">
+						<h4>john@ReadySetAgile.com - John Riley</h4>
+						<div class="social-media-block">
+							&nbsp;<img src="lib/img/global/instagram.png">&nbsp;@ReadySetAgile<br>
+							&nbsp;<img src="lib/img/global/twitter.png">&nbsp;@ReadySetAgile<br>
+							&nbsp;<img src="lib/img/global/facebook.png">&nbsp;https://www.facebook.com/ReadySetAgile/<br>
+							<nobr>&nbsp;<img src="lib/img/global/linkedin.png">&nbsp;https://www.linkedin.com/company/ready-set-agile/</nobr><br>
+						</div>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

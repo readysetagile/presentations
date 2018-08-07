@@ -1,18 +1,8 @@
 
 /*********************************/
-/* Custom CSS for my presentations 
+/* Custom CSS for all my presentations 
 /*********************************/
 
-body {
-  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' );
-  background-repeat:no-repeat, no-repeat;
-  background-attachment: fixed, fixed;
-  background-position: bottom left, center;
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  -o-background-size: auto, cover;
-  background-size: 100px 100px, cover;
-}
 
 /* text align all table cells to the top */
 .reveal table td {
@@ -168,3 +158,11 @@ body {
     background-color: #e5e5e5;
     color: #696969;
     display: none;
+}
+
+#quote-source {
+	text-align: right;
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}

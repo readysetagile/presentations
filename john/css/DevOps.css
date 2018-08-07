@@ -1,0 +1,91 @@
+
+/**********************************************/
+/* Custom CSS for DevOps Birds Eye View 
+/**********************************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/DevOps/cloud-computing.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+
+}
+
+#left-split-pain {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:25%;
+  z-index:-10;
+}
+
+#right-split-pain {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:75%;
+}
+
+.IC-DevOps-Venn-Diagram {
+	height: 550px;
+	width: 550px;
+}
+
+.complex-image {
+	height: 500px;
+	width: 600px;
+}
+
+.vanillaice {
+	height: 500px;
+	width: 600px;
+}
+
+.Extreme_Programming {
+	height: 550px;
+	width: 550px;
+	background-color: white;
+}
+
+img[alt=testing-pyramid] {
+	height: 480px;
+	width: 480px;
+	background-color: white !important;
+	vertical-align: top; 
+}
+
+img[alt=devbuilddeployprocess] {
+	height: 430px;
+	vertical-align: top; 
+}
+
+
+img[alt=User-Feedback-Loop] {
+	height: 500px;
+}
+
+img[alt=Agile-Development] {
+	height: 500px;
+}
+
+img[alt=time-to-market] {
+	height: 550px;
+}
+
+img[alt~=tools] {
+	width: 35%;
+	height; 25%;
+	background-color: white !important;
+}
+
+img[alt=devops-wordcloud] {
+	height: 600px;
+	width: 800px;
+	border: 0px solid black !important;
+}
