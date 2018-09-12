@@ -1,0 +1,14 @@
+/*********************************/
+/* Custom CSS for How To Write A Recipe For Automated Testing
+/*********************************/
+
+#logo-title-automated-testing {
+	border:0;
+	background: white;
+	width: 400px;
+}
+
+img[alt=testing-pyramid-image] {
+	width: 75%;
+	height: 75%;
+}
