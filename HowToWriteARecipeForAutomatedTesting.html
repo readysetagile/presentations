@@ -102,35 +102,276 @@
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### What automated testing in Agile is NOT
+					#### What Agile automated testing is NOT
 					---
 					</div>
-					<section data-markdown data-template>
-						Testing after the functionality is done
+					<section>
+						<div id="left-split">
+							<img src="lib/img/IIBA/automate-after-feature.jpg">
+						</div>
+						<div id="right-split">
+							Automating "done" functionality
+						</div>
 					</section>
 					<section>
-						Responsibility of QA only
+						<div id="left-split-no-fixed-width">
+							<img alt="dev-qa" src="lib/img/IIBA/dev-qa.jpg">
+						</div>
+						<div id="right-split-no-fixed-width">
+							Responsibility<br>of QA only
+						</div>
 					</section>
 					<section>
-						A daunting unknown (VUCA sign)
+						<div id="left-split-no-fixed-width">
+							<img alt="vuca-sign" src="https://www.eugeniobenetazzo.com/wp-content/uploads/2017/03/vuca.png">
+						</div>
+						<div id="right-split-no-fixed-width">
+							Daunting
+						</div>						
 					</section>
 					<section>
-						Heavy with toolsets
+						<div id="left-split-no-fixed-width">
+							<img alt="vuca-sign" src="lib/img/IIBA/tools.jpg">
+						</div>
+						<div id="right-split-no-fixed-width">
+							Toolset<br>Heavy
+						</div>
+						
 					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### Defining a test-first mindset
+					### Defining a Test-First Mindset
 					---
 					</div>
-					<section data-markdown data-template>
-						What does that mean?
-					</section>
 					<section>
-						ATDD definition
+						<div id="left-split-no-fixed-width">
+							<img  alt="think-about-it" src="https://cdn130.picsart.com/260832909030212.png?r1024x1024">
+						</div>
+						<div id="right-split-no-fixed-width">
+							What does that mean?
+						</div>
 					</section>
-					<section>
-						red-green-refactor
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<!-- <img alt="think-about-it" src="https://cdn-images-1.medium.com/max/688/1*6oHoqh2ZCztSThnFUQMJ3w.png"> -->
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+
+							  <defs>
+								<linearGradient id="gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#a7a7a7"></stop>
+								</linearGradient>
+								<path id="arrow" x="0" y="0" d="M0,200
+																A200,200 0, 0, 1, 300,50
+																L312.5,87.5
+																L275,90
+																A150,150, 0, 0, 0 50,200
+																L25,175" fill="url(#gradient)" />
+							  </defs>
+								<use xlink:href="#arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
+							</svg>
+						</div>
+						<div id="right-split-no-fixed-width" data-markdown data-template>							
+							##### A cycle of 
+							##### developing tests 
+							##### *before* any features 
+							##### are developed							
+							`(Test-Driven Development)`
+						</div>
+					</section>
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<!-- <img alt="think-about-it" src="https://cdn-images-1.medium.com/max/688/1*6oHoqh2ZCztSThnFUQMJ3w.png"> -->
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+
+							  <defs>
+								<linearGradient id="gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#a7a7a7"></stop>
+								</linearGradient>
+								<path id="arrow" x="0" y="0" d="M0,200
+																A200,200 0, 0, 1, 300,50
+																L312.5,87.5
+																L275,90
+																A150,150, 0, 0, 0 50,200
+																L25,175" fill="url(#gradient)" />
+							  </defs>
+								<use xlink:href="#arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
+							</svg>
+						</div>
+						<div id="right-split-no-fixed-width">							
+							<h5>The Cycle:</h5>
+							<font color="red">RED</font><br>
+							<font color="green">GREEN</font><br>
+							<font color="blue">REFACTOR</font>
+						</div>
+					</section>
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+							  <defs>
+								<linearGradient id="gray-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#a7a7a7"></stop>
+								</linearGradient>
+								<linearGradient id="red-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#ff0000"></stop>
+								</linearGradient>
+								<path id="gray-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#gray-gradient)" />
+								<path id="red-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#red-gradient)" />
+							  </defs>
+								<use xlink:href="#gray-arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#gray-arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#red-arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>  
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(0,50) rotate(-5)">
+									<textPath startOffset="20%" xlink:href="#red-arrow">
+										RED
+									</textPath>
+								</text>
+							</svg>
+						</div>
+						<div id="right-split-no-fixed-width">
+							<font color="red">RED</font><br>
+							<ul>
+								<span class="fragment"><li>Test defined and written</li></span>
+								<span class="fragment"><li>Test is run</li></span>
+								<span class="fragment"><li>Test Fails!!</li></span>
+							</ul>
+						</div>
+					</section>
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+							  <defs>
+								<linearGradient id="gray-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#a7a7a7"></stop>
+								</linearGradient>
+								<linearGradient id="red-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#ff0000"></stop>
+								</linearGradient>
+								<linearGradient id="green-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#00ff00"></stop>
+								</linearGradient>
+								<path id="gray-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#gray-gradient)" />
+								<path id="red-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#red-gradient)" />
+								<path id="green-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#green-gradient)" />
+							  </defs>
+								<use xlink:href="#gray-arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#green-arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#red-arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(0,50) rotate(-5)">
+									<textPath startOffset="20%" xlink:href="#red-arrow">
+										RED
+									</textPath>
+								</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(440,150) rotate(120)">
+									<textPath startOffset="17%" xlink:href="#green-arrow">
+										GREEN
+									</textPath>
+								</text>
+							</svg>
+						</div>
+						<div id="right-split-no-fixed-width">
+							<font color="green">GREEN</font><br>
+							<ul>
+								<span class="fragment"><li>Code is written to<br>satisfy test passing</li></span>
+							</ul>
+						</div>
+					</section>
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+							  <defs>
+								<linearGradient id="red-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#ff0000"></stop>
+								</linearGradient>
+								<linearGradient id="green-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#00ff00"></stop>
+								</linearGradient>
+								<linearGradient id="refactor-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#0000ff"></stop>
+								</linearGradient>
+								<path id="red-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#red-gradient)" />
+								<path id="green-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#green-gradient)" />
+								<path id="refactor-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#refactor-gradient)" />
+							  </defs>
+								<use xlink:href="#refactor-arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#green-arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#red-arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(0,50) rotate(-5)">
+									<textPath startOffset="20%" xlink:href="#red-arrow">
+										RED
+									</textPath>
+								</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(440,150) rotate(120)">
+									<textPath startOffset="17%" xlink:href="#green-arrow">
+										GREEN
+									</textPath>
+								</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(105,445) rotate(245)">
+									<textPath startOffset="15%" xlink:href="#refactor-arrow">
+										REFACTOR
+									</textPath>
+								</text>
+							</svg>
+						</div>
+						<div id="right-split-no-fixed-width">
+							<font color="blue">REFACTOR</font><br>
+							<ul>
+								<span class="fragment"><li>Code is re-written<br>according to best practices<br>WITHOUT CHANGING<br>BEHAVIOR</li></span>
+							</ul>
+						</div>
+					</section>
+					<section data-transition="fade">
+						<div id="left-split-no-fixed-width">
+							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+							  <defs>
+								<linearGradient id="offred-gradient">
+								  <stop offset="0" stop-color="#212121"></stop>
+								  <stop offset="1" stop-color="#ee0000"></stop>
+								</linearGradient>
+								<path id="white-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#offred-gradient)" />
+								<path id="green-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#green-gradient)" />
+								<path id="refactor-arrow" x="0" y="0" d="M0,200 A200,200 0, 0, 1, 300,50 L312.5,87.5 L275,90 A150,150, 0, 0, 0 50,200 L25,175" fill="url(#refactor-gradient)" />
+							  </defs>
+								<use xlink:href="#refactor-arrow" transform="translate(107.5,487.5) rotate(240)"></use>
+								<use xlink:href="#green-arrow" transform="translate(475,150) rotate(120)"></use>
+								<use xlink:href="#white-arrow"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(0,50) rotate(-5)">
+									<textPath startOffset="20%" xlink:href="#red-arrow">
+										RED
+									</textPath>
+								</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(440,150) rotate(120)">
+									<textPath startOffset="17%" xlink:href="#green-arrow">
+										GREEN
+									</textPath>
+								</text>
+								<text font-family="Verdana" font-size="32" fill="white" transform="translate(105,445) rotate(245)">
+									<textPath startOffset="15%" xlink:href="#refactor-arrow">
+										REFACTOR
+									</textPath>
+								</text>
+							</svg>
+						</div>
 					</section>
 					<section>
 						Automated VUCA slide with pic

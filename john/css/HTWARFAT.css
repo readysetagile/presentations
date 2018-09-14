@@ -12,3 +12,31 @@ img[alt=testing-pyramid-image] {
 	width: 75%;
 	height: 75%;
 }
+
+img[alt=dev-qa] {
+	height: 400px;
+}
+
+img[alt=vuca-sign] {
+	height: 400px;
+}
+
+img[alt=think-about-it] {
+	height: 400px;
+}
+
+/* classic half-screen layout */
+#left-split-no-fixed-width {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  z-index:-10;
+}
+
+#right-split-no-fixed-width {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: left;
+  z-index:-10;
+}
