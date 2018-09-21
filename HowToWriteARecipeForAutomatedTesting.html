@@ -341,7 +341,7 @@
 					</section>
 					<section data-transition="fade">
 						<div id="left-split-no-fixed-width">
-							<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+							<svg width="800" height="400" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
 							  <defs>
 								<linearGradient id="offred-gradient">
 								  <stop offset="0" stop-color="#212121"></stop>
@@ -354,23 +354,18 @@
 								<use xlink:href="#refactor-arrow" transform="translate(107.5,487.5) rotate(240)"></use>
 								<use xlink:href="#green-arrow" transform="translate(475,150) rotate(120)"></use>
 								<use xlink:href="#white-arrow"></use>
-								<text font-family="Verdana" font-size="42.5" fill="white" x="150" y="220">TDD</text>
-								<text font-family="Verdana" font-size="32" fill="white" transform="translate(0,50) rotate(-5)">
-									<textPath startOffset="20%" xlink:href="#red-arrow">
-										RED
-									</textPath>
-								</text>
-								<text font-family="Verdana" font-size="32" fill="white" transform="translate(440,150) rotate(120)">
-									<textPath startOffset="17%" xlink:href="#green-arrow">
-										GREEN
-									</textPath>
-								</text>
-								<text font-family="Verdana" font-size="32" fill="white" transform="translate(105,445) rotate(245)">
-									<textPath startOffset="15%" xlink:href="#refactor-arrow">
-										REFACTOR
-									</textPath>
+								<use xlink:href="#white-arrow" transform="translate(200,0) scale(2,1)"></use>
+								<use xlink:href="#refactor-arrow" transform="translate(407.5,487.5) scale(2,1) rotate(240)"></use>
+								<use xlink:href="#green-arrow" transform="translate(1140,150) scale(2,1) rotate(120)"></use>
+								<text font-family="Verdana" font-size="42.5" fill="white" x="550" y="220">ATDD</text>								
 								</text>
 							</svg>
+						</div>
+						<div id="right-split-no-fixed-width">
+							<font color="blue">REFACTOR</font><br>
+							<ul>
+								<span class="fragment"><li>Code is re-written<br>according to best practices<br>WITHOUT CHANGING<br>BEHAVIOR</li></span>
+							</ul>
 						</div>
 					</section>
 					<section>
