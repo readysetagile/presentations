@@ -340,8 +340,8 @@
 						</div>
 					</section>
 					<section data-transition="fade">
-						<div id="left-split-no-fixed-width">
-							<svg width="800" height="400" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+						<div id="left-split">
+							<svg width="800" height="400" viewBox="400 0 400 800" xmlns="http://www.w3.org/2000/svg">
 							  <defs>
 								<linearGradient id="offred-gradient">
 								  <stop offset="0" stop-color="#212121"></stop>
@@ -361,20 +361,39 @@
 								</text>
 							</svg>
 						</div>
-						<div id="right-split-no-fixed-width">
-							<font color="blue">REFACTOR</font><br>
-							<ul>
-								<span class="fragment"><li>Code is re-written<br>according to best practices<br>WITHOUT CHANGING<br>BEHAVIOR</li></span>
+						<div id="right-split">
+							<h2>ATDD</h2>
+							<h5>A product development practice where acceptance tests are written BEFORE any product code is developed</h5>
 							</ul>
 						</div>
 					</section>
 					<section>
-						Automated VUCA slide with pic
+						<div id="left-split">
+							Agile VUCA pic
+						</div>
+						<div id="right-split">
+							<h5>Why should we care about acceptance tests?</h5><hr>
+							<span class="fragment"><h3>Well-refined acceptance criteria <b><i>IS</i></b> the test script</h3></span>
+						</div>
 					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>
 					### Ingredients
+					---
+					</div>
+					<section>
+						<ol>
+							<li><p class="fragment fade-left">A Common, Controlled Language</p></li>
+							<li><p class="fragment fade-left">A Lightweight Refinement Process</p></li>
+							<li><p class="fragment fade-left">A Common Tool</p></li>
+							<li><p class="fragment fade-left">A Plan to Scale</p></li>
+						</ol>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Baking Instructions
 					---
 					</div>
 				</section>
@@ -383,6 +402,79 @@
 					### Baking Instructions
 					---
 					</div>
+					<section>
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Step 1: Develop a Taxonomy and Terminology</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://contentrules.com/images/taxonomy-img-3-1-1024x521.png"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://contentrules.com/images/taxonomy-img-4-1-1024x578.png"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><img src="http://contentrules.com/images/taxonomy-img-5-1-1024x620.png"></span></div>
+						</div>
+					</section>						
+					<section>
+						<img alt="taxonomy-terminology" src="http://contentrules.com/images/taxonomy-img-1-1-e1474913257637.png">
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Step 2: Separate the "What" from the "How"</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="https://manifesto.co.uk/wp-content/uploads/2014/08/user-stories-with-acceptance-criteria.png"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="https://innolution.com/uploads/misc/new_prospect_story.png">split this</span></span></div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Step 3: Structure the "What" and "How" into templates</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="https://innolution.com/uploads/misc/user_story_template.png"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">acceptance criteria template with Gherkin</span></span></div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Use this language in your Lightweight Refinement Process</h4><hr>
+							<h6>Step 1: Schedule regular refinement sessions</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">refinement schedule</span></span></div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Use this language in your Lightweight Refinement Process</h4><hr>
+							<h6>Step 2: Amigo Reviews</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">amigo review</span></span></div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Use this language in your Lightweight Refinement Process</h4><hr>
+							<h6>Step 3: Respond to Change</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">limit logging defects</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">look at automation suite during refinement</span></span></div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<h4>Line up your tools with your language and process</h4><hr>
+							<h6>Step 1: Choose a tool *everyone* can use</h6>
+						</div>
+						<div id="right-split">
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Ruby Cucumber</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Specflow and MTM</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Atlassian (Jira with Xray)</span></span></div>
+						</div>
+					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>

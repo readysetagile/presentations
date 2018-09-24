@@ -25,6 +25,10 @@ img[alt=think-about-it] {
 	height: 400px;
 }
 
+img[alt=taxonomy-terminology] {
+	width: 750px;
+}
+
 /* classic half-screen layout */
 #left-split-no-fixed-width {
   left:-8.33%;
