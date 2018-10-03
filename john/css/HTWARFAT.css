@@ -2,6 +2,17 @@
 /* Custom CSS for How To Write A Recipe For Automated Testing
 /*********************************/
 
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/IIBA/title-background.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+}
+
 #logo-title-automated-testing {
 	border:0;
 	background: white;
