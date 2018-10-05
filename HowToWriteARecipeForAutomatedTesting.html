@@ -444,7 +444,7 @@
 							<h6>Step 1: Schedule regular refinement sessions</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">refinement schedule</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://www.anecon.com/blog/wp-content/uploads/2015/03/Sketch172123535_kanbanboard_740x415.png"></span></span></div>
 						</div>
 					</section>
 					<section>
@@ -453,7 +453,7 @@
 							<h6>Step 2: Amigo Reviews</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">amigo review</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/request-suggest-protest.png"></span></span></div>
 						</div>
 					</section>
 					<section>
@@ -462,8 +462,8 @@
 							<h6>Step 3: Respond to Change</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">limit logging defects</span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">look at automation suite during refinement</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="defect-management-process" src="lib/img/IIBA/defect-management-process.jpg"><br>limit logging defects</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="defect-management-process" src="lib/img/IIBA/bdd-in-action.jpg">look at automation suite during refinement</span></span></div>
 						</div>
 					</section>
 					<section>
@@ -472,10 +472,53 @@
 							<h6>Step 1: Choose a tool *everyone* can use</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Ruby Cucumber</span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Specflow and MTM</span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out">Atlassian (Jira with Xray)</span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://qacult.com/wp-content/uploads/2018/04/ruby-watira-1.jpg"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://gasparnagy.com/wp-content/uploads/2016/07/specflow.png"></span></span></div>
+							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="jira" src="lib/img/IIBA/jira.png"><img src="lib/img/IIBA/xray.png"></span></span></div>
 						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Example
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<span>Template</span>
+							<img src="lib/img/IIBA/ac_template.jpg">
+						</div>
+						<div id="right-split">
+							<span>Acceptance Criteria</span>
+							<img src="lib/img/IIBA/ac_full_text.jpg">
+						</div>
+					</section>
+					<section>
+						<span>Add Scenario, define steps</span>
+						<img src="lib/img/IIBA/ac-steps.jpg">
+					</section>
+					<section>
+						<pre><code class="bash" data-trim data-noescape>
+							Feature: Home Page
+							
+							#AC Template: 
+							#	GIVEN I am a &lt;role&gt;
+							#	AND I &lt;user_action&gt; &lt;field&gt;
+							#	WHEN I &lt;user_action&gt; &lt;control&gt;
+							# 	THEN I will be &lt;app_action&gt; &lt;page&gt;
+							
+							  Scenario Outline: User Log in
+								GIVEN I am a &lt;role>
+								AND I enter my user name
+								AND I enter my password
+								WHEN I click the login button
+								THEN I will be navigated to the home page
+							Examples:	
+								| home banking user	|
+								| bank manager		|
+								| administrator		|
+								
+						</code></pre>
 					</section>
 				</section>
 				<section>

@@ -36,6 +36,13 @@ img[alt=think-about-it] {
 	height: 400px;
 }
 
+img[alt=defect-management-process] {
+	height: 400px;
+}
+
+img[alt=jira] {
+	height: 235px;
+}
 img[alt=taxonomy-terminology] {
 	width: 750px;
 }
