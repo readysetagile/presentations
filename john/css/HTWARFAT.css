@@ -60,7 +60,11 @@ img[alt=jira] {
 	height: 235px;
 }
 img[alt=taxonomy-terminology] {
-	width: 750px;
+	width: 750px;	
+}
+
+img[alt=xray-pres] {
+	height: 400px;
 }
 
 /* classic half-screen layout */
@@ -77,4 +81,11 @@ img[alt=taxonomy-terminology] {
   float: right;
   text-align: left;
   z-index:-10;
+}
+
+#meeting-details {
+	text-align: middle;
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
