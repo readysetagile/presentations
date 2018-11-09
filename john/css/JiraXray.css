@@ -1,0 +1,59 @@
+/*********************************/
+/* Custom CSS for Automated Testing using Xray Test Management for Jira
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/Atlassian/postits.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+}
+
+img[alt=testing-pyramid-image] {
+	width: 75%;
+	height: 75%;
+}
+
+img[alt=xray-logo] {
+	width: 300px;
+	background: black;
+	border: 0;
+}
+
+#atlassian-logo {
+	border:0;
+	background: blue;
+}
+
+#logo-title-automated-testing {
+	border:0;
+	background: white;
+	width: 400px;
+}
+
+/* classic half-screen layout */
+#left-split-no-fixed-width {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  z-index:-10;
+}
+
+#right-split-no-fixed-width {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: left;
+  z-index:-10;
+}
+
+#meeting-details {
+	text-align: middle;
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
