@@ -54,7 +54,7 @@
 						</tr>
 						<tr>
 							<td><img id="logo-title-automated-testing" src="lib/img/global/RSALogoFull.png"></td>
-							<td><img src="lib/img/atlassian/aug.jpg" id="atlassian-logo"></td>
+							<td id="atlassian-logo"><img src="lib/img/atlassian/aug.jpg"></td>
 						</tr>
 					</table>
 				</section>
@@ -65,12 +65,15 @@
 					</div>
 					<section>
 						<div id="left-split-no-fixed-width">
+							<br><br>
 							<img alt="xray-logo" src="lib/img/atlassian/xray-logo.png">
 						</div>
 						<div id="right-split-no-fixed-width">
 							<ul>
 								<li><p class="fragment fade-left">A test management tool</p></li>
 								<li><p class="fragment fade-left">Created by Xpand IT</p></li>
+								<li><p class="fragment fade-left">End to end test management<br>of agile product release</p></li>
+								<li><p class="fragment fade-left">Test Repository to hold feature,<br>step, and taxonomy definitions</p></li>
 								<li><p class="fragment fade-left">Add-on available in<br>the Atlassian Marketplace</p></li>
 							</ul>
 						</div>
@@ -78,17 +81,17 @@
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### Types of testing In Xray
+					### Methods of testing In Xray
 					---
 					</div>
 					<section>
 						<div id="left-split-no-fixed-width">
-							pic
+							<img alt="testing-types" src="lib/img/atlassian/testing-types.jpg">
 						</div>
 						<div id="right-split-no-fixed-width">
 							<ul>
 								<li><p class="fragment fade-left">Manual</p></li>
-								<li><p class="fragment fade-left">Automated</p></li>
+								<li><p class="fragment fade-left">Generic</p></li>
 								<li><p class="fragment fade-left">Cucumber</p></li>
 							</ul>
 						</div>
@@ -96,69 +99,81 @@
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### New issue types
+					#### Xray test management at a glance
 					---
 					</div>
 					<section>
 						<div id="left-split-no-fixed-width">
-							pic
+							<img alt="issue-types" src="lib/img/atlassian/issue-types.png">
 						</div>
 						<div id="right-split-no-fixed-width">
-							Test case
-							Test set
-							blah
-							blah
+							<ul class="test-types">
+								<li><p class="fragment fade-left"><img alt="test-pic" src="lib/img/atlassian/test.png">Test</p></li>
+								<li><p class="fragment fade-left"><img alt="test-set-pic" src="lib/img/atlassian/test-set.png">Test Set</p></li>
+								<li><p class="fragment fade-left"><img alt="test-plan-pic" src="lib/img/atlassian/test-plan.png">Test Plan</p></li>
+								<li><p class="fragment fade-left"><img alt="test-execution-pic" src="lib/img/atlassian/test-execution.png">Test Execution</p></li>
+								<li><p class="fragment fade-left"><img alt="pre-condition-pic" src="lib/img/atlassian/pre-condition.png">Pre Condition</p></li>
+							</ul>
 						</div>
 					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### About Xray Automated testing
+					#### Value-add with Xray Automated testing
 					---
 					</div>
 					<section>
 						<div id="left-split-no-fixed-width">
-							pic
+							<img alt="about-xray" src="lib/img/atlassian/about-xray.jpg">
 						</div>
 						<div id="right-split-no-fixed-width">
-							integrates with...
-							rest api
-							other stuff
+							<h4>
+							<div id="xray-value-add">
+								<ul>
+									<li><p class="fragment fade-left">Jira Core functions<br>supported</p></li>
+									<li><p class="fragment fade-left">Integrates with several<br>CI/CD environments</p></li>
+									<li><p class="fragment fade-left">Integrates with other<br>testing frameworks</p></li>
+									<li><p class="fragment fade-left">Export/import or REST API</p></li>
+									<li><p class="fragment fade-left">Comprehensive documentation</p></li>
+								</ul>
+							</div>
+							</h4>
 						</div>
+						<aside class="notes">
+							Core: filtering, querying, dashboards, project boards, etc.
+							CI/CD: Jenkins, Maven, GitLab, CircleCI, TeamCity, and... Jira tools like Confluence and BitBucket
+							Testing frameworks: Ruby/Cucumber, Protractor, Jasmine, Mocha, RSpec
+						</aside>
 					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### My setup
+					#### Reporting
 					---
 					</div>
 					<section>
-						<div id="left-split-no-fixed-width">
-							pic
-						</div>
-						<div id="right-split-no-fixed-width">
-							Jenkins, Jira, docker, blah
-							other stuff
-						</div>
+						<img alt="TestExecutionsReport" src="lib/img/atlassian/TestExecutionsReport_PrintScreen.png">
+						<img alt="TestRunsReport" src="lib/img/atlassian/TestRunsReport_PrintScreen.png">
 					</section>
 				</section>
 				<section>
 					<div data-markdown data-template>
-					### Reporting
+					### Case Study
 					---
 					</div>
 					<section>
-						<div id="left-split-no-fixed-width">
-							pic
-						</div>
-						<div id="right-split-no-fixed-width">
-							Releases, execution sets, environments, yada
-							other stuff
-						</div>
+						<p>Website: Car Gas Logging</p>
+						<iframe id="car-gas-iframe" src="lib/src/CarGasData.html" width="800px" height="500px"></iframe>						
 					</section>
 				</section>
 				<section data-markdown data-template>
-					### Demo
+					### My Example CI environment
+					---
+					![jenkins-docker](lib/img/atlassian/jenkins-docker.png)
+					![xray-logo](lib/img/atlassian/xray-logo.png)
+				</section>
+				<section data-markdown data-template>
+					### Let's see it work in Jira!
 					---
 				</section>
 				<section>

@@ -3,7 +3,7 @@
 /*********************************/
 
 body {
-  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/Atlassian/postits.png' );
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/atlassian/postits.png' );
   background-repeat:no-repeat, no-repeat;
   background-attachment: fixed, fixed;
   background-position: bottom left, center;
@@ -13,20 +13,60 @@ body {
   background-size: 100px 100px, cover;
 }
 
-img[alt=testing-pyramid-image] {
-	width: 75%;
-	height: 75%;
-}
-
 img[alt=xray-logo] {
 	width: 300px;
-	background: black;
+	background: white !important;
 	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=jenkins-docker] {
+	width: 400px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+img[alt=testing-types] {
+	width: 300px;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=issue-types] {
+	width: 300px;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=about-xray] {
+	width: 400px;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=TestRunsReport] {
+	border: 0;
+	height: 250px;
+}
+
+img[alt=test-pic], img[alt=test-set-pic], img[alt=test-plan-pic], img[alt=pre-condition-pic], img[alt=test-execution-pic] {
+	border: 0 !important;
+	width: 30px;
+	padding-right: 10px;
+	vertical-align: middle;
 }
 
 #atlassian-logo {
+	background: #0052CC;
+	height: 119px;
+}
+
+#atlassian-logo img{
 	border:0;
-	background: blue;
+	display:block; 
+	width:100%; 
+	height:auto;
+	vertical-align: middle;
 }
 
 #logo-title-automated-testing {
@@ -35,7 +75,6 @@ img[alt=xray-logo] {
 	width: 400px;
 }
 
-/* classic half-screen layout */
 #left-split-no-fixed-width {
   left:-8.33%;
   text-align: left;
@@ -46,8 +85,8 @@ img[alt=xray-logo] {
 #right-split-no-fixed-width {
   left:31.25%;
   top: 75px;
-  float: right;
-  text-align: left;
+  float: left;
+  text-align: left  !important;
   z-index:-10;
 }
 
@@ -56,4 +95,25 @@ img[alt=xray-logo] {
 	font-size: 18pt;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+}
+
+.test-types {
+	list-style-type: none !important;
+}
+
+#car-gas-iframe {
+	width: 600px;
+	height: 400px;
+	background: white;
+	-ms-zoom: 1.25;
+	-moz-transform: scale(1.25);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(1.25);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(1.25);
+	-webkit-transform-origin: 0 0;
+}
+
+#xray-value-add {
+	font-size: 24pt;
 }

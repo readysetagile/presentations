@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://ww2.rileynetwork.com:81/john/CarGasData.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Car Gas Data</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">	
+	    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+    </style>
+<script type="text/javascript" charset="UTF-8" src="./CarGasData_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./CarGasData_files/util.js.download"></script></head>
+
+<body>
+<script src="./CarGasData_files/jquery.min.js.download"></script>
+<script src="./CarGasData_files/jquery.inputmask.bundle.min.js.download"></script>
+
+<script language="javascript" type="text/javascript">   
+	//default the date
+	window.onload = function() {
+		var today = new Date(); 
+		var month = today.getMonth() + 1; 
+		var day = today.getDate(); 
+		var year = today.getFullYear(); 
+		var s = "-"; 
+		document.getElementById('txtDate').value = year + s + month + s + day;
+	}
+	
+	$(document).ready(function() {
+		$(".decimal").inputmask('decimal', { rightAlign: true} );
+		$(".money").inputmask({ 'alias': 'decimal', 'mask': "99[.99]", rightAlign: true });
+		$(".ppg").inputmask({ 'alias': 'decimal', 'mask': "9[.99]", rightAlign: true });
+		$(".gallons").inputmask({ 'alias': 'decimal', 'mask': "99[.999]", rightAlign: true
+		//$(".datellegada").datepicker({ dateFormat: 'dd-mm-yy'}).datepicker("setDate", new Date());
+	  });
+	  
+	});
+
+  function UpdateTotal() {
+	var txtGallons = document.getElementById('txtGallons').value;
+	var txtPrice = document.getElementById('txtPrice').value;  
+	var txtTotal = document.getElementById('txtTotal');
+	txtTotal.value = Math.round(parseFloat(txtGallons) * (parseFloat(txtPrice) + 0.009) * 100) / 100;
+  }
+  
+	function insertDecimal(ctl, place) {
+		ctl.value = (ctl.value / Math.pow(10, place)).toFixed(place);
+	}
+</script>
+
+<form name="form1" method="post" action="http://ww2.rileynetwork.com:81/cgi-bin/cargasappend.pl">
+<table>
+	<tbody><tr>
+		<td>Vehicle:&nbsp;</td><td><select name="ddlVehicle"><option value="4" selected="">John's Equinox</option><option value="5">Amy's CR-V</option><option value="1">John's Vue</option><option value="2">Amy's Vue</option><option value="3">Trans Am</option></select></td>
+	</tr>
+	<tr>
+		<td>Fill Date:&nbsp;</td><td><input name="txtDate" id="txtDate" type="text" size="10"></td>
+	</tr>
+	<tr>
+		<td>Vehicle Mileage:&nbsp;</td><td><input name="txtMileage" id="txtMileage" type="tel" size="6"></td>
+	</tr>
+	<tr>
+		<td>Price Per Gallon:&nbsp;</td><td><input name="txtPrice" id="txtPrice" type="tel" onchange="insertDecimal(this, 2)" size="5">&nbsp;<sup><u>9</u></sup></td>
+	</tr>
+	<tr>
+		<td>Gallons:&nbsp;</td><td><input name="txtGallons" id="txtGallons" type="tel" size="5" onchange="insertDecimal(this, 3)"></td>
+	</tr>
+	<tr>
+		<td>Total:&nbsp;</td><td><input name="txtTotal" id="txtTotal" type="tel" size="6"></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td><td><input type="button" name="btnCalcTotal" value="Calcualte Total" onclick="UpdateTotal();"></td>
+	</tr>
+	<tr>
+		<td>Comments:&nbsp;</td><td><input name="txtComments" id="txtComments" type="text"></td>
+	</tr>
+	<tr>
+		<td>Location:&nbsp;</td><td><textarea rows="4" cols="50" name="txtLocation" id="txtLocation"></textarea></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td><td><input type="button" name="btnLocate" value="Locate" onclick="getLocation();"></td>
+	</tr>
+	<tr>
+		<td><input type="submit"></td>
+	</tr>
+</tbody></table>
+<div id="map"></div>
+</form>
+	<script type="text/javascript" src="./CarGasData_files/js"></script>
+	<script>
+	var geocoder;
+	var x = document.getElementById("txtLocation");
+	
+	function codeLatLng(lat, lng) {
+		var geocoder = new google.maps.Geocoder();
+		var latlng = new google.maps.LatLng(lat, lng);
+		var res = '';
+		geocoder.geocode({'latLng': latlng}, function(results, status) {
+		  if(status == google.maps.GeocoderStatus.OK) {
+			  console.log(results)
+			  if(results[1]) {
+				  //formatted address
+				  var address = results[0].formatted_address;
+				  res = "address = " + address;
+			  } else {
+				  res = "No results found";
+			  }
+		  } else {
+			  res = "Geocoder failed due to: " + status;
+		  }
+		  x.innerHTML = x.innerHTML + '\r\n' + res;
+		  if (address) {
+			getPlaceName(lat, lng, results[0].place_id);
+		  }
+		});
+	}
+
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition);
+		} else { 
+			 "Geolocation is not supported by this browser.";
+		}
+	}
+
+	function showPosition(position) {
+		x.innerHTML = "Latitude: " + position.coords.latitude + 
+		"\r\nLongitude: " + position.coords.longitude;
+		codeLatLng(position.coords.latitude, position.coords.longitude);
+		
+		//DEBUG CODE IN CASE GEOLOCATION IS NOT WORKING.  
+		//this is the Speedway on Fishinger
+		//lat = 40.028087;
+		//lon = -83.1216277;
+		//codeLatLng(lat, lon);
+	}
+	  
+	function getPlaceName(nlat, nlng, nplaceId) {
+		var myPlace = new google.maps.LatLng(nlat, nlng);
+		
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myPlace,
+          zoom: 15
+        });
+
+		var request = {
+			location: myPlace,
+			//radius: '75',
+			type: ['gas_station'],
+			rankBy: google.maps.places.RankBy.DISTANCE
+			//type: ['convenience_store']
+		};
+        var service = new google.maps.places.PlacesService(map);
+
+        //service.textSearch(
+		service.nearbySearch(
+          request, function(results, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+			console.log(results);
+		    var place = results[0];
+			x.innerHTML = place.name + ', ' + (typeof place.formatted_address != 'undefined' ? place.formatted_address : place.vicinity);
+			//pl.innerHTML = place;
+          } else {
+			console.log(status);
+		  }
+        });
+      }
+	</script>
+
+
+
+
+
+</body></html>
