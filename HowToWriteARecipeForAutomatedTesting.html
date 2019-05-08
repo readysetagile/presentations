@@ -24,23 +24,37 @@
 		<!-- custom styles -->
 		<link rel="stylesheet" href="john/css/RSA.css">
 		<link rel="stylesheet" href="john/css/HTWARFAT.css">
+		<link rel="stylesheet" href="john/css/ModalImageZoom.css">
+		
+		<script src="john/js/modalPic.js"></script>
 		
 		<!-- Timer -->
 		<link rel="stylesheet" href="john/FlipClock/flipclock.css">
 		<script src="john/FlipClock/flipclock.js"></script>		
 		
-		<!-- Printing and PDF exports -->
+		
 		<script>
+			<!-- Special URL Parms -->
+			var urlParams = new URLSearchParams(window.location.search);
+			var CMH = urlParams.has('CMH');
+			
+			<!-- Printing and PDF exports -->
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
+						
 		</script>
 	</head>
 
 	<body>
-
+		<!-- The Modal for image click zoom -->
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="modal-img">
+		  <div id="caption"></div>
+		</div>
 		<div class="reveal">
 			<div class="slides">
 				<section data-state="no-toc-progress">
@@ -54,11 +68,17 @@
 						</tr>
 						<tr>
 							<td><img id="logo-title-automated-testing" src="lib/img/global/RSALogoFull.png"></td>
-							<td><img src="lib/img/IIBA/logo_iiba_columbus_oh-1024x254.jpg"></td>
+							<td><img id="conf-host" src="lib/img/IIBA/inbaddlogo.jpg"></td>
 						</tr>
 					</table>
+					<script>
+						//change the logo for the conference host
+						if (CMH) {
+							document.getElementById("conf-host").src="lib/img/IIBA/logo_iiba_columbus_oh-1024x254.jpg";
+						}					
+					</script>
 				</section>
-				<section>					
+				<section>
 					<div data-markdown data-template>
 					### Share Your Experience
 					---
@@ -93,7 +113,19 @@
 					---
 					</div>
 					<section>
-						<img alt="testing-pyramid-image" src="https://gkedge.gitbooks.io/javascript-acceptance-testing/content/Testing_Pyramid.jpg">
+					<svg width="600" height="575" viewBox="0 -25 300 300" xmlns="http://www.w3.org/2000/svg">
+						<defs>
+						  <style type="text/css">
+							@font-face {
+								font-family: "Serpentine";
+								src: url("john/font/serpentine-bold-oblique.ttf") format('truetype');
+							}
+						  </style>
+						</defs>
+						<rect width="95%" height="85%" fill="white"/>
+						<use href="lib/img/global/testing_pyramid.svg#layer1" />  
+					</svg>
+						<!-- <img alt="testing-pyramid-image" src="https://gkedge.gitbooks.io/javascript-acceptance-testing/content/Testing_Pyramid.jpg"> -->
 						<aside class="notes">
 						blah
 						</aside>
@@ -430,46 +462,111 @@
 					### Baking Instructions
 					---
 					</div>
-					<section>
+					<section data-transition="fade-out">
+						<!-- http://contentrules.com/taxonomy-terminology-controlled-vocabulary/ -->
 						<div id="left-split">
 							<h4>Agree on a Common, Controlled Language</h4><hr>
 							<h6>Technique 1: Develop a Taxonomy and Terminology</h6>
 							<br><br>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://contentrules.com/images/taxonomy-img-3-1-1024x521.png"></span><span id="quote-source-small">http://contentrules.com/taxonomy-terminology-controlled-vocabulary/</span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://contentrules.com/images/taxonomy-img-4-1-1024x578.png"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><img src="http://contentrules.com/images/taxonomy-img-5-1-1024x620.png"></span></div>
+							<span class="fragment fade-in"><img onclick="modalImageZoom('img-taxonomy-example', 'myModal', 'modal-img');" id="img-taxonomy-example" src="lib/img/IIBA/taxonomy-example.png" /></span>							
 						</div>
-					</section>						
-					<section>
-						<img alt="taxonomy-terminology" src="lib/img/IIBA/taxonomy-img-1.png">
+						<p id="citation">http://contentrules.com/taxonomy-terminology-controlled-vocabulary/</p>
+						<aside class="notes">
+							Term: a system of words with something in common
+							Tax: ways to classify words in hierarchical groups
+						</aside>
 					</section>
-					<section>
+					<section data-transition="fade-in fade-out">
+						<!-- http://contentrules.com/taxonomy-terminology-controlled-vocabulary/ -->
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 1: Develop a Taxonomy and Terminology</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img onclick="modalImageZoom('img-taxonomy-example-2', 'myModal', 'modal-img');" id="img-taxonomy-example-2" src="lib/img/IIBA/taxonomy-example-2.png" />
+							<p id="citation">http://contentrules.com/taxonomy-terminology-controlled-vocabulary/</p>
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<!-- http://contentrules.com/taxonomy-terminology-controlled-vocabulary/ -->
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 1: Develop a Taxonomy and Terminology</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img onclick="modalImageZoom('img-taxonomy-example-3', 'myModal', 'modal-img');" id="img-taxonomy-example-3" src="lib/img/IIBA/taxonomy-example-3.png" />
+							<p id="citation">http://contentrules.com/taxonomy-terminology-controlled-vocabulary/</p>
+						</div>
+					</section>
+					<section data-transition="convex">
+						<img alt="taxonomy-terminology" src="lib/img/IIBA/taxonomy-img-1.png">
+						<p id="citation">http://contentrules.com/taxonomy-terminology-controlled-vocabulary/</p>
+					</section>
+					<section data-transition="fade-out">
 						<div id="left-split">
 							<h4>Agree on a Common, Controlled Language</h4><hr>
 							<h6>Technique 2: Separate the "What" from the "How"</h6>
 							<br><br>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="https://manifesto.co.uk/wp-content/uploads/2014/08/user-stories-with-acceptance-criteria.png"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/new_prospect_story.png"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/new_prospect_ac.png"></span></span></div>
+							<img id="user-stories-with-acceptance-criteria" onclick="modalImageZoom('user-stories-with-acceptance-criteria', 'myModal', 'modal-img');" src="https://manifesto.co.uk/wp-content/uploads/2014/08/user-stories-with-acceptance-criteria.png" />
 						</div>
 					</section>
-					<section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 2: Separate the "What" from the "How"</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img id="new_prospect_story" onclick="modalImageZoom('new_prospect_story', 'myModal', 'modal-img');" src="lib/img/IIBA/new_prospect_story.png" />
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 2: Separate the "What" from the "How"</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img id="new_prospect_ac" onclick="modalImageZoom('new_prospect_ac', 'myModal', 'modal-img');" src="lib/img/IIBA/new_prospect_ac.png" />
+						</div>
+					</section>
+					<section data-transition="convex">
 						<div id="left-split">
 							<h4>Agree on a Common, Controlled Language</h4><hr>
 							<h6>Technique 3: Structure the "What" and "How" into templates</h6>
 							<br><br>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="https://innolution.com/uploads/misc/user_story_template.png"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/ac_full_text.jpg"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/ac_template.jpg"></span></span></div>
+							<img id="user_story_template" onclick="modalImageZoom('user_story_template', 'myModal', 'modal-img');" src="https://innolution.com/uploads/misc/user_story_template.png">
 						</div>
 					</section>
-					<section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 3: Structure the "What" and "How" into templates</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img id="ac_full_text" onclick="modalImageZoom('ac_full_text', 'myModal', 'modal-img');" src="lib/img/IIBA/ac_full_text.jpg">
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Agree on a Common, Controlled Language</h4><hr>
+							<h6>Technique 3: Structure the "What" and "How" into templates</h6>
+							<br><br>
+						</div>
+						<div id="right-split">
+							<img id="ac_template" onclick="modalImageZoom('ac_template', 'myModal', 'modal-img');" src="lib/img/IIBA/ac_template.jpg">
+						</div>
+					</section>
+					<section data-transition="convex">
 						<ol>
 							<li><p>Agree on a Common, Controlled Language</p></li>
 							<li><p class="fragment fade-left">Use this language in your Lightweight Refinement Process</p></li>
@@ -481,7 +578,7 @@
 							<h6>Technique 1: Schedule regular refinement sessions</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://www.anecon.com/blog/wp-content/uploads/2015/03/Sketch172123535_kanbanboard_740x415.png"></span></span></div>
+							<img id="Sketch172123535_kanbanboard_740x415" onclick="modalImageZoom('Sketch172123535_kanbanboard_740x415', 'myModal', 'modal-img');" src="http://www.anecon.com/blog/wp-content/uploads/2015/03/Sketch172123535_kanbanboard_740x415.png">
 						</div>
 					</section>
 					<section>
@@ -490,7 +587,7 @@
 							<h6>Technique 2: Amigo Reviews</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="lib/img/IIBA/request-suggest-protest.png"></span></span></div>
+							<img id="bdd-in-action" onclick="modalImageZoom('bdd-in-action', 'myModal', 'modal-img');" src="lib/img/IIBA/bdd-in-action.jpg">
 						</div>
 					</section>
 					<section>
@@ -500,8 +597,8 @@
 							<br><br><br>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="defect-management-process" src="lib/img/IIBA/defect-management-process.jpg"><br><span id="quote-source-small">limit logging defects</span></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="defect-management-process" src="lib/img/IIBA/bdd-in-action.jpg"><span id="quote-source-small">look at automation suite during refinement</span></span></span></div>
+							<!-- limit logging defects -->
+							<img id="defect-management-process" onclick="modalImageZoom('defect-management-process', 'myModal', 'modal-img');" src="lib/img/IIBA/defect-management-process.jpg">
 						</div>
 					</section>
 					<section>
@@ -511,15 +608,31 @@
 							<li><p class="fragment fade-left">Choose a tool that lines up with your language and process</p></li>
 						</ol>
 					</section>
-					<section>
+					<section data-transition="fade-in">
 						<div id="left-split">
 							<h4>Choose a tool that lines up with your language and process</h4><hr>
 							<h6>...and make sure *everyone* can use it</h6>
 						</div>
 						<div id="right-split">
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://qacult.com/wp-content/uploads/2018/04/ruby-watira-1.jpg"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img src="http://gasparnagy.com/wp-content/uploads/2016/07/specflow.png"></span></span></div>
-							<div class="upper-left-image"><span class="fragment fade-in"><span class="fragment fade-out"><img alt="jira" src="lib/img/IIBA/jira.png"><img src="lib/img/IIBA/xray.png"></span></span></div>
+							<span class="fragment fade-in"><img id="ruby_cucmber" onclick="modalImageZoom('ruby_cucmber', 'myModal', 'modal-img');" src="lib/img/IIBA/ruby_cucumber.png"></span>
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Choose a tool that lines up with your language and process</h4><hr>
+							<h6>...and make sure *everyone* can use it</h6>
+						</div>
+						<div id="right-split">
+							<img id="specflow" onclick="modalImageZoom('specflow', 'myModal', 'modal-img');" src="http://gasparnagy.com/wp-content/uploads/2016/07/specflow.png">
+						</div>
+					</section>
+					<section data-transition="fade-in">
+						<div id="left-split">
+							<h4>Choose a tool that lines up with your language and process</h4><hr>
+							<h6>...and make sure *everyone* can use it</h6>
+						</div>
+						<div id="right-split">
+							<img alt="jira" src="lib/img/IIBA/jira.png"><img src="lib/img/IIBA/xray.png">
 						</div>
 					</section>
 				</section>
@@ -602,7 +715,7 @@
 					</section>
 					<section>
 						<div id="left-split-no-fixed-width">
-							<img alt="devops-culture" src="lib/img/DevOps/devops-wordcloud.jpg">
+							<img id="devops-culture" onclick="modalImageZoom('devops-culture', 'myModal', 'modal-img');" alt="devops-culture" src="lib/img/DevOps/devops-wordcloud.jpg">
 						</div>
 						<div id="right-split-no-fixed-width">
 							Integral to a<br>DevOps culture
@@ -629,7 +742,7 @@
 						</div>
 					</section>
 				</section>
-				<section>
+<!-- 				<section>
 					<div data-markdown data-template>
 					### Coming in November
 					---
@@ -640,7 +753,7 @@
 						<img alt="xray-pres"src="lib/img/IIBA/xray-pres.png">
 					</section>
 				</section>
-				<section>
+ -->				<section>
 					<div data-markdown data-template>
 						### Services at www.ReadySetAgile.com
 						---
@@ -671,8 +784,7 @@
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
-		<script>
-
+		<script> 
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,

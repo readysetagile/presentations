@@ -20,8 +20,9 @@ body {
 }
 
 img[alt=testing-pyramid-image] {
-	width: 75%;
-	height: 75%;
+	width: 65%;
+	height: 65%;
+	background: white;
 }
 
 img[alt=dev-qa] {
