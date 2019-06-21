@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="525"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="agile_mindset_model.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="261.76271"
+     inkscape:cy="467.10256"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1304"
+     inkscape:window-height="745"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="10"
+       spacingy="10"
+       originx="0"
+       originy="0" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="300,400"
+       id="guide2999"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="40,180"
+       id="guide3001"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="460,220"
+       id="guide3003"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="560,30"
+       id="guide3005"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="300,310"
+       id="guide3011"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="80,150"
+       id="guide3013"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="270,50"
+       id="guide3015"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="420,160"
+       id="guide3017"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="300,220"
+       id="guide3021"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="130,160"
+       id="guide3023"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="370,160"
+       id="guide3025"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="290,70"
+       id="guide3027"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36217)">
+    <ellipse
+       cy="756.11218"
+       cx="261.25"
+       id="circle4529"
+       style="fill:#bcd35f;fill-opacity:1;stroke:#22280b;stroke-width:2.8828733;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       rx="259.80856"
+       ry="294.80856" />
+    <circle
+       style="fill:#cdde87;fill-opacity:1;stroke:#22280b;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3065"
+       cx="261.25"
+       cy="791.11218"
+       r="240" />
+    <ellipse
+       style="fill:#dde9af;fill-opacity:1;stroke:#22280b;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3059"
+       cx="261.25"
+       cy="826.11218"
+       rx="210"
+       ry="185" />
+    <ellipse
+       style="fill:#eef4d7;fill-opacity:1;stroke:#22280b;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3061"
+       cx="261.25"
+       cy="861.11218"
+       rx="170"
+       ry="130" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#22280b;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3063"
+       cx="261.25"
+       cy="896.11218"
+       rx="120"
+       ry="75" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="261.25"
+       y="911.11218"
+       id="text3067"><tspan
+         sodipodi:role="line"
+         x="261.25"
+         y="911.11218"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"
+         id="tspan4573">mindset</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="261.25"
+       y="801.11218"
+       id="text3071"><tspan
+         sodipodi:role="line"
+         id="tspan3073"
+         x="261.25"
+         y="801.11218"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">values</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="261.25"
+       y="701.11218"
+       id="text3075"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="261.25"
+         y="701.11218"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">principles</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="261.25"
+       y="611.11218"
+       id="text3079"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="261.25"
+         y="611.11218"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">practices</tspan></text>
+    <text
+       id="text4579"
+       y="506.11218"
+       x="264.25"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"
+         y="506.11218"
+         x="264.25"
+         sodipodi:role="line"
+         id="tspan4581">tools &amp;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="268.25"
+       y="541.11218"
+       id="text4595"><tspan
+         id="tspan4593"
+         sodipodi:role="line"
+         x="268.25"
+         y="541.11218"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">processes</tspan></text>
+  </g>
+</svg>

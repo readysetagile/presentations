@@ -1,0 +1,62 @@
+
+/**********************************************/
+/* Custom CSS for Interview with Gary Monte
+/**********************************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+
+}
+
+#left-split-pain {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:25%;
+  z-index:-10;
+}
+
+#right-split-pain {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:75%;
+}
+
+img[alt=testing-pyramid-h550] {
+	background-color: white !important;	
+}
+
+img[alt=org-pyramid-h550] {
+	background-color: white !important;	
+}
+
+img[alt=stacey-matrix] {
+	background-color: white !important;	
+	height: 500px;
+}
+
+img[alt=satir-model] {
+	background-color: white !important;	
+	height: 500px;
+}
+
+img[alt=extreme-programming] {
+	height: 500px;
+	width: 500px;
+	background-color: white !important;
+	vertical-align: top; 
+}
+
+img[alt$="h550"] {
+	height: 550px;
+}

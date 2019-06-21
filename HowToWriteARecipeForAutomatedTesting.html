@@ -69,6 +69,7 @@
 						<tr>
 							<td><img id="logo-title-automated-testing" src="lib/img/global/RSALogoFull.png"></td>
 							<td><img id="conf-host" src="lib/img/IIBA/inbaddlogo.jpg"></td>
+							<input type="text">
 						</tr>
 					</table>
 					<script>
@@ -588,6 +589,7 @@
 						</div>
 						<div id="right-split">
 							<img id="bdd-in-action" onclick="modalImageZoom('bdd-in-action', 'myModal', 'modal-img');" src="lib/img/IIBA/bdd-in-action.jpg">
+							<p id="citation">https://www.getzephyr.com/</p>
 						</div>
 					</section>
 					<section>
@@ -803,7 +805,8 @@
 					{ src: 'plugin/search/search.js', async: true },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() }
 				]
 			});
 
