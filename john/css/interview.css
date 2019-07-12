@@ -56,7 +56,3 @@ img[alt=extreme-programming] {
 	background-color: white !important;
 	vertical-align: top; 
 }
-
-img[alt$="h550"] {
-	height: 550px;
-}
