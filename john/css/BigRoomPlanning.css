@@ -1,0 +1,88 @@
+/*********************************/
+/* Custom CSS for Automated Testing using Xray Test Management for Jira
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/atlassian/postits.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+}
+
+img[alt=big-picture] {
+	width: 100%;
+	height:100%;
+	vertical-align: top !important;
+}
+
+img[alt=confluence-spaces] {
+	height: 500px;
+}
+
+#atlassian-logo {
+	background: #0052CC;
+	height: 119px;
+}
+
+#atlassian-logo img{
+	border:0;
+	display:block; 
+	width:100%; 
+	height:auto;
+	vertical-align: middle;
+}
+
+#left-split-no-fixed-width {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  z-index:-10;
+}
+
+#right-split-no-fixed-width {
+  left:31.25%;
+  top: 75px;
+  float: left;
+  text-align: left  !important;
+  z-index:-10;
+}
+
+#meeting-details {
+	text-align: middle;
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+#car-gas-iframe {
+	width: 600px;
+	height: 400px;
+	background: white;
+	-ms-zoom: 1.25;
+	-moz-transform: scale(1.25);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(1.25);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(1.25);
+	-webkit-transform-origin: 0 0;
+}
+
+#citation-pic {
+	font-size: 6pt;
+	font-family: Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+}
+
+img[alt=gastrak-spinning] {
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); } }

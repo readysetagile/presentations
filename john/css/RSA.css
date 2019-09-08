@@ -212,3 +212,24 @@ p.cell-detail {
 img[alt$="h550"] {
 	height: 550px;
 }
+
+/* override i tag for Font Awesome */
+.reveal i.fa { 
+	font-family:FontAwesome; 
+	font-style: normal; 
+}
+
+#exercise {
+	float: right;
+	border-radius: 15px;
+	border: 10px solid white;
+	color: white;
+	background: #73AD21;
+	font-family: "Segoe UI";
+	font-size: 31px;
+	display:inline-block;
+	font-weight: 1000;
+	padding: 10px; 
+	height: auto;
+	vertical-align: top;
+}
