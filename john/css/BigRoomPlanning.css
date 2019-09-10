@@ -19,7 +19,16 @@ img[alt=big-picture] {
 	vertical-align: top !important;
 }
 
+img[alt=agenda] {
+	height: 550px;
+	
+}
+
 img[alt=confluence-spaces] {
+	height: 500px;
+}
+
+img[alt=fist-to-five] {
 	height: 500px;
 }
 
