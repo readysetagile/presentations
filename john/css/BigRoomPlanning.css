@@ -13,6 +13,12 @@ body {
   background-size: 100px 100px, cover;
 }
 
+#bam-logo img {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
 img[alt=big-picture] {
 	width: 100%;
 	height:100%;
@@ -30,6 +36,22 @@ img[alt=confluence-spaces] {
 
 img[alt=fist-to-five] {
 	height: 500px;
+}
+
+img[alt=facilitator] {
+	height: 400px;
+}
+
+img[alt=collaboration] {
+	height: 400px;
+}
+
+img[alt=program-board] {
+	height: 400px;
+}
+
+img[alt=brp-floor-plan] {
+	height: 400px;
 }
 
 #atlassian-logo {
