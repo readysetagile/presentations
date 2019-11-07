@@ -114,6 +114,20 @@ img[alt=gastrak-spinning] {
     -moz-animation:spin 10s linear infinite;
     animation:spin 10s linear infinite;
 }
+
 @-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); } }
+
+.font-green {
+	color: green; 
+}
+
+.font-orange {
+	color: orange; 
+}
+
+.font-yellow {
+	color: yellow; 
+}
+

@@ -42,6 +42,11 @@ p.cell-detail {
 	background: white;
 }
 
+img[alt=logo-end] {
+	border:0;
+	background: white !important;
+}
+
 /* hide title h3 but show on footer */
 .hide-h3 {
 	display: none;
