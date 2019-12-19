@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Agile: A Bird's Eye View | Presentations | Ready Set Agile</title>
+
+		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Title-Footer plugin -->
+		<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
+		
+		<!-- custom styles -->
+		<link rel="stylesheet" href="john/css/RSA.css">
+		<link rel="stylesheet" href="john/css/AgileBirdsEye.css">
+		<link rel="stylesheet" href="john/css/ModalImageZoom.css">
+		
+		<script src="john/js/modalPic.js"></script>
+		
+		<!-- Timer -->
+		<link rel="stylesheet" href="john/FlipClock/flipclock.css">
+		<script src="john/FlipClock/flipclock.js"></script>		
+		
+		
+		<script>
+			<!-- Special URL Parms -->
+			var urlParams = new URLSearchParams(window.location.search);
+			var CMH = urlParams.has('CMH');
+			
+			<!-- Printing and PDF exports -->
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );						
+		</script>
+	</head>
+
+	<body>
+		<!-- The Modal for image click zoom -->
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="modal-img">
+		  <div id="caption"></div>
+		</div>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="no-toc-progress">
+					<div data-markdown data-template class="title-block">
+						![logo-title](lib/img/global/letterhead.png)
+						## Agile: A Bird's Eye View
+						### Ready Set Agile
+						#### by John Riley - Principal Agile Coach and Trainer
+					</div>
+				</section>
+				<section>
+					<div class="circle-outer-container upper-left-screen">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">My Journey</div>
+						</div>
+					</div>
+					<section class="full-slide" data-transition="linear-in linear-out">
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-1982">
+								<font>1982</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-1982">
+								<font>• Atari Programming<br>• Built first computer<br>• Obsessed with process automation</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-1987">
+								<font>1987</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-1987">
+								<font>Awarded US Patent #4,683,143<br>"Method and Apparatus for Automated<br>Parametric Coating"</font>
+							</div>
+						</div>
+					</section>
+					<section class="full-slide" data-transition="linear-in linear-out">
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-1992">
+								<font>1992</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-1992">
+								<font>• Graduated from Ohio State - Computer and Information Science - College of Engineering<br><br>• Started various waterfall projects</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-1998">
+								<font>1998</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-1998">
+								<font>Started practicing <br>automated <br>software delivery</font>
+							</div>
+						</div>
+					</section>
+					<section class="full-slide" data-transition="linear-in linear-out">
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2002">
+								<font>2002</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2002">
+								<font>• Software Architect<br>• Practicing Lean Manufacturing<br>• Practicing Extreme Programming</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2006">
+								<font>2006</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2006">
+								<font>First exposure to Agile <br>as a "methodology"</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2010">
+								<font>2010</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2010">
+								<font>Attempted first Agile transformation at Liebert engineering dept.</font>
+							</div>
+						</div>					
+					</section>
+					<section class="full-slide" data-transition="linear-in linear-out">
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2013">
+								<font>2013</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2013">
+								<font>Earned Scrum Certifications<br><br>• Professional Scrum Master<br>• Professional Scrum Developer</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2014">
+								<font>2014</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2014">
+								<font>• First role as Scrum Master<br>• Started Practicing ATDD<br><br>• Speaking at Agile Conferences</font>
+							</div>
+						</div>
+					</section>
+					<section class="full-slide" data-transition="linear-in linear-out">
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2017">
+								<font>2017</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2017">
+								<font>Formed Ready Set Agile</font>
+							</div>
+						</div>
+						<div class="time-line-year-container">
+							<div class="time-line-year-bubble position-2020">
+								<font>2020</font>
+							</div>						
+						</div>
+						<div class="time-line-description-container">
+							<div class="time-line-description-bubble position-2020">
+								<font>Became licensed Professional Scrum Trainer</font>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="contain" style="height: 100%; width: 100%;">
+					<div class="agile-roots-position lineHorizontal"></div>
+					<div class="agile-purpose-line-position lineHorizontal"></div>
+					<div class="agile-frameworks-position lineHorizontal"></div>
+					<div class="choose-your-path-line-position lineHorizontal"></div>
+					
+					<div class="agile-roots-position fragment">
+						<div class="big-spot title-spot">					
+							<div class="centered-text-block">Agile's Roots</div>
+						</div>
+					</div>					
+					<div class="agile-purpose-position fragment">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Agile's Purpose</div>
+						</div>
+					</div>
+					<div class="agile-frameworks-position fragment">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Frame- works</div>
+						</div>
+					</div>
+					<div class="choose-your-path-position fragment">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Choose Your Path</div>
+						</div>
+					</div>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="100% 300%" data-background-position="10% 95%">
+					<div class="circle-outer-container upper-left-screen">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Agile's Roots</div>
+						</div>
+					</div>
+					<section class="full-slide">
+						<img alt="agile-umbrella" src="lib/img/AgileBirdsEye/Agile-Umbrella.png">
+					</section>
+					<section class="full-slide">
+						<object id="agile-manifesto" type="text/html" data="http://agilemanifesto.org/"></object>
+						<div class="text-bubble rcorners manifesto-web-addr">
+							<div style="font-size: 36px; color: black;"><font>http://agilemanifesto.org/</font></div>
+						</div>
+						<div class="text-bubble rcorners manifesto-location">
+							<div style="font-size: 20px; color: black;"><font>February 11-13, 2001, at The Lodge at Snowbird ski resort <br>Wasatch mountains of Utah<br></font></div>
+						</div>
+					</section>
+					<section>
+						<div class="text-bubble rcorners" style="top: 80%; left: 10%;">
+							<div style="font-size: 20px; color: black;"><font>http://modernagile.org/ - Joshua Kerievsky</font></div>
+						</div>
+						<div style="display: inline-block;">
+							<img alt="modern-agile-wheel-english" src="lib/img/AgileBirdsEye/modern_agile_wheel_english.svg">
+						</div>
+						<div style="display: inline-block;">
+							<img alt="modern-agile-comp-to-classic" src="lib/img/AgileBirdsEye/modern-agile-comp-to-classic.png">
+						</div>
+					</section>
+					<section>
+						<div class="text-bubble rcorners" style="top: 80%; left: 10%;">
+							<div style="font-size: 20px; color: black;"><font>http://modernagile.org/ - Joshua Kerievsky</font></div>
+						</div>
+						<div style="display: inline-block;" data-markdown data-template>
+							![modern-agile-wheel-english](lib/img/AgileBirdsEye/modern_agile_wheel_english.svg)
+						</div>
+						<div style="display: inline-block;" data-markdown data-template>
+							![modern-agile-joshua-kerievsky](lib/img/AgileBirdsEye/modern-agile-joshua-kerievsky.jpg)
+						</div>
+					</section>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="auto 500%" data-background-position="60% 65%">
+					<div class="circle-outer-container upper-left-screen">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Agile's Purpose</div>
+						</div>
+					</div>	
+					<section class="full-slide">
+						<div class="obtaining-feedback-rapidly-position fragment">
+							<div class="big-spot purpose-spot" style="">
+								<div class="centered-text-block">Obtain Feedback Rapidly</div>
+							</div>
+						</div>					
+						<div class="respond-to-change-position fragment">
+							<div class="big-spot purpose-spot">
+								<div class="centered-text-block">Respond to Change</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="circle-outer-container">
+							<div class="big-spot purpose-spot">
+								<div class="centered-text-block">How Would<br>You Categorize Agile?</div>
+							</div>
+						</div>					
+					</section>
+					<section class="full-slide">
+						<img alt="agile-mindset-model" src="lib/img/global/agile_mindset_model.svg">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>It's a<br>MINDSET</font></div>
+						</div>
+					</section>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="auto 300%" data-background-position="60% 35%">
+					<div class="circle-outer-container" style="width: 250px; height: 250px;">
+						<div class="big-spot" style="width: 200px; height: 200px;">
+							<div class="centered-text-block">Fundamentals</div>
+						</div>
+					</div>	
+					<section class="full-slide">
+						<img alt="self-organizing" src="lib/img/AgileBirdsEye/coaching.jpg">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>self-organizing, autonomous teams</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="waterfall" src="lib/img/AgileBirdsEye/agile-vs-waterfall-risk.png">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>small, incremental delivery</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="build-measure-learn" src="lib/img/AgileBirdsEye/build-measure-learn.jpg">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>continuous learning</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="proj-prod" src="lib/img/AgileBirdsEye/proj-prod.png">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>response to change</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="shu-ha-ri" src="lib/img/AgileBirdsEye/shu-ha-ri.jpg">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>a journey, not a destination</font></div>
+						</div>
+					</section>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="auto 300%" data-background-position="60% 25%">
+					<div class="circle-outer-container" style="width: 250px; height: 250px;">
+						<div class="big-spot" style="width: 200px; height: 200px;">
+							<div class="centered-text-block">Frame- works</div>
+						</div>
+					</div>
+					<section class="full-slide">
+						<img alt="scrum-org-scrum-alliance-large" src="lib/img/AgileBirdsEye/scrum-org-scrum-alliance-large.png">
+						<div class="text-bubble rcorners" style="top: 0px; left: 50%;">
+							<div style="font-size: 24px; color: black;"><font>Scrum is a <b>framework</b> <br>for developing, delivering, <br>and sustaining complex products.<br></font></div>
+						</div>
+						<div class="text-bubble rcorners" style="top: 80%; left: 30%;">
+							<div style="font-size: 24px; color: black;"><font>• Lightweight<br>• Simple to understand<br>• Difficult to master</font></div>
+						</div>
+						<div class="text-bubble rcorners" style="top: 80%; left: 70%;">
+							<div style="font-size: 24px; color: black;"><font>http://www.scrumguides.org</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="scrum-values" src="lib/img/global/scrum-values.png">
+						<div class="text-bubble rcorners" style="top: 80%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>scrum values</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="scrum-pillars-empirical" src="lib/img/global/scrum-pillars-empirical.png">
+						<div class="text-bubble rcorners" style="top: 0%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>scrum pillars</font></div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<div class="scrum-elements-table">
+							<div class="scrum-elements-row1 fragment">
+								<div class="scrum-elements-arrow-cell">
+									<font style="font-family: Comic Sans MS; vertical-align: top; color: red; margin-right:10px;">Timeboxed</font><img alt="scrum-arrow" src="lib/img/global/arrow.png">
+								</div>
+							</div>
+							<div class="scrum-elements-row2">
+								<div class="scrum-elements-cell">
+									<img alt="scrum-elements" src="lib/img/global/scrum-elements.png">
+								</div>
+							</div>
+						</div>
+						<div class="text-bubble rcorners" style="top: 60%; left: 60%;">
+							<div style="font-size: 36px; color: black;"><font>scrum elements</font></div>
+						</div>
+					</section>
+					<section>
+						<div class="text-bubble rcorners" style="top: 300px; left: 60%;">
+							<div style="font-size: 40px; color: black;"><font>kanban</font></div>
+						</div>
+						<div class="text-bubble rcorners" style="top: 0%; left: 20%;">
+							<div style="font-size: 32px; color: black; text-align: left"><font>• Same as scrum
+								<br>• No Timeboxes
+								<br>• Excels in Operational Work
+								<br>• Gates often have "WIP Limit" or "Flow limit"
+								</font>
+							</div>
+						</div>
+					</section>
+					<section class="full-slide">
+						<img alt="stacey-matrix-product-tech" src="lib/img/global/stacey-matrix-product-tech.png">
+						<img alt="stacey-book" src="lib/img/global/stacey-book.png">
+					</section>
+				</section>
+				<section data-background-image="lib/img/global/green_tree.svg" data-background-size="auto 300%" data-background-position="60% 25%">
+				<div class="circle-outer-container upper-left-screen">
+						<div class="big-spot title-spot">
+							<div class="centered-text-block">Choose Your Path</div>
+						</div>
+					</div>
+					<section class="full-slide" id="stacked-slide">
+						<div class="advanced-course-container fragment" data-fragment-index="3">
+							<div class="big-spot title-spot development-spot-position">
+								<div class="centered-text-block">Develop- ment</div>
+							</div>
+						</div>
+						<div class="skillset-container fragment" data-fragment-index="2">
+							<div class="big-spot course-spot products-spot-position">
+								<div class="centered-text-block">Products</div>
+							</div>
+							<div class="big-spot course-spot strategy-spot-position">
+								<div class="centered-text-block">Strategy &amp; Leadership</div>
+							</div>
+							<div class="big-spot course-spot technical-spot-position">
+								<div class="centered-text-block">Technical</div>
+							</div>
+						</div>
+						<div class="fundamentals-container fragment" data-fragment-index="1">
+							<div class="big-spot course-spot fundamentals-spot-position">
+								<div class="centered-text-block">Agile Foundations</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section data-state="no-toc-progress">
+					<div data-markdown data-template>
+						### Thank you!
+						---
+					</div>
+					<section>
+						<img id="logo-end" src="lib/img/global/letterhead.png" width="600px" height="150px">
+						<h4>john@ReadySetAgile.com - John Riley</h4>
+						<div class="social-media-block">
+							&nbsp;<img src="lib/img/global/instagram.png">&nbsp;@ReadySetAgile<br>
+							&nbsp;<img src="lib/img/global/twitter.png">&nbsp;@ReadySetAgile<br>
+							&nbsp;<img src="lib/img/global/facebook.png">&nbsp;https://www.facebook.com/ReadySetAgile/<br>
+							<nobr>&nbsp;<img src="lib/img/global/linkedin.png">&nbsp;https://www.linkedin.com/company/ready-set-agile/</nobr><br>
+						</div>
+					</section>
+				</section>	
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script> 
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				width: '100%',
+				height: '100%',
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+				
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

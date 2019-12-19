@@ -1,0 +1,448 @@
+/*********************************/
+/* Custom CSS for Agile: A Bird's Eye View
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' );
+  background-repeat:no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: bottom left, center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: 100px 100px, cover;
+}
+
+img[alt=logo-title] {
+	background: white !important;
+}
+
+.full-slide {
+	height: 100%;
+	width: 100%;
+}
+
+.title-block {
+	width: 65%;
+	margin: auto;
+}
+
+.title-block  h2, h3, h4 {
+	white-space: nowrap;
+	text-align: left;
+}
+
+.title-block h3 {
+	padding-left: 80px;
+}
+
+.title-block h4 {
+	padding-left: 180px;
+}
+
+.circle-outer-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.big-spot {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #024b30;
+}
+
+.title-spot {
+	width: 200px; 
+	height: 200px;
+}
+
+.purpose-spot {
+	width: 300px; 
+	height: 300px;
+}
+
+.upper-left-screen {
+	position: absolute;
+	top: 3%; 
+	left: 3%;
+}
+
+.centered-text-block {
+  position: relative;
+  text-align: center;
+  float: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.agile-roots-position {
+	position: absolute;
+	left: 25%;
+	top: 70%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-purpose-position {
+	position: absolute;
+	left: 78%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-purpose-line-position {
+	position: absolute;
+	left: 58%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-frameworks-position {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.choose-your-path-position {
+	position: absolute;
+	left: 78%;
+	top: 10%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.choose-your-path-line-position {
+	position: absolute;
+	left: 58%;
+	top: 10%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.obtaining-feedback-rapidly-position {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+}
+
+.respond-to-change-position {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.rotate-line-20 {
+	transform:rotate(20deg);
+}
+
+.lineHorizontal {
+  border-bottom: 5px dashed white;
+  width: 30%;
+  height: 100px;
+}
+
+.agile-purpose-line-position {
+	position: absolute;
+	left: 58%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.time-line-position {
+	position: absolute;
+	left: 50%;
+	top: -5%;
+}
+
+.time-line-year-container {
+	position: absolute;
+	right: 50%;
+	top: -5%;
+	display: inline-block;
+	height: 95%;
+}
+
+.time-line-description-container {
+	position: absolute;
+	left: 50%;
+	top: -5%;
+	display: inline-block;
+	height: 95%;
+	border-left : 5px solid yellow;
+}
+
+.time-line-year-bubble {
+    border-radius: 25px;
+    border: 2px solid yellow;
+    padding: 20px;
+    background-color: white;
+	margin-right: 30px; /* arrow width */
+	font-size: 48px;
+	color: black;
+}
+
+
+.time-line-year-bubble::before {
+	content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: -15px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.time-line-description-bubble {
+    border-radius: 25px;
+    border: 2px solid yellow;
+    padding: 20px;
+    background-color: white;
+	margin-left: 10px; /* arrow width */
+	font-size: 36px;
+	color: black;
+	text-align: left;
+}
+
+.time-line-description-bubble::before {
+	content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 100%;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.position-1982, .position-2013, .position-2017 {
+	position: relative;
+	top: 25%;
+}
+
+.position-1987, .position-2014, .position-2020 {
+	position: relative;
+	top: 65%;
+}
+
+.position-1992 {
+	position: relative;
+	top: 25%;
+}
+
+.position-1998 {
+	position: relative;
+	top: 65%;
+}
+
+.position-2002 {
+	position: relative;
+	top: 25%;
+}
+
+.position-2006 {
+	position: relative;
+	top: 55%;
+}
+
+.position-2010 {
+	position: relative;
+	top: 75%;
+}
+.resizable {
+  border: 3px solid #fff;
+  resize:both;
+}
+
+.fixed-size {
+  border: none;
+}
+
+.image-container {
+	height: 85%;
+	width: auto;
+}
+
+img[alt=agile-umbrella] {
+	background: white !important;
+	width: auto;
+	height: 85%;
+}
+
+#agile-manifesto {
+	width: 65%;
+	height: 85%;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    background-color: white;
+}
+
+.manifesto-web-addr {
+	top: 3%;
+	left: 65%;
+}
+
+.manifesto-location {
+	top: 80%;
+	left: 65%;
+}
+
+.text-bubble {
+    position: absolute;
+    line-height: normal;
+}
+
+img[alt^=modern-agile] {
+	height: 400px;
+	width: 400px;
+}
+
+img[alt=agile-mindset-model] {
+	height: 85%;
+}
+
+img[alt=waterfall] {
+	height: 85%;
+}
+
+img[alt=build-measure-learn] {
+	height: 85%;
+}
+
+img[alt=self-organizing] {
+	height: 85%;
+}
+
+img[alt=proj-prod] {
+	height: 85%;
+}
+
+img[alt=shu-ha-ri] {
+	height: 85%;
+}
+
+img[alt=scrum-org-scrum-alliance-large] {
+	height: 85%;
+}
+
+img[alt=scrum-values] {
+	height: 85%;
+	background-color: white !important;
+}
+
+img[alt=scrum-pillars-empirical] {
+	height: 85%;
+}
+
+.scrum-elements-table {
+	display: table;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+	width: 70%;
+}
+
+div[class^="scrum-elements-row"] {
+	display: table-row;
+}
+
+img[alt=scrum-arrow] {
+	width: 150px;
+	height: 100px;
+	margin: 0px !important;
+	border: none !important;
+	box-shadow: none !important;
+	background: rgb(255,255,255,0) !important;
+}
+
+img[alt=scrum-elements] {
+	margin: 0px !important;
+	width: 100%;
+}
+
+.scrum-elements-row1 {
+	height: 100px;
+}
+
+.scrum-elements-cell {
+	vertical-align: top;
+}
+
+img[alt=stacey-matrix-product-tech] {
+	height: 75%;
+}
+
+.scrum-elements-arrow-cell {
+	margin-left: 20%;
+}
+
+#stacked-slide {
+	position: relative;
+	display: inline-flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.fundamentals-container {
+	bottom: 90%;
+	width:100%;
+}
+
+.skillset-container {
+	width:100%;
+}
+
+.advanced-course-container {
+	width:100%;
+}
+
+.course-spot {
+	width: 250px; 
+	height: 250px;
+}
+
+.fundamentals-spot-position {
+	position: relative;
+	left: 50%;
+}
+
+.strategy-spot-position {
+	position: absolute;
+	left: 50%;
+}
+
+.products-spot-position {
+	position: absolute;
+	left: 30%;
+}
+
+.development-spot-position {
+	position: absolute;
+	left: 50%;
+}
+
+.technical-spot-position {
+	position: absolute;
+	left: 70%;
+}
+
+/* override the slide transiaion to 2s for all transition except for the linear-* transitions (which is the timeline) */
+.reveal .slides section:not([data-transition^=linear]), 
+.reveal .slides section:not([data-transition^=linear]) .fragment, 
+.reveal .slides section section:not([data-transition^=linear]), 
+.reveal .slides section section:not([data-transition^=linear]) .fragment {
+	transition: opacity 2s !important;
+}
