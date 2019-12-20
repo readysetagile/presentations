@@ -27,9 +27,13 @@ img[alt=logo-title] {
 	margin: auto;
 }
 
-.title-block  h2, h3, h4 {
+.title-block h2, h3, h4 {
 	white-space: nowrap;
 	text-align: left;
+}
+
+.title-block h4 {
+	line-height: .5em;
 }
 
 .title-block h3 {
@@ -76,7 +80,6 @@ img[alt=logo-title] {
 .centered-text-block {
   position: relative;
   text-align: center;
-  float: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -389,54 +392,114 @@ img[alt=stacey-matrix-product-tech] {
 	margin-left: 20%;
 }
 
-#stacked-slide {
-	position: relative;
-	display: inline-flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-}
-
 .fundamentals-container {
-	bottom: 90%;
+	bottom: 75px;
+	position: absolute;
 	width:100%;
 }
 
 .skillset-container {
 	width:100%;
+	bottom: 10%;
+	position: absolute;
+	margin-bottom: 250px;
+	height: 175px;
 }
 
 .advanced-course-container {
-	width:100%;
+	width: 100%;
+	bottom: 10%;
+	position: absolute;
+	margin-bottom: 425px;
+	height: 200px;
 }
 
-.course-spot {
+.course-spot-level-1 {
 	width: 250px; 
 	height: 250px;
+}
+
+.course-spot-level-2 {
+	width: 175px; 
+	height: 175px;
+	font-size: 34px;
+	line-height: 1;
+}
+
+.course-spot-level-3 {
+	width: 125px; 
+	height: 125px;
+	font-size: 16pt;
+	line-height: 1;
 }
 
 .fundamentals-spot-position {
 	position: relative;
 	left: 50%;
+	margin-left: -125px;
 }
 
 .strategy-spot-position {
 	position: absolute;
 	left: 50%;
+	margin-left: -87px;
 }
 
 .products-spot-position {
 	position: absolute;
 	left: 30%;
-}
-
-.development-spot-position {
-	position: absolute;
-	left: 50%;
+	margin-left: -87px;
 }
 
 .technical-spot-position {
 	position: absolute;
 	left: 70%;
+	margin-left: -87px;
+}
+
+.facilitation-spot-position {
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: 0;
+}
+
+.agile-company-spot-position {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+
+.working-with-business-spot-position {
+	position: absolute;
+	left: 70%;
+}
+
+.automated-testing-spot-position {
+	position: absolute;
+	left: 70%;
+	margin-left: -87px;
+	bottom: 0;
+}
+
+.automated-delivery-spot-position {
+	position: absolute;
+	left: 70%;
+	margin-left: 125px;
+}
+
+.working-with-teams-spot-position {
+	position: absolute;
+	left: 30%;
+	margin-left: -87px;
+	bottom: 0;
+}
+
+.delivering-killer-product-spot-position {
+	position: absolute;
+	left: 30%;
+	margin-left: -200px;
+	bottom: 0;
 }
 
 /* override the slide transiaion to 2s for all transition except for the linear-* transitions (which is the timeline) */
