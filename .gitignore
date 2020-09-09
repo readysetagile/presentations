@@ -9,8 +9,7 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
-css/reveal.min.css
-js/reveal.min.js
+dist/*.map
 #remove the next two lines once merge complete
 README.md
 index.html
