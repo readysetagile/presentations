@@ -11,3 +11,6 @@ node_modules/
 .sass-cache
 css/reveal.min.css
 js/reveal.min.js
+#remove the next two lines once merge complete
+README.md
+index.html
