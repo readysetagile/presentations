@@ -12,11 +12,12 @@
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 
 		<!-- Title-Footer plugin -->
 		<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
@@ -37,14 +38,6 @@
 			<!-- Special URL Parms -->
 			var urlParams = new URLSearchParams(window.location.search);
 			var CMH = urlParams.has('CMH');
-			
-			<!-- Printing and PDF exports -->
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-						
 		</script>
 	</head>
 
@@ -69,7 +62,6 @@
 						<tr>
 							<td><img id="logo-title-automated-testing" src="lib/img/global/RSALogoFull.png"></td>
 							<td><img id="conf-host" src="lib/img/IIBA/inbaddlogo.jpg"></td>
-							<input type="text">
 						</tr>
 					</table>
 					<script>
@@ -709,7 +701,7 @@
 					</section>
 					<section>
 						<div id="left-split-no-fixed-width">
-							<img alt="onboarding" src="https://www.workforce.com/wp-content/uploads/sites/2/2016/12/WF_1216_onboarding_newsltr.jpg">
+							<img alt="onboarding" src="https://rpcleadershipassociates.com/images/easyblog_articles/147/b2ap3_large_WF_1216_onboarding_newsltr.jpg">
 						</div>
 						<div id="right-split-no-fixed-width">
 							The test suite<br>is a<br>POWERFUL<br>onboarding tool
@@ -717,7 +709,7 @@
 					</section>
 					<section>
 						<div id="left-split-no-fixed-width">
-							<img id="devops-culture" onclick="modalImageZoom('devops-culture', 'myModal', 'modal-img');" alt="devops-culture" src="lib/img/DevOps/devops-wordcloud.jpg">
+							<img id="devops-culture" alt="devops-culture" src="lib/img/DevOps/devops-wordcloud.jpg">
 						</div>
 						<div id="right-split-no-fixed-width">
 							Integral to a<br>DevOps culture
@@ -761,7 +753,7 @@
 						---
 					</div>
 					<section>
-						<br><br><br><img src="https://i.imgur.com/BwwM3oIl.png" height="450px" width="450px">
+						<br><br><img alt="rsa-services" src="lib/img/global/rsa-services.png">
 					</section>
 				</section>
 				<section data-state="no-toc-progress">
@@ -783,9 +775,13 @@
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
+		
 		<script> 
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -794,18 +790,14 @@
 				history: true,
 				center: true,
 
-				transition: Reveal.getQueryHash().transition || 'convex', // default/cube/page/concave/zoom/linear/fade/none
-
+				backgroundTransition: 'fade', // default/convex/cube/page/concave/zoom/linear/fade/none
+				transition: 'convex', // default/convex/cube/page/concave/zoom/linear/fade/none
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch ],
+				
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/search/search.js', async: true },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
-					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() }
 				]
 			});

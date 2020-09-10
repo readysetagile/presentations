@@ -292,3 +292,7 @@ img[alt$="h550"] {
   line-height: 75px;
   font-size: 30px;
 }
+
+img[alt=rsa-services] {
+	height: 450px;
+}

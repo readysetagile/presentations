@@ -8,24 +8,17 @@
 
 		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
-
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+		
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		
 		<!-- custom styles -->
 		<link rel="stylesheet" href="john/css/RSA.css">
 		<link rel="stylesheet" href="john/css/interview.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -182,8 +175,12 @@ Pair Trust – Becoming more confident in each other’s skills and communicatio
 			</div>
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -191,12 +188,10 @@ Pair Trust – Becoming more confident in each other’s skills and communicatio
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				history: true, 
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch ],
+
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() }
 				]
 			});
 		</script>
