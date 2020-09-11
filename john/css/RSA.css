@@ -134,21 +134,22 @@ img[alt=logo-end] {
 	font-size: 12pt;
 	display: block;
 	text-align: right;
-	vertical-align: right;
 }
 
 #presenter-name {
 	font-size: 24pt;
 	display: block;
 	text-align: right;
-	vertical-align: right;
 }
 
 #presenter-job-title {
 	font-size: 18pt;
 	display: block;
 	text-align: right;
-	vertical-align: right;
+}
+
+#pst-logo {
+	float: right;
 }
 
 /* hide the FlipClock labels */

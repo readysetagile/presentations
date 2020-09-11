@@ -38,6 +38,7 @@
 			<!-- Special URL Parms -->
 			var urlParams = new URLSearchParams(window.location.search);
 			var CMH = urlParams.has('CMH');
+			var ILEARN = urlParams.has('ILEARN');
 		</script>
 	</head>
 
@@ -57,7 +58,11 @@
 								<h2>How To <br>Write A<br> Recipe For<br> Automated Testing</h2>
 								<h3 class="hide-h3">@ReadySetAgile</h3>
 							</td>
-							<td><div id="presenter-name">John Riley</div><br><div id="presenter-job-title">Principle&nbsp;Agile&nbsp;Coach&nbsp;and&nbsp;Trainer</div></td>
+							<td id="title-right-side">
+								<div id="pst-logo"><img src="lib/img/global/Scrumorg-PST_licensed-1000-150x150.png"></div>
+								<br><br><br><br><div id="presenter-name">John Riley</div>
+								<div id="presenter-job-title">Principle&nbsp;Agile&nbsp;Coach&nbsp;and&nbsp;Trainer</div>
+							</td>
 						</tr>
 						<tr>
 							<td><img id="logo-title-automated-testing" src="lib/img/global/RSALogoFull.png"></td>
@@ -68,7 +73,10 @@
 						//change the logo for the conference host
 						if (CMH) {
 							document.getElementById("conf-host").src="lib/img/IIBA/logo_iiba_columbus_oh-1024x254.jpg";
-						}					
+						}
+						if (ILEARN) {
+							document.getElementById("conf-host").src="lib/img/IIBA/grange-elevate.jpg";
+						}
 					</script>
 				</section>
 				<section>
