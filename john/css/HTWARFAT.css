@@ -68,6 +68,11 @@ img[alt=xray-pres] {
 	height: 400px;
 }
 
+img[alt=post-its] {
+	height: 250px;
+	margin-top: 25%
+}
+
 #img-taxonomy-example-3 {
 	height: 300px;
 }
@@ -93,4 +98,9 @@ img[alt=xray-pres] {
 	font-size: 18pt;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
+}
+
+#jamboard-activity {
+	width: 65%;
+	height: 85%;
 }
