@@ -21,6 +21,23 @@ body {
 	height: 100px;
 }
 
-#pst-logo {
-	height: 100px !important;
+img[alt=agile-org] {
+	width: 90%;
+	height: 90%;
+}
+
+img[alt=agile-teams-to-avoid] {
+	width: 60%;
+	height: 60%;
+}
+
+.self-org-quote {
+	font-size: 20pt;
+    border-radius: 10px;
+  	border: 2px solid #73AD21;
+  	padding: 10px;
+}
+
+.med-icon {
+	width: 200px;
 }
