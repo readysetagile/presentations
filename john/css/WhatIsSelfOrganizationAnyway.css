@@ -31,6 +31,58 @@ img[alt=agile-teams-to-avoid] {
 	height: 60%;
 }
 
+img[alt=complex-image] {
+	width: 55%;
+	height: 55%;
+}
+
+img[alt=change-wordcloud] {
+	width: 80%;
+	height: 80%;
+}
+
+img[alt=square-peg-round-hole]  {
+	height: 450px;
+}
+
+img[alt=oktoberfest] {
+	width: 600px;
+}
+
+img[alt=conflict-management] {
+	width: 550px;
+}
+
+img[alt=honeycomb] {
+	height: 80%;
+	width: 80%;
+}
+
+img[alt=geese] {
+	height: 80%;
+	width: 80%;
+}
+
+img[alt=shoe-before-game] {
+	height: 65%;
+	width: 65%;
+}
+
+img[alt=traffic-merge] {
+	height: 450px;
+}
+
+img[alt=family-dinner] {
+	height: 65%;
+	width: 65%;
+}
+
+img[alt=agile-team] {
+	height: 65%;
+	width: 65%;
+}
+
+
 .self-org-quote {
 	font-size: 20pt;
     border-radius: 10px;
@@ -38,6 +90,71 @@ img[alt=agile-teams-to-avoid] {
   	padding: 10px;
 }
 
+.span-heading {
+	font-size: 18pt;
+	color: black;
+    border-radius: 5px 5px 0 0;
+  	background: #73AD21;
+  	padding: 10px;
+	position: absolute;
+	top: -43px;
+	margin-left: -15px;
+}
+
+.block-with-heading {
+	font-size: 36pt;
+    border-radius: 0px 15px 15px 15px;
+  	border: 5px solid #73AD21;
+  	padding: 10px;
+}
+
+.summary-caption {
+	font-size: 18pt;
+	color: white;
+    border-radius: 5px 5px 0 0;
+  	background: #73AD21;
+  	padding: 10px;
+	position: absolute;
+	top: -25px;
+	left: 0px;
+}
+
+.section-summary {
+	font-size: 28pt;
+    border-radius: 0px 15px 15px 15px;
+  	border: 5px solid #73AD21;
+  	padding: 10px;
+}
+
+.bulleted-slide-content {
+	font-size: 20pt;
+    border-radius: 0px 15px 15px 15px;
+  	border: 5px solid #73AD21;
+  	padding: 10px;
+}
+
+.block-caption {
+	font-size: 40pt;
+    border-radius: 15px;
+  	border: 5px solid #73AD21;
+  	padding: 10px;
+}
+
 .med-icon {
 	width: 200px;
+}
+
+/* classic half-screen layout */
+#left-split-no-fixed-width {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  z-index:-10;
+}
+
+#right-split-no-fixed-width {
+  left:31.25%;
+  float: right;
+  text-align: left;
+  z-index:-10;
 }
