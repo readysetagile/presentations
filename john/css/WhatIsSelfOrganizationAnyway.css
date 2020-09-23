@@ -87,6 +87,10 @@ img[alt=team-matrix] {
 	width: 65%;
 }
 
+img[alt=external-environment] {
+	width: 400px;
+}
+
 .self-org-quote {
 	font-size: 20pt;
     border-radius: 10px;
