@@ -26,6 +26,17 @@ img[alt=jenkins-docker] {
 	border: 0;
 	vertical-align: middle !important;
 }
+
+img[alt=docker-env] {
+	height: 600px;
+	background: white !important;
+}
+
+img[alt=jira-xray-sequence] {
+	height: 600px;
+	background: white !important;
+}
+
 img[alt=testing-types] {
 	width: 300px;
 	border: 0;
@@ -54,6 +65,11 @@ img[alt=test-pic], img[alt=test-set-pic], img[alt=test-plan-pic], img[alt=pre-co
 	width: 30px;
 	padding-right: 10px;
 	vertical-align: middle;
+}
+
+img[alt=gastrak-test-plan] {
+	background: #ffffff;
+	height: 550px;
 }
 
 #atlassian-logo {

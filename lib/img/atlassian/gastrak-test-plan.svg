@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.4 215.9"
+   version="1.1"
+   id="svg5922"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="gastrak-test-plan.svg">
+  <defs
+     id="defs5916" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="503.19657"
+     inkscape:cy="475.00168"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="2323"
+     inkscape:window-height="1321"
+     inkscape:window-x="69"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5919">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6670-1-00-9"
+       transform="translate(148.34971,77.050406)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-5-26"><tspan
+           sodipodi:role="line"
+           id="tspan1049"
+           x="69.890984"
+           y="55.992973">GTT-71</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="68.938698"
+         y="61.983551"
+         id="text6577-8-1-5-4"><tspan
+           sodipodi:role="line"
+           id="tspan1043"
+           x="68.938698"
+           y="61.983551">User entry </tspan><tspan
+           sodipodi:role="line"
+           id="tspan1045"
+           x="68.938698"
+           y="67.275215">for comments field</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1047"
+           x="68.938698"
+           y="72.566879">is formatted correctly</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-9-8"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURB VDiNpZK9S1tRGMZ/5yar8SNE/MBILZGYgmQpSkdNF7UOSsmklPQ/6NiiCFqnToWOCq1U1EEw1UlL 1wYp+J3YWoIooTGNYtBNz+vgjdybmGLx2c7hfZ7zex8O3FMKwPVqrF0ZTCK03NG0o5WO5N4NxwyA /zEDCAQQYwLAMG/8tw3WlbuocZWVoggAOK2r5NXb6me0p5PGqgoAfh5leRNdZjnxuyAjT2BRXzDA x4F+vJUVbKbSxP9kaK52MxMJE/I/LCJxWg8OQ/H2WQiAF1PzLGzEARhsC/L+eTfjvU9ZsVPYCXwe N7XlZcT2D2/MAJ9iayRMksJObAFKXVehtS5CvRS5NihbXfaAX0dZMmfntD9osO3bFwzwqLaaZPaE 1GmudAcXWjOy9I0P4R7mXob5njzA6XDw2FuPCAx9+VpE5iy8+Ly6jiCMdHXwpMkLQOo0x+voCotb uyUDBMtfmF7dYPbHJj6PGy3CXuYYbXZgkdwEKIiL+bPyutRCIv236EWLewfMErXSEYHtktMFXoFt NJE7zv9bV5qUh3w/tnSHAAAAAElFTkSuQmCC "
+         id="image7087-23"
+         x="106.84805"
+         y="49.011959" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.7417734"
+       y="13.363477"
+       id="text6487"><tspan
+         sodipodi:role="line"
+         id="tspan6485"
+         x="3.7417734"
+         y="13.363477"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">GasTrak Test Plan</tspan></text>
+    <g
+       id="g6670-1"
+       transform="translate(41.816656,85.125237)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7"><tspan
+           sodipodi:role="line"
+           id="tspan6727"
+           x="69.890984"
+           y="55.992973">GTT-100</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.382019"
+         y="61.986866"
+         id="text6577-8-1"><tspan
+           sodipodi:role="line"
+           id="tspan6721"
+           x="70.382019"
+           y="61.986866">Test GasTrak </tspan><tspan
+           sodipodi:role="line"
+           id="tspan6723"
+           x="70.382019"
+           y="67.278526">Entry Automatic</tspan><tspan
+           sodipodi:role="line"
+           id="tspan6725"
+           x="70.382019"
+           y="72.57019">Totaling</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFISURB VDiNpZG9S0JRGMZ/9yoO2VKgi30sDoWOVvS1WUFuUbQWQU5BSwT1h2S4GBZBf4D0SURLaWBStgWB twSpwYKIq/eehkywc0OtZzvveZ7feTgv/FMKQCgYCwnYBDwNpjQTEd4/mk+oAEIh0nAYQNChCiUC oH4Pmur9pU4Au9VNoN9DT6+L/NMb52cP6LrxK0UCTM34WFgMVM9jE17WVw8xDNEYYHrWD8DL8zs7 8QwK0DfQQepSs4RIAIfDjq4bRCMplpYHcbY6AMjeFlhbOaBcNmv86k/A6ck9mXSe4Li3Ggbw+d0M jXRJDSRAdCPF3u4NLrdTMre1t9QH6LrBXbZA8iJXMy+VDK6SmgSwXCPA9tY1NpvK8Gg3xeIH8Via R+1V8ikAk8GY9Y7qKHE8p6gVjNytvnJQ+QMTEW4SkhOmEv7Do7I+AWjPZ1FV8vPQAAAAAElFTkSu QmCC "
+         id="image6659-3"
+         x="107.17422"
+         y="49.760483" />
+    </g>
+    <g
+       id="g6670-1-0"
+       transform="translate(-46.269206,47.074771)">
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC8SURB VDiNpZE9DoJAFIS/R6Q2NjZiYWG8gJcwHoTGC1hYWOkBLPAi3sILaGLD9oYa3GeFIcDy55ST983M ZuFPCcDjONlakSsw68gZEQ1Xh/fNA7AiUQ8YIFCVCMDLjR5wrnkxYLBGZcMfByx299rjLIl5XdbN AWlieJ5cL9JhC+qaey6oNnda0NTccYG7OVflG/1xwHJvmG7OqM1aA5wLVG0rXFxgiqbaFPTTxsa/ ABENyyFtsKiGPe7d+gKZTkfctrKgwgAAAABJRU5ErkJggg== "
+         id="image6593-5"
+         x="106.44413"
+         y="49.193832" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-0"><tspan
+           sodipodi:role="line"
+           id="tspan6836"
+           x="69.890984"
+           y="55.992973">GTT-4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23545px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264716"
+         x="70.417442"
+         y="64.505798"
+         id="text6577-8-1-8"
+         transform="scale(0.99949701,1.0005032)"><tspan
+           sodipodi:role="line"
+           id="tspan6832"
+           x="70.417442"
+           y="64.505798"
+           style="stroke-width:0.264716">Test all</tspan><tspan
+           sodipodi:role="line"
+           id="tspan6834"
+           x="70.417442"
+           y="69.80011"
+           style="stroke-width:0.264716">GasTrak pages</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-7"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+    </g>
+    <g
+       id="g6670-1-9"
+       transform="translate(41.816656,14.388159)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-8"><tspan
+           sodipodi:role="line"
+           id="tspan6881"
+           x="69.890984"
+           y="55.992973">GTT-1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.382019"
+         y="61.986866"
+         id="text6577-8-1-7"><tspan
+           sodipodi:role="line"
+           id="tspan6877"
+           x="70.382019"
+           y="61.986866">Test GasTrak </tspan><tspan
+           sodipodi:role="line"
+           id="tspan6879"
+           x="70.382019"
+           y="67.278526">Entry Webpage</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-2"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFISURB VDiNpZG9S0JRGMZ/9yoO2VKgi30sDoWOVvS1WUFuUbQWQU5BSwT1h2S4GBZBf4D0SURLaWBStgWB twSpwYKIq/eehkywc0OtZzvveZ7feTgv/FMKQCgYCwnYBDwNpjQTEd4/mk+oAEIh0nAYQNChCiUC oH4Pmur9pU4Au9VNoN9DT6+L/NMb52cP6LrxK0UCTM34WFgMVM9jE17WVw8xDNEYYHrWD8DL8zs7 8QwK0DfQQepSs4RIAIfDjq4bRCMplpYHcbY6AMjeFlhbOaBcNmv86k/A6ck9mXSe4Li3Ggbw+d0M jXRJDSRAdCPF3u4NLrdTMre1t9QH6LrBXbZA8iJXMy+VDK6SmgSwXCPA9tY1NpvK8Gg3xeIH8Via R+1V8ikAk8GY9Y7qKHE8p6gVjNytvnJQ+QMTEW4SkhOmEv7Do7I+AWjPZ1FV8vPQAAAAAElFTkSu QmCC "
+         id="image6659-3-3"
+         x="107.17422"
+         y="49.760483" />
+    </g>
+    <g
+       id="g6670-1-1"
+       transform="translate(42.194632,128.34564)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan6922"
+           x="69.890984"
+           y="55.992973">GTT-97</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.382019"
+         y="61.986866"
+         id="text6577-8-1-83"><tspan
+           sodipodi:role="line"
+           id="tspan6936"
+           x="70.382019"
+           y="61.986866">All fields</tspan><tspan
+           sodipodi:role="line"
+           id="tspan6938"
+           x="70.382019"
+           y="67.278526">are calculated </tspan><tspan
+           sodipodi:role="line"
+           id="tspan6940"
+           x="70.382019"
+           y="72.57019">correctly </tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-21"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <g
+         fill="none"
+         fill-rule="evenodd"
+         id="g6960"
+         transform="matrix(0.396875,0,0,0.396875,106.76189,49.699608)">
+        <path
+           d="M 0,1.777 C 0,0.796 0.796,0 1.777,0 H 14.223 C 15.204,0 16,0.796 16,1.777 V 14.223 C 16,15.204 15.204,16 14.223,16 H 1.777 A 1.778,1.778 0 0 1 0,14.223 Z"
+           fill="#36b37e"
+           id="path6956" />
+        <path
+           d="M 4.5,12.5 V 4.378 C 4.5,3.893 4.892,3.5 5.375,3.5 h 5.25 c 0.483,0 0.875,0.393 0.875,0.878 V 12.5 L 8,8.988 Z"
+           fill="#ffffff"
+           id="path6958" />
+      </g>
+    </g>
+    <g
+       id="g6670-1-1-9"
+       transform="translate(41.816656,-28.303076)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-9-4"><tspan
+           sodipodi:role="line"
+           id="tspan7036"
+           x="69.890984"
+           y="55.992973">GTT-3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.382019"
+         y="61.986866"
+         id="text6577-8-1-83-7"><tspan
+           sodipodi:role="line"
+           id="tspan7030"
+           x="70.382019"
+           y="61.986866">All fields are</tspan><tspan
+           sodipodi:role="line"
+           id="tspan7032"
+           x="70.382019"
+           y="67.278526">automatically</tspan><tspan
+           sodipodi:role="line"
+           id="tspan7034"
+           x="70.382019"
+           y="72.57019">formatted correctly</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-21-0"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <g
+         fill="none"
+         fill-rule="evenodd"
+         id="g6960-0"
+         transform="matrix(0.396875,0,0,0.396875,106.76189,49.699608)">
+        <path
+           d="M 0,1.777 C 0,0.796 0.796,0 1.777,0 H 14.223 C 15.204,0 16,0.796 16,1.777 V 14.223 C 16,15.204 15.204,16 14.223,16 H 1.777 A 1.778,1.778 0 0 1 0,14.223 Z"
+           fill="#36b37e"
+           id="path6956-6" />
+        <path
+           d="M 4.5,12.5 V 4.378 C 4.5,3.893 4.892,3.5 5.375,3.5 h 5.25 c 0.483,0 0.875,0.393 0.875,0.878 V 12.5 L 8,8.988 Z"
+           fill="#ffffff"
+           id="path6958-1" />
+      </g>
+    </g>
+    <g
+       id="g6670-1-00"
+       transform="translate(146.8491,-33.761844)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-5"><tspan
+           sodipodi:role="line"
+           id="tspan7091"
+           x="69.890984"
+           y="55.992973">GTT-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="68.938698"
+         y="61.983551"
+         id="text6577-8-1-5"><tspan
+           sodipodi:role="line"
+           id="tspan906"
+           x="68.938698"
+           y="61.983551">User entry </tspan><tspan
+           sodipodi:role="line"
+           id="tspan908"
+           x="68.938698"
+           y="67.275215">for gallons field</tspan><tspan
+           sodipodi:role="line"
+           id="tspan910"
+           x="68.938698"
+           y="72.566879">is formatted correctly</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-9"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURB VDiNpZK9S1tRGMZ/5yar8SNE/MBILZGYgmQpSkdNF7UOSsmklPQ/6NiiCFqnToWOCq1U1EEw1UlL 1wYp+J3YWoIooTGNYtBNz+vgjdybmGLx2c7hfZ7zex8O3FMKwPVqrF0ZTCK03NG0o5WO5N4NxwyA /zEDCAQQYwLAMG/8tw3WlbuocZWVoggAOK2r5NXb6me0p5PGqgoAfh5leRNdZjnxuyAjT2BRXzDA x4F+vJUVbKbSxP9kaK52MxMJE/I/LCJxWg8OQ/H2WQiAF1PzLGzEARhsC/L+eTfjvU9ZsVPYCXwe N7XlZcT2D2/MAJ9iayRMksJObAFKXVehtS5CvRS5NihbXfaAX0dZMmfntD9osO3bFwzwqLaaZPaE 1GmudAcXWjOy9I0P4R7mXob5njzA6XDw2FuPCAx9+VpE5iy8+Ly6jiCMdHXwpMkLQOo0x+voCotb uyUDBMtfmF7dYPbHJj6PGy3CXuYYbXZgkdwEKIiL+bPyutRCIv236EWLewfMErXSEYHtktMFXoFt NJE7zv9bV5qUh3w/tnSHAAAAAElFTkSuQmCC "
+         id="image7087"
+         x="106.84805"
+         y="49.011959" />
+    </g>
+    <g
+       id="g6670-1-00-3"
+       transform="translate(146.96666,3.4428394)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-5-3"><tspan
+           sodipodi:role="line"
+           id="tspan951"
+           x="69.890984"
+           y="55.992973">GTT-65</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="68.938698"
+         y="61.983551"
+         id="text6577-8-1-5-1"><tspan
+           sodipodi:role="line"
+           id="tspan959"
+           x="68.938698"
+           y="61.983551">User entry </tspan><tspan
+           sodipodi:role="line"
+           id="tspan961"
+           x="68.938698"
+           y="67.275215">for price per gallon </tspan><tspan
+           sodipodi:role="line"
+           id="tspan963"
+           x="68.938698"
+           y="72.566879">field is formatted</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-9-9"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURB VDiNpZK9S1tRGMZ/5yar8SNE/MBILZGYgmQpSkdNF7UOSsmklPQ/6NiiCFqnToWOCq1U1EEw1UlL 1wYp+J3YWoIooTGNYtBNz+vgjdybmGLx2c7hfZ7zex8O3FMKwPVqrF0ZTCK03NG0o5WO5N4NxwyA /zEDCAQQYwLAMG/8tw3WlbuocZWVoggAOK2r5NXb6me0p5PGqgoAfh5leRNdZjnxuyAjT2BRXzDA x4F+vJUVbKbSxP9kaK52MxMJE/I/LCJxWg8OQ/H2WQiAF1PzLGzEARhsC/L+eTfjvU9ZsVPYCXwe N7XlZcT2D2/MAJ9iayRMksJObAFKXVehtS5CvRS5NihbXfaAX0dZMmfntD9osO3bFwzwqLaaZPaE 1GmudAcXWjOy9I0P4R7mXob5njzA6XDw2FuPCAx9+VpE5iy8+Ly6jiCMdHXwpMkLQOo0x+voCotb uyUDBMtfmF7dYPbHJj6PGy3CXuYYbXZgkdwEKIiL+bPyutRCIv236EWLewfMErXSEYHtktMFXoFt NJE7zv9bV5qUh3w/tnSHAAAAAElFTkSuQmCC "
+         id="image7087-2"
+         x="106.84805"
+         y="49.011959" />
+    </g>
+    <g
+       id="g6670-1-00-1"
+       transform="translate(147.38599,40.112984)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-5-2"><tspan
+           sodipodi:role="line"
+           id="tspan1010"
+           x="69.890984"
+           y="55.992973">GTT-70</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="68.938698"
+         y="61.983551"
+         id="text6577-8-1-5-6"><tspan
+           sodipodi:role="line"
+           id="tspan1004"
+           x="68.938698"
+           y="61.983551">User entry </tspan><tspan
+           sodipodi:role="line"
+           id="tspan1006"
+           x="68.938698"
+           y="67.275215">for mileage field</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1008"
+           x="68.938698"
+           y="72.566879">is formatted correctly</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-9-6"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURB VDiNpZK9S1tRGMZ/5yar8SNE/MBILZGYgmQpSkdNF7UOSsmklPQ/6NiiCFqnToWOCq1U1EEw1UlL 1wYp+J3YWoIooTGNYtBNz+vgjdybmGLx2c7hfZ7zex8O3FMKwPVqrF0ZTCK03NG0o5WO5N4NxwyA /zEDCAQQYwLAMG/8tw3WlbuocZWVoggAOK2r5NXb6me0p5PGqgoAfh5leRNdZjnxuyAjT2BRXzDA x4F+vJUVbKbSxP9kaK52MxMJE/I/LCJxWg8OQ/H2WQiAF1PzLGzEARhsC/L+eTfjvU9ZsVPYCXwe N7XlZcT2D2/MAJ9iayRMksJObAFKXVehtS5CvRS5NihbXfaAX0dZMmfntD9osO3bFwzwqLaaZPaE 1GmudAcXWjOy9I0P4R7mXob5njzA6XDw2FuPCAx9+VpE5iy8+Ly6jiCMdHXwpMkLQOo0x+voCotb uyUDBMtfmF7dYPbHJj6PGy3CXuYYbXZgkdwEKIiL+bPyutRCIv236EWLewfMErXSEYHtktMFXoFt NJE7zv9bV5qUh3w/tnSHAAAAAElFTkSuQmCC "
+         id="image7087-7"
+         x="106.84805"
+         y="49.011959" />
+    </g>
+    <g
+       id="g6670-1-00-9-4"
+       transform="translate(147.42657,124.03459)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="69.890984"
+         y="55.992973"
+         id="text6491-6-7-5-26-7"><tspan
+           sodipodi:role="line"
+           id="tspan1096"
+           x="69.890984"
+           y="55.992973">GTT-98</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="68.938698"
+         y="61.983551"
+         id="text6577-8-1-5-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan1090"
+           x="68.938698"
+           y="61.983551">Total field</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1092"
+           x="68.938698"
+           y="67.275215">is calculated</tspan><tspan
+           sodipodi:role="line"
+           id="tspan1094"
+           x="68.938698"
+           y="72.566879">correctly</tspan></text>
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:0.1;stroke:#0000ff;stroke-width:0.416509;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+         id="rect6597-0-8-9-8-7"
+         width="47.843491"
+         height="28.412491"
+         x="67.248741"
+         y="46.668983" />
+      <image
+         width="6.3499999"
+         height="6.3499999"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeQuality"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURB VDiNpZK9S1tRGMZ/5yar8SNE/MBILZGYgmQpSkdNF7UOSsmklPQ/6NiiCFqnToWOCq1U1EEw1UlL 1wYp+J3YWoIooTGNYtBNz+vgjdybmGLx2c7hfZ7zex8O3FMKwPVqrF0ZTCK03NG0o5WO5N4NxwyA /zEDCAQQYwLAMG/8tw3WlbuocZWVoggAOK2r5NXb6me0p5PGqgoAfh5leRNdZjnxuyAjT2BRXzDA x4F+vJUVbKbSxP9kaK52MxMJE/I/LCJxWg8OQ/H2WQiAF1PzLGzEARhsC/L+eTfjvU9ZsVPYCXwe N7XlZcT2D2/MAJ9iayRMksJObAFKXVehtS5CvRS5NihbXfaAX0dZMmfntD9osO3bFwzwqLaaZPaE 1GmudAcXWjOy9I0P4R7mXob5njzA6XDw2FuPCAx9+VpE5iy8+Ly6jiCMdHXwpMkLQOo0x+voCotb uyUDBMtfmF7dYPbHJj6PGy3CXuYYbXZgkdwEKIiL+bPyutRCIv236EWLewfMErXSEYHtktMFXoFt NJE7zv9bV5qUh3w/tnSHAAAAAElFTkSuQmCC "
+         id="image7087-23-7"
+         x="106.84805"
+         y="49.011959" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.565, 2.26;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 132.98714,61.057142 V 46.778398"
+       id="path1098"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g6670-1-9"
+       inkscape:connection-end="#g6670-1-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.823026,99.073197 109.0654,84.14019"
+       id="path1100"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g6670-1-0"
+       inkscape:connection-end="#g6670-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.90889,64.296947 57.18895,-26.21712"
+       id="path1116"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g6670-1-00"
+       inkscape:connection-start="#g6670-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 156.90889,72.773315 214.2154,66.808141"
+       id="path1118"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g6670-1-00-3"
+       inkscape:connection-start="#g6670-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.90889,81.121935 57.72584,14.137327"
+       id="path1120"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g6670-1-00-1"
+       inkscape:connection-start="#g6670-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.90889,89.334047 58.68956,34.520933"
+       id="path1122"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g6670-1-00-9"
+       inkscape:connection-start="#g6670-1-9" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.565, 1.695;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 133.11138,160.20671 0.1295,14.80791"
+       id="path1124"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g6670-1"
+       inkscape:connection-end="#g6670-1-1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.90889,154.81384 57.76642,21.28261"
+       id="path1126"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g6670-1-00-9-4"
+       inkscape:connection-start="#g6670-1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.823026,118.28348 109.0654,135.66699"
+       id="path1128"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g6670-1-0"
+       inkscape:connection-end="#g6670-1" />
+    <g
+       id="g1488"
+       transform="translate(-23.653353,2.1381562)">
+      <image
+         width="29.36875"
+         height="9.1281252"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAXCAYAAACswNlYAAAABHNCSVQICAgIfAhkiAAAA75JREFU
+WIXtmF9oW3UUxz9dSx8WX9TdJNDYgpsw2fUKMZukNgimFuFCIGEilsIoIYSWCtFB6SB9mFNbgoWA
+YCyldOumL0ILYfdJwqwZzq0haoyyl8o2M03S7mGKQzJCfcgf0+Tu5k8L2yQfCOR3fvd3fueee873
+/rgd29vb27Spy76HHcDjQjtRDdJOVIN0VRvWr6b4JHiFO1v3GnJwQNjPhM/K0WOmPQ/uUaKjWsxP
+DH/J1mZjSSohCDrOfnG8ypphZczDeFRlgc1LIiSjbzLYxkgQFP3MlscyF5NeLLv0WlNRzSYJYHPz
+bxWrAVcojAsoBH+B3kgAl6Fp92Wyq5NIv46QPimpX5BRcNvXkCNh0qV94gorGbDU3Vc7xppEVWM5
+1sPh5wX++P0voms3yOXy9ZY8PG6nUGyvMlN5o2a5+LB2h6aYu948wukPB3l75EXemxzg/Y8G6ezs
+2INtofAEHRiLP/dqpjyTXZ0s243iPDEgNudAmr4OS36MooNgXMVljwk5usbljMocUJCD//Y0ziWK
+ZgW36GeW64zbHRjHFLJVKzUr6vhbIgB3tu7x+fkf6QCOvmxi/WqKfH4359SCjrAcJm0ujedY6Q/g
+QuHU9EEuJgMFXYkniAGWk2ESz9ZpPYPM4nIKo93BeI0OFjRTGVogHTKUx8F4GJ9ZZjH5jGbraVZU
+d3cXuVyehc/WcXte4p13rUyffo2Zj9+gq2sXJ4v4FWZtXobNJYPE8BlQvi2Vwga3Sn/NUnNCbPaS
+ToZJDK0hVVZqJoYSlRlzlrJgwOWRmb2UaMitZkVdimwgCDoGhw6he6K7bD8i6ukf6OWbr280cwtl
+sjc3IKogifM7J0Yz4JRZjIDb7mAcmFoO4zOrutFE7wyQdiYIih6CfWF8pFBQUERl54U2E1mkum9g
+zUQthNY59NzTTPisNXNPPrW/2djL6PsOwmidFkrKlHQs2GKyQGJgFEI3M9BvQrZ5mWnxWKLZP7lc
+nl9+znLtu9922O/fzxO7lmphuyJmK1NLfnVBjs9X2A302prwu2MtQILLS/BCnwEMFmTmObX6QKXX
+pO7xAODCuR/o7NzHK7Y+7t79h/Nnv+d26s+WNiwg4Yt4cdsdGMu2w3waCeDqMfFThV0+s8BisZr0
+zhGmRD/GpQe0ZNVaqLzOgCv0AbdED8ZptfmCTkqqLwKVk7n8+rmWbl356kRL6x4XalrvgNC89giC
+bk+CeZSpSdSEz9pUsgRBpyr2/zdqWq+NOu3vUQ3STlSDtBPVIO1ENci/19VN5YGQS1YAAAAASUVO
+RK5CYII=
+"
+         id="image1424"
+         x="53.202087"
+         y="154.99585" />
+      <image
+         width="31.749998"
+         height="10.31875"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAaCAYAAAAg0tunAAAABHNCSVQICAgIfAhkiAAAAyRJREFU
+aIHtmD1IG2EYx39KnArpUDDBBEtroQ42Q8hQRafQ6SQ0GYsEgkhQCpUGJIJCQcEgKBaKEiQIkllL
+8JaCdBDqYkOJGVpES/1oE6GDLZ20psPlO5eYy0VK2vtNed/n8jwP//yf9+7SlEqlUmjUTPPfbqDR
+0QRUiSagSjQBVaIJqBJd8cavvTckxOdc/PxWXQJ9G0Zhnhv3HtW9uUagqfgxZv/lAy5+fFWURKc3
+0fEsVrSbZG14iJEtmS/0eYktCbQqbPZqZGrm14oGMS6b61q7xIFKxZO+cyKza8C1FMEFQIyFrjDt
+m7O4DIrTZzldH8NyMEDCZ6l4nX81wqhV+rwz58AyzDX9YP/BGWjzTePfOubwmvKXODCflptm7jx9
+Lxu7ODvi4JVNRekYC10TBNIrYWqZkFOy5+n6GJbJj5kIG3EvzDnoXwGYwLhS6LKKJI/YBXrlYtEg
+RreYXeZ6kI6Cw6FpcGd67GRRZoIqCnh+dszejLlMVM0boCQeqxES1sx6jrWeWVyIjE92sBGfxQYQ
+jbED2HwRYnerG+F8dsJBRM80IbnYW9iIR9J1ghjdr9lxesnYIuDeZiMeIYF0FPS/EOktOgoUO1C9
+84DoNoE+L7Gsgyw8mYLxd0lcPQD7HCbBZgCsFpRWC7gdWWfjmS4ruM3nzS2s3fgJ5+oC/tWcmLYB
+L4JdOgqqFlDeger/ezj9sg9bIpauYGHAkwSnQGgTBu0ORlAwqnlUP94ig/YguSHuZFFZqeodWBfn
+pWm93QGeCqNoEAjFBaTRdrBQg4hXkhQZtB8zHI+kx1t6UlBKxbtwxoF7M2Y+Lz6srVE5rN34VyZY
+iMrEosG8fQPtffUrW8DJMWKfmfZs3e3c2CugKgeefQiTFH01pC+HhdFNL4N2B8bsXvouZzKzm7cv
+TC0TSruv1TmAv0vhXbgc1scsMpQ7RjwC/hrSlLyJfJq6VXhBcwup1CWkfldMdH/yew3lG5+SEdbp
+2wrWqcvzK8XT6U317aqBKBHQKMyXiFgJnd6EUZiva1ONRMkIayjjn38Xvm40AVWiCagSTUCVaAKq
+5A8siyiSuhK2cQAAAABJRU5ErkJggg==
+"
+         id="image1438"
+         x="53.202087"
+         y="145.60339" />
+      <image
+         width="19.049999"
+         height="9.1281252"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAXCAYAAABNq8wJAAAABHNCSVQICAgIfAhkiAAAAvRJREFU
+WIXtl29IE3EYxz83feufUrf1b5LDHDWGDKESfJP2ptnARQmloUlJUiBYYjkhkCIMQcIKCZGsIHyh
+tLQX5eiFUIkitYTMsjBK3NREq3d51wt3h+6mzckYgR84uHt+f+77vef5/e5OkCRJ4j9GE20B62XD
+QLT57w3EyicD498519HNB+90SANNumSaC/PJMmyLmLhQEORdaO+NlpDFy5j0Kby+cCYg6qXz7Gkq
++oIMyCnHc8eGNkyxwVAMbLp4lWAb6taEeERJYnL+p3qwALM3aleZ3kOT+QEGdwMOXfgifV3VWD4X
+MVllUbUpJRQo3m4xUZ+fS+rmRABGfTPUup7zfGSMlcZEg6CL2JG5m3vFRzBsSuTdhJf3k1Ps0ibx
+6FQheSbjOm/poclsR+8/yrq8Souvq1qJ680tDAKDjXYsdSPQ5kRvttM0tHy2WAKI0QhcPZwHQMn9
+Th573gNwcm8mN4/auGY/SO+SLKxdvBPaXUxa5etGOrMbcNDDpToj3cMNZAEMeRgEsqpceNJWLiFV
+BtJTktiSEEf/+DdFPEB7/xtG/JnQx8eFp3/oFddzyjlulQMWjtdDz0s5C2N8lU+tlkUj/0CVAUEQ
+ABBFUdV5wV/0Gn+fteIbH4O+HizmluUNpV4osNHqhrJcOxVATbuLSmvQaZahMvDRN8PUr9/s27mD
+PJNRKRdH5m72bNHyZWaWibn5sAxoU41QGrwUANDZaB22Ia+TphBMqErojyhypecFGkGgo6yQpxXF
+PDtfQuuJAiQJ6p64wxIPgHU/NW1O1UIEYKhlSVyHISe0KVUZAHg48BYJiSuHDpCdZgBgYm6ey65e
+uoc/rF24goVKdzlluXb0SszEbXcDjm3bebckbqu/S6v/6WsLiqgxO9G3qUtr1RdZjEYgPSUJUZL4
+NPUDMaDDv19kkUcpoQxtsqpxQZQY8U4z6ptRiQfI0KVEVl0IKAaaC/Mx6UMTJAiL30G3juVHTFio
+CBu/lFFmw0C0+Qu9ag/cMO2wyQAAAABJRU5ErkJggg==
+"
+         id="image1466"
+         x="53.839367"
+         y="163.14842" />
+      <image
+         width="23.415625"
+         height="9.921875"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAZCAYAAACPQVaOAAAABHNCSVQICAgIfAhkiAAAAydJREFU
+WIXtmE1Ik3Ecxz+WogftEvg8oBi9IB50hzEoYWIx8PLEyl3qIIHYkHkKBMloZCwsRoKnyZAQpEsE
+08aeDoLIUCJhKK4dQnpVg+cRvFSHQsoO8+XxeZ5tbm5K2RceePb/vX7/v9//5VnRxsbGBkcExw47
+gYPEf7L/Ko4U2WL9wIy6SH/8BWs/v2fl6GRpOXcsV7ALtXlLLt8wVDYXogBrP7/TH3+Rl6QKBQPZ
+XIhmto0zWO9E3H6CxHKOkjsMbaxHRUkZ105fMJU9+/iab+s/0jtQZTocUaTJMIqwOTYnE1LBJkBs
+wMnQmWGetApp3eQDGcleP93IzdqLprIiihhenErv4MsKclMzD7VcrBKuLJLMFwq/G1dVI01HmVH1
+ApWQx8nlEZC9bsT6HkJbOnNBTcs7EQfiGrs4g/U9hMY2dQaihDxOBueMvjvGdgctPFlB4snoWboc
+TkSPzOqOANdQmEg7SL5hlIQfl0CS6I33BCbDKIkwSmKYwLu7usTf0vWhMSnvbsbeUsejKc2EqDHk
+aQmPbmkczDlr7URJhIm3RLHUG2dci9iUjOTrThIHQMDllpAnYpqJqiPQZtn+Vdnaxu2Rp9udsfoq
+itzeiE3n+0AvFZWtfpTEAxq8bl3bbUFl6R00nNJtVlXVSNMrLKX0bMHe/hb5lQqozEywazK2kBVZ
+38I4voXxbExSJAZvPptVV6DmXApZUzU1abzaLm1WX40h04zdZHPfM1nfwjiR5Xkiy/PZEZ4L6qoY
+Z2bEpHrapL0DO5sVKqG+ILTYqEwXx3qVAFF6+4I0uCVT3YxHD+wQ3UJkeZ7y4jIqSsoyG1dV88bh
+RNQM3R4Nc8uafLe1dYLDjeitIzDpx2XtRBkNIjqcdG3qS769nMMC9hbo8kp4hsw1ivQf7+cj93Yp
+VJSUpbw41J4QWfyq7BqbvXw/Q1KFw+pYD5YPbSjdxvUKe6hsuhuSnuihQpXp9UJg0pwo6Nbs+u9f
++4p3srR8X/a5IXmBEB1BGkb9miPLCEMbP0685Pmn2axD/g2feAaykKxwybHjh5FPQWFK9l/Fkfpb
+5kiR/QODiCj1+4t8awAAAABJRU5ErkJggg==
+"
+         id="image1480"
+         x="52.442245"
+         y="171.74188" />
+    </g>
+    <rect
+       style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1490"
+       width="41.827679"
+       height="43.431301"
+       x="24.321527"
+       y="144.59282" />
+    <rect
+       style="opacity:0.1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1492"
+       width="75.904549"
+       height="204.72845"
+       x="196.97765"
+       y="4.0090427" />
+    <rect
+       style="opacity:0.1;fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0.564999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1494"
+       width="64.679222"
+       height="114.9259"
+       x="101.29515"
+       y="53.186634" />
+  </g>
+</svg>
