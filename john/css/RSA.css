@@ -47,6 +47,11 @@ img[alt=logo-end] {
 	background: white !important;
 }
 
+img[alt=github] {
+	border:0;
+	background: white !important;
+}
+
 /* hide title h3 but show on footer */
 .hide-h3 {
 	display: none;
