@@ -63,6 +63,10 @@ img[alt=external-environment] {
 	width: 400px;
 }
 
+img[alt=grange-wordcloud] {
+	margin: -8%
+}
+
 .med-icon {
 	width: 200px;
 }
