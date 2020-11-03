@@ -31,6 +31,233 @@ img[alt=change-wordcloud] {
 	height: 80%;
 }
 
+img[alt=periodic-table] {
+	width: 650px;
+	background: #73AD21;
+}
+
+img[alt=values-define-us] {
+	width: 650px;
+}
+
+img[alt=honeycomb] {
+	width: 600px;
+}
+
+img[alt=field-cultivate] {
+	width: 600px;
+}
+
+img[alt=shared-understanding] {
+	width: 500px;
+	background: #73AD21;
+}
+
+img[alt=world-flags-globe] {
+	width: 500px;
+	background: white;
+	border-radius: 250px;
+}
+
+img[alt=external-environment] {
+	width: 400px;
+}
+
 .med-icon {
 	width: 200px;
 }
+
+/* Begin: "Borrowed" from Agile bird's eye.  Lines, spots, tree, etc. */
+
+.lineHorizontal {
+  border-bottom: 5px dashed white;
+  width: 30%;
+  height: 100px;
+}
+
+.big-spot {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #024b30;
+}
+
+.title-spot {
+	width: 200px; 
+	height: 200px;
+}
+
+.centered-text-block {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.agile-roots-position {
+	position: absolute;
+	left: 25%;
+	top: 70%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-purpose-position {
+	position: absolute;
+	left: 78%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-purpose-line-position {
+	position: absolute;
+	left: 58%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.agile-frameworks-position {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.choose-your-path-position {
+	position: absolute;
+	left: 78%;
+	top: 10%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.choose-your-path-line-position {
+	position: absolute;
+	left: 58%;
+	top: 10%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.obtaining-feedback-rapidly-position {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+}
+
+.respond-to-change-position {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.rotate-line-20 {
+	transform:rotate(20deg);
+}
+
+.lineHorizontal {
+  border-bottom: 5px dashed white;
+  width: 30%;
+  height: 100px;
+}
+
+.agile-purpose-line-position {
+	position: absolute;
+	left: 58%;
+	top: 45%;
+	margin-left:-100px; /* radius of .title-spot */
+}
+
+.upper-left-screen {
+	position: absolute;
+	top: 3%; 
+	left: 3%;
+}
+
+.circle-outer-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.full-slide {
+	height: 100%;
+	width: 100%;
+}
+
+.obtaining-feedback-rapidly-position {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+}
+
+.respond-to-change-position {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+.communicate-openly-position {
+	position: absolute;
+	left: 20%;
+	top: 30%;
+}
+
+.be-one-team-position {
+	position: absolute;
+	left: 35%;
+	top: 55%;
+}
+
+.solve-creatively-for-tomorrow-position {
+	position: absolute;
+	left: 53%;
+	top: 40%;
+}
+
+.deliver-excellence-position {
+	position: absolute;
+	left: 70%;
+	top: 60%;
+}
+
+.do-the-right-thing-position {
+	position: absolute;
+	left: 80%;
+	top: 30%;
+}
+
+.purpose-spot {
+	width: 225px; 
+	height: 225px;
+}
+
+.company-value-spot {
+	width: 175px; 
+	height: 175px;
+	font-size: 25px;
+	line-height: 1;
+}
+
+/* End: "Borrowed" from Agile bird's eye.  Lines, spots, tree, etc. */
+
+.subtle-gray-gradient {
+	background-image: linear-gradient(grey, white);
+	border-radius: 10px;
+}
+
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    background-color: white;
+}
+
+.text-bubble {
+    position: absolute;
+    line-height: normal;
+}
+
