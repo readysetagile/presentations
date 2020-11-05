@@ -21,7 +21,20 @@ body {
 	height: 100px;
 }
 
-img[alt=CHANGE_ME_SAMPLE] {
-	width: 90%;
-	height: 90%;
+img[alt=fishbowl] {	
+	height: 85%;
+	width: 45%;
 }
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    background-color: white;
+}
+
+.text-bubble {
+    position: absolute;
+    line-height: normal;
+}
+
