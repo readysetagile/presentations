@@ -1,0 +1,101 @@
+/*********************************/
+/* Custom CSS for Fast-tracking a DevOps Movement with Jira
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/atlassian/postits.png' ) !important;
+  background-repeat:no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: bottom left, center !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+  background-size: 100px 100px, cover !important;
+}
+
+img[alt=xray-logo] {
+	width: 300px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=confluence] {
+	width: 400px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=acceptance-criteria] {
+	width: 500px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=jira-board] {
+	width: 550px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=xray-logo] {
+	width: 400px;
+	background: white !important;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=growth] {
+	width: 400px;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+img[alt=checkmark] {
+	width: 100px;
+	border: 0;
+	vertical-align: middle !important;
+}
+
+
+#metrics-list
+{
+	font-size: x-large;
+}
+
+#atlassian-logo {
+    background: #0052CC;
+    height: 60px;
+	
+    margin-top: 25px;
+    display: block;
+}
+
+#atlassian-logo img {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;}
+
+#logo-title-automated-testing {
+	border:0;
+	background: white;
+	width: 400px;
+}
+
+#left-split-no-fixed-width {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  z-index:-10;
+}
+
+#right-split-no-fixed-width {
+  left:31.25%;
+  top: 75px;
+  float: left;
+  text-align: left  !important;
+  z-index:-10;
+}
