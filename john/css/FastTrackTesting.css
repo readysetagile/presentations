@@ -13,6 +13,23 @@ body {
   background-size: 100px 100px, cover !important;
 }
 
+
+img[alt=DevOps-wordcloud] {
+	width: 800px;
+	background: white !important;
+	border: 0;
+	top: 0 !important;
+	vertical-align: middle !important;
+}
+
+img[alt=devops-culture] {
+	width: 450px;
+	background: white !important;
+	border: 0;
+	top: 0 !important;
+	vertical-align: middle !important;
+}
+
 img[alt=xray-logo] {
 	width: 300px;
 	background: white !important;
