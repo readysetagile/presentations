@@ -3,7 +3,7 @@
 /*********************************/
 
 body {
-  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' ) !important;
+  background-image: url( 'x' ), url( '../../lib/img/global/workinghands.png' ) !important;
   background-repeat:no-repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: bottom left, center !important;

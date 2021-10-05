@@ -262,6 +262,21 @@ img[alt$="h550"] {
 	vertical-align: top;
 }
 
+.poll {
+	float: right;
+	border-radius: 15px;
+	border: 10px solid white;
+	color: white;
+	background: #73AD21;
+	font-family: "Segoe UI";
+	font-size: 31px;
+	display:inline-block;
+	font-weight: 1000;
+	padding: 10px 30px 10px 30px; 
+	height: auto;
+	vertical-align: top;
+}
+
 /* two boxes across a screen */
 .flex-container-2 {
 	/* main container */
