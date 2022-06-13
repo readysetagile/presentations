@@ -1,0 +1,101 @@
+/*********************************/
+/* Custom CSS for Intro to Git
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/git/git-bg.jpg' ) !important;
+  background-repeat:no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: bottom left, center !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+  background-size: 100px 100px, cover !important;
+  font-family: 'Raleway';
+}
+
+#logo-title {
+	height: 100px !important;
+}
+
+.git-font {
+	font-family: Courier, monospace, sans-serif !important;
+	font-weight: bold;
+}
+
+#fcc-logo {
+	width: 300px;
+}
+
+img[alt=git-logo] {
+	background-color: white;
+}
+
+img[alt=chan-what] {
+	background-color: white;
+}
+
+img[alt=snapshots] {
+	background-color: white;
+}
+
+img[alt=git-branches] {
+	height: 425px;
+}
+
+img[alt=footprint] {
+	height: 150px;
+}
+
+img[alt=diff-file] {
+	height: 425px;
+}
+
+img[alt=git-github] {
+	border-radius: 50%;
+	background-color: white;
+}
+
+img[alt=git-osdn] {
+	width: 175px;
+}
+
+img[alt=git-SourceForge] {
+	width: 175px;
+}
+
+.icon-grid-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.icon-grid-item-banner {
+	position: relative;
+    bottom: 60%;
+    width: 225px;
+	text-align: left;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.icon-grid-item {
+	height: 150px;
+}
+
+img[alt=git-vscode] {
+	width: 250px;
+}
+
+img[alt=git-intellij] {
+	width: 250px;
+}
+
+img[alt=git-eclipse] {
+	width: 250px;
+}
+
+img[alt=git-github-desktop] {
+	width: 250px;
+}

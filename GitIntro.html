@@ -1,0 +1,542 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction To Git | Presentations | Ready Set Agile</title>
+
+		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+
+		<!-- Font Awesome -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<!-- custom styles -->
+		<link rel="stylesheet" href="john/css/RSA.css">
+		<link rel="stylesheet" href="john/css/GitIntro.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="no-toc-progress">
+					<table>
+						<tr>
+							<td>
+								<h2>Intro<br>&nbsp;To<br>&nbsp;Git</h2>
+								<h3 class="hide-h3">@ReadySetAgile</h3>
+							</td>
+						</tr>
+					</table>
+					<hr>
+					<table>
+						<tr>
+							<td>
+								<div id="fcc-logo"><img src="lib/img/logos/fcc_cmh.jpg"></div>
+							</td>
+							<td id="title-right-side">
+								<div id="presenter-name">John Riley</div>
+								<div id="presenter-job-title">Free Code Camp Columbus co-admin</div>
+							</td>
+							
+						</tr>
+					</table>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Share Your Experience
+					---
+					</div>
+					<section>
+						<div class="social-media-block">
+							&nbsp;<img src="lib/img/global/discord.png">&nbsp;#panel-questions<br>
+							&nbsp;<img src="lib/img/logos/fcc_fire.svg">&nbsp;https://forum.freecodecamp.org/<br>
+						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### We are artists!
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<img alt="artist-image" src="lib/img/git/artist.png">
+						</div>
+						<br><br><br>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<ul>
+								<span class="fragment"><li>Files are our canvas</li></span>
+								<span class="fragment"><li>Code is our paint</li></span>
+								</ul>							
+							</div>
+						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Better yet...We are architects!
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<img alt="architect-drawing" src="lib/img/git/architect-drawing.jpg">
+						</div>
+						<br>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<ul>
+								<span class="fragment"><li>Files are our blueprint</li></span>
+								<span class="fragment"><li>Code is our design</li></span>
+								<span class="fragment"><li>We often rethink our design!</li></span>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section>					
+					<div data-markdown data-template>
+					### Our craft is organized
+					---
+					</div>
+					<section data-markdown data-template>
+					![file-structure](lib/img/git/file-structure.png)
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Our solutions give us power!
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<img alt="heroes" src="lib/img/git/heroes.png">
+						</div>
+						<br><br><br>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<ul>
+								<span class=""><li>We are proud of our accomplishment</li></span>
+								<span class=""><li>Something the world has never seen</li></span>
+								<span class=""><li>We value them</li></span>
+								</ul>							
+							</div>
+						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### We have some needs
+					---
+					</div>
+					<section>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="secure-backup" src="lib/img/git/secure-backup.png">
+						</div>
+						<div id="right-split" class="text-left">
+							<br><br><div class="block-caption">Secure backups</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="secure-backup" src="lib/img/git/snapshot-file-structure.png">
+						</div>
+						<div id="right-split" class="text-left">
+							<br><br><div class="block-caption">Take a snapshot of our canvas</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="secure-backup" src="lib/img/git/snapshot-file-structure.png">
+						</div>
+						<div id="right-split" class="text-left">
+							<br><br><div class="block-caption">Easily retrieve previous snapshots</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="diff-merge" src="lib/img/git/diff-merge.png">
+						</div>
+						<br>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<ul>
+								<span class=""><li>Visually see file differences between snapshots</li></span>
+								<span class=""><li>Choose the difference that makes sense</li></span>
+								<span class=""><li>Replace those changes into our current canvas</li></span>
+								</ul>							
+							</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="footprint" src="lib/img/git/footprint.svg">
+						</div>
+						<div id="right-split" class="text-left">
+							<div class="block-caption">Has a small footprint</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="superheroes" src="lib/img/git/superheroes.jpg">
+						</div>
+						<div id="right-split" class="text-left">
+							<div class="block-caption">Work with our fellow superheroes</div>
+						</div>
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					## Our superpower
+					---
+					</div>
+					<section>
+					</section>
+					<section data-markdown data-template>
+						# Git !
+					</section>
+				</section>
+				<section>
+					<div>
+						<div class="poll"><i class="fas fa-poll"></i></div>
+						<h3>Poll: Let's take a poll</h3>
+						<hr>
+					</div>
+					<section>
+						<div class="block-caption">
+							<span class="summary-caption">Get your device ready for</span>
+							<p>
+							<span>Your current understanding of Git</span>
+							</p>
+						</div>
+						Results will be posted here later
+					</section>
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### What is Git?
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<img alt="git-logo" src="lib/img/git/git-logo.svg">
+						</div>
+						<br>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<blockquote>"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."</blockquote>
+							<div id="quote-source">https://git-scm.com/</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<img alt="git-logo" src="lib/img/git/git-logo.svg">
+						</div>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<blockquote>"Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses [other] SCM tools ... with features like cheap local branching, convenient staging areas, and multiple workflows."</blockquote>
+							<div id="quote-source">https://git-scm.com/</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption">More facts...</div>
+							<div class="bulleted-slide-content">
+								<br>
+								<ul>
+								<span class="fragment"><li>Many visual tools and development platforms use Git as a backbone</li></span>
+								<span class="fragment"><li>Most git operations are done locally</li></span>
+								<span class="fragment"><li>Teams AND single users can benefit from use</li></span>
+								<span class="fragment"><li>Easy to learn, but also easy to complicate</li></span>
+								</ul>
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<img alt="git-logo" src="lib/img/git/git-logo.svg">
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption">Surprisingly...</div>
+							<div class="block-caption">
+								<img alt="chan-what" src="lib/img/git/chan-what.svg">
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<div class="bulleted-slide-content">
+								<ul>
+								<span class="fragment"><li>...many job descriptions don't list it as a requirement...</li></span>
+								<span class="fragment"><li>...but most dev teams assume some knowledge...</li></span>
+								<span class="fragment"><li>...and it's essential for day-to-day work!</li></span>
+								</ul>							
+							</div>
+						</div>						
+					</section>
+				</section>
+				<section data-markdown>
+					# Basic concepts
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Basic concepts
+					---
+					</div>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption git-font">Repository (.git directory)</div>
+							<div class="block-caption">
+								Main data store of changes
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<img alt="repository" src="lib/img/git/repository.png">
+						</div>						
+					</section>
+					<section>
+						<div class="summary-caption git-font">Git thinks about its data as a stream of snapshots</div>
+						<div class="block-caption">
+							<img alt="snapshots" src="lib/img/git/snapshots.png">
+							<div id="quote-source">- https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git</div>
+						</div>
+					</section>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption git-font">Working directory / Working tree</div>
+							<div class="block-caption">
+								A single version of the project files for you to use or modify.
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<img alt="file-structure" src="lib/img/git/file-structure.png">
+						</div>						
+					</section>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption git-font">Staging area</div>
+							<div class="block-caption">
+								Stores information about what will go into your next "commit"
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<img alt="file-structure" src="lib/img/git/file-structure.png">
+						</div>						
+					</section>
+					<section>
+						<div id="left-split">
+							<div class="summary-caption git-font">A commit</div>
+							<div class="block-caption">
+								A permanent snapshot of your changes from the staging area
+							</div>
+						</div>
+						<div id="right-split" class="text-left">
+							<img alt="file-structure" src="lib/img/git/file-structure.png">
+						</div>						
+					</section>
+					<section>
+						<div class="summary-caption git-font">Git workflow</div>
+						<div class="block-caption">
+							<img alt="git-workflow" src="lib/img/git/git-workflow.png">
+							<div id="quote-source">- https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git</div>
+						</div>
+					</section>
+				</section>
+				<section data-markdown>
+					# When things get exciting
+				</section>
+				<section>
+					<div class="block-caption">
+						<span class="summary-caption">Get your device ready for</span>
+						<p>
+						<span>Importance of upcoming topics</span>
+						</p>
+					</div>
+					Results will be posted here later
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### When things get exciting
+					---
+					</div>
+					<section>
+						<div class="summary-caption git-font">Branches</div>
+						<div class="block-caption">
+							<img alt="git-branches" src="lib/img/git/git-branches.svg">							
+						</div>
+						<aside class="notes">
+							Branches: diverge from the main line of development and continue to do work without messing with that main line
+						</aside>
+					</section>
+					<section>
+						<div class="summary-caption git-font">diff</div>
+						<div class="block-caption">
+							<img alt="diff-file" src="lib/img/git/diff-file.png">
+						</div>
+						<aside class="notes">
+							
+						</aside>
+					</section>
+					<section>
+						<div class="summary-caption git-font">Remotes</div>
+						<div class="block-caption">
+							<img alt="git-remotes" src="lib/img/git/git-remotes.svg">
+						</div>
+						<aside class="notes">
+							Branches: diverge from the main line of development and continue to do work without messing with that main line
+						</aside>
+					</section>
+					<section>
+						<div class="summary-caption git-font">Source Code hosting Facilities (A Forge)</div>
+						<div class="block-caption">
+							<div class="icon-grid-container">
+								<div class="icon-grid-item">
+									<img alt="git-github" src="lib/img/git/logo-github.svg">
+									<div class="icon-grid-item-banner"><br><br>GitHub</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-gitlab" src="lib/img/git/logo-gitlab.svg">
+									<div class="icon-grid-item-banner"><br><br>GitLab</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-assembla" src="lib/img/git/logo-assembla.svg">
+									<div class="icon-grid-item-banner"><br><br>Assembla</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-bitbucket" src="lib/img/git/logo-bitbucket.svg">
+									<div class="icon-grid-item-banner"><br><br>BitBucket</div>
+								</div>
+								<img class="icon-grid-item" alt="git-launchpad" src="lib/img/git/logo-launchpad.svg">
+								<div class="icon-grid-item">
+									<img alt="git-SourceForge" src="lib/img/git/logo-SourceForge.svg">
+									<div class="icon-grid-item-banner"><br><br>SourceForge</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-gnu-savannah" src="lib/img/git/logo-gnu-savannah.png">
+									<div class="icon-grid-item-banner"><br><br>GNU Savannah</div>
+								</div>
+								<img class="icon-grid-item" alt="git-osdn" src="lib/img/git/logo-osdn.svg">
+								<div class="icon-grid-item">
+									<img alt="git-ourproject" src="lib/img/git/logo-ourproject.png">
+									<div class="icon-grid-item-banner"><br><br>OurProject</div>
+								</div>
+							</div>
+						</div>
+						<aside class="notes">
+							Forge: a file archive and web hosting facility that can use GitHub as its version control system
+						</aside>
+					</section>
+					<section>
+						<div class="summary-caption git-font">IDE Integration</div>
+						<div class="block-caption">
+							<div class="icon-grid-container">
+								<div class="icon-grid-item">
+									<img alt="git-vscode" src="lib/img/git/logo-vscode.svg">
+									<div class="icon-grid-item-banner"><br><br>VSCode</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-intellij" src="lib/img/git/icon-intellij.svg">
+									<div class="icon-grid-item-banner"><br><br>IntelliJ</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-eclipse" src="lib/img/git/logo-eclipse.svg">
+									<div class="icon-grid-item-banner"><br><br>Eclipse</div>
+								</div>
+								<div class="icon-grid-item">
+									<img alt="git-github-desktop" src="lib/img/git/logo-github-desktop.svg">
+									<div class="icon-grid-item-banner"><br><br>GitHub Desktop</div>
+								</div>
+							</div>
+						</div>
+						<aside class="notes">
+							
+						</aside>
+					</section>
+				</section>
+				<section data-markdown>
+					# Next Steps
+				</section>
+				<section>
+					<div data-markdown data-template>
+					### Next Steps
+					---
+					</div>
+					<section>
+						<div class="summary-caption git-font">Download the command line version...</div>
+						<div class="block-caption">
+							<pre id="git-font"><a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></pre>
+							* also find some GUI clients here
+						</div>
+					</section>
+					<section>
+						<div class="summary-caption git-font">To get started locally...</div>
+						<div class="block-caption">
+							<pre id="git-font">> git init</pre>
+						</div>
+					</section>
+					<section data-markdown data-template>
+						#### Other Resources
+						- [How to Use Git and GitHub in a Team like a Pro](https://www.freecodecamp.org/news/how-to-use-git-and-github-in-a-team-like-a-pro/)
+						- [Git for Professionals – Free Version Control Course](https://www.freecodecamp.org/news/git-for-professionals/)
+						- [Git Tutorial](https://www.toolsqa.com/git/git-tutorial/)
+					</section>
+				</section>
+				<section>
+					<div class="block-caption">
+						<span class="summary-caption">Results of the poll</span>
+						<p>
+						<span>Let's take some time to review the results</span>
+						</p>
+					</div>
+					Results will be posted here later
+				</section>
+				<section data-state="no-toc-progress">
+					<div data-markdown data-template>
+						### Thank you!
+						---
+					</div>
+					<section>
+						<img src="lib/img/logos/fcc_cmh.jpg">
+						<h4>john@ReadySetAgile.com <br>- John Riley</h4>
+					</section>
+				</section>	
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'fade', // default/convex/cube/page/concave/zoom/linear/fade/none
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch ],
+
+				dependencies: [
+					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
