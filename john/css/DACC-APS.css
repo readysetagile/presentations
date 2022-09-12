@@ -1,0 +1,29 @@
+/*********************************/
+/* Custom CSS for Intro to Git
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/git/git-bg.jpg' ) !important;
+  background-repeat:no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: bottom left, center !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+  background-size: 100px 100px, cover !important;
+  font-family: 'Raleway';
+}
+
+#logo-title {
+	height: 100px !important;
+}
+
+.git-font {
+	font-family: Courier, monospace, sans-serif !important;
+	font-weight: bold;
+}
+
+#dacc-logo {
+	width: 300px;
+}
+
