@@ -1,0 +1,57 @@
+/*********************************/
+/* Custom CSS for Intro to Git
+/*********************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/git/git-bg.jpg' ) !important;
+  background-repeat:no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: bottom left, center !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+  background-size: 100px 100px, cover !important;
+  font-family: 'Raleway';
+}
+
+#logo-title {
+	height: 100px !important;
+}
+
+.git-font {
+	font-family: Courier, monospace, sans-serif !important;
+	font-weight: bold;
+}
+
+#fcc-logo {
+	width: 300px;
+}
+
+img[alt=how-it-works] {
+	height: 500px;
+}
+
+img[alt=cartoon-question-mark] {
+	height: 400px;
+}
+
+img[alt=i-99-percent] {
+	width: 600px;
+}
+
+img[alt=i-50-75-k] {
+	width: 600px;
+}
+img[alt=i-250-applications] {
+	width: 600px;
+}
+img[alt=i-4-6-contacted] {
+	width: 600px;
+}
+img[alt=i-75-percent-not-seen] {
+    width: 2100px;
+}
+
+img[alt=check-mark-button] {
+	height: 300px;
+}
