@@ -57,6 +57,10 @@ img[alt=github] {
 	display: none;
 }
 
+#presentation-subtitle {
+    font-size: var(--r-heading3-size);
+}
+
 #title-right-split {
   left:31.25%;
   top: 75px;
@@ -69,6 +73,9 @@ img[alt=github] {
   font-size: 18pt;
 }
 
+.background-white {
+  background: white;
+}
 
 .social-media-block {
 	background: rgb(0,0,0,0.5);
@@ -168,6 +175,12 @@ img[alt=github] {
 	font-size: 18pt;
 	display: block;
 	text-align: right;
+}
+
+#presenter-name-and-title {
+	font-size: 24pt;
+	display: block;
+	text-align: center;
 }
 
 #pst-logo {
