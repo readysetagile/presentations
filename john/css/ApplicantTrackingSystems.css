@@ -55,3 +55,18 @@ img[alt=i-75-percent-not-seen] {
 img[alt=check-mark-button] {
 	height: 300px;
 }
+
+ .hack-container {
+    position: relative;
+     width: 100%;
+     height: 0;
+     padding-bottom: 78.25%;
+ }
+ 
+ .hack-slide {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
