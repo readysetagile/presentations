@@ -47,6 +47,16 @@ img[alt=logo-end] {
 	background: white !important;
 }
 
+img[alt=discord-icon] {
+    height: 25px;
+    width: 25px;
+}
+
+img[alt=email-icon] {
+    height: 25px;
+    width: 25px;
+}
+
 img[alt=github] {
 	border:0;
 	background: white !important;

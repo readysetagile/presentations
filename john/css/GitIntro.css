@@ -64,6 +64,18 @@ img[alt=git-SourceForge] {
 	width: 175px;
 }
 
+img[alt=git-gitea] {
+	width: 115px;
+}
+
+img[alt=git-codeberg] {
+	width: 115px;
+}
+
+img[alt=git-azure-devops] {
+	width: 115px;
+}
+
 .icon-grid-container {
 	display: flex;
 	justify-content: space-between;
@@ -98,4 +110,8 @@ img[alt=git-eclipse] {
 
 img[alt=git-github-desktop] {
 	width: 250px;
+}
+
+.fcc-discord {
+    height: 400px;
 }
