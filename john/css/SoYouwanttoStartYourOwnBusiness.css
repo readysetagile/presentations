@@ -1,6 +1,6 @@
-/*********************************/
-/* Custom CSS for Intro to Git
-/*********************************/
+/*********************************************************/
+/* Custom CSS for So You want to Start Your Own Business
+/*********************************************************/
 
 body {
   background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/StartBusiness/background.jpg' ) !important;
@@ -19,7 +19,82 @@ body {
 }
 
 
-img[alt=how-it-works] {
-	height: 500px;
+img[alt=temetnosce] {
+	height: 300px;
 }
 
+img[alt=customers] {
+	height: 300px;
+}
+
+img[alt=product-service] {
+	height: 300px;
+}
+
+
+img[alt=lean-canvas-big] {
+	height: 400px;
+}
+
+img[alt=lean-canvas-small] {
+	width: 400px;
+}
+
+img[alt=Ohio-SBDC23] {
+	background: white;
+}
+
+img[alt=library-research-tools] {
+	width: 500px;
+}
+
+img[alt=linkedin] {
+	width: 300px;
+}
+
+img[alt=five-minute-pitch] {
+	height: 400px;
+}
+
+img[alt=sales-funnel] {
+	width: 350px;
+    background: white;
+}
+
+img[alt=apom] {
+    margin-top: 100px;
+	height: 400px;
+    background: white;
+}
+
+
+img[alt=relationships] {
+	width: 350px;
+}
+
+.li-text {
+    font-size: 12pt;
+    white-space: nowrap;
+}
+    
+img[alt=StartBusiness-qr] {
+	height: 350px;
+}
+    
+#pres-qr img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#li-line {
+    display:inline-block;
+    font-size: 20pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#li-line img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
