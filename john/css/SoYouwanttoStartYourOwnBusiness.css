@@ -18,6 +18,9 @@ body {
 	height: 100px !important;
 }
 
+img[alt=jr-mug-2024] {
+	width: 350px;
+}
 
 img[alt=temetnosce] {
 	height: 300px;
