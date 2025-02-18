@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Serpentine';
+  src: url('../font/serpentine-bold-oblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+ /* force the top property to be 0 so Reveal.js cannot reposition the section tags. */
+/* .slides section {
+  top: 0 !important;
+  position: static !important;
+} */
+
+.top-rounded-blue-field {
+  background: rgb(0, 167, 157);
+  width: 100%;
+  height: 15vh;
+  border-bottom-left-radius: 50px; /* Adjust for desired roundness */
+  border-bottom-right-radius: 50px;
+  overflow: hidden; /* Ensures content does not overflow rounded area */
+
+  /* Ensure touch gestures work */
+  touch-action: pan-x pan-y pinch-zoom;
+
+  /* Center text inside */
+  font-family: 'Serpentine', sans-serif;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-rounded-blue-field {
+  background: rgb(0, 167, 157);
+  width: 100%;
+  height: 15vh;
+  /* position: absolute; */
+  bottom: 0;
+  border-top-left-radius: 50px;  /* Mirror effect */
+  border-top-right-radius: 50px;
+  overflow: hidden;
+
+  /* Ensure touch gestures work */
+  touch-action: pan-x pan-y pinch-zoom;
+
+  /* Center text inside */
+  font-family: 'Serpentine', sans-serif;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-rounded-blue-field img {
+    background: white;
+}
+
+.middle-field {
+  background: rgb(240, 240, 240); /* Light gray for contrast */
+  width: 100%;
+  height: 40vh; /* Takes up 60% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Optional Styling */
+  font-family: 'Serpentine', sans-serif;
+  font-size: 36px;
+  color: black;
+}
+
+.left-picture-circle {
+  position: absolute;
+  top: 20%; /* Adjusted positioning */
+  left: -2%; /* Adjusted positioning */
+  width: 24vh;
+  height: 24vh;
+  background: rgb(212, 155, 21); /* Golden border color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures the image does not overflow the circular shape */
+  border: 5px solid rgb(212, 155, 21); /* 5px border */
+}
+
+.right-picture-circle {
+  position: absolute;
+  top: 45%; /* Adjusted positioning */
+  right: -2%; /* Adjusted positioning */
+  width: 24vh;
+  height: 24vh;
+  background: rgb(212, 155, 21); /* Golden border color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures the image does not overflow the circular shape */
+  border: 5px solid rgb(212, 155, 21); /* 5px border */
+}
+
+.left-picture-circle img {
+  width: 100%; /* Ensures the image fills the circle */
+  height: 100%;
+  object-fit: cover; /* Makes sure the image covers the entire space without distortion */
+  border-radius: 50%; /* Makes sure the image is circular */
+}
+
+.right-picture-circle img {
+  width: 100%; /* Ensures the image fills the circle */
+  height: 100%;
+  object-fit: cover; /* Makes sure the image covers the entire space without distortion */
+  border-radius: 50%; /* Makes sure the image is circular */
+}
+
+.left-circle-text {
+  position: absolute;
+  top: 25%; /* Align with the circle */
+  left: 23vh; /* Adjust to be to the right of the left circle */
+  font-family: 'Serpentine', sans-serif;
+  font-size: 42px; /* Large text */
+  font-weight: bold;
+  color: black; /* Adjust color as needed */
+  text-align: left;
+}
+
+.left-circle-subtext {
+  position: absolute;
+  top: 35%; /* Align with the circle */
+  left: 23vh; /* Adjust to be to the right of the left circle */
+  font-family: 'Serpentine', sans-serif;
+  font-size: 28px; /* Large text */
+  font-weight: bold;
+  color: black; /* Adjust color as needed */
+  text-align: left;
+}
+
+.right-circle-text {
+  position: absolute;
+  top: 55%; /* Align with the circle */
+  right: 23vh; /* Adjust to be to the right of the right circle */
+  font-family: 'Serpentine', sans-serif;
+  font-size: 42px; /* Large text */
+  font-weight: bold;
+  color: black; /* Adjust color as needed */
+  text-align: right;
+}
+
+.right-circle-subtext {
+  position: absolute;
+  top: 65%; /* Align with the circle */
+  right: 23vh; /* Adjust to be to the right of the right circle */
+  font-family: 'Serpentine', sans-serif;
+  font-size: 28px; /* Large text */
+  font-weight: bold;
+  color: black; /* Adjust color as needed */
+  text-align: right;
+}
+
+
+/* begin coaching slide */
+/* Styling adjustments for Reveal.js */
+.reveal .header {
+    font-family: 'Serpentine', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: none !important;
+    color: rgb(0, 167, 157);;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.reveal .header span {
+    font-weight: bold;
+}
+
+/* Grid layout */
+.reveal .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin-bottom: 200px;
+}
+
+/* Card style */
+.reveal .card {
+    background: white;
+    padding: 10px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    gap: 15px;
+}
+
+/* Image */
+.reveal .card img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Text formatting */
+.reveal .card h3 {
+    font-size: .75em;
+    margin-bottom: 5px;
+    text-transform: none !important;
+    text-align: left;
+}
+
+.reveal .card p {
+    font-size: .45em;
+    color: #333;
+    text-align: left;
+}
+
+.image-circle {
+    width: 80px;  /* Adjust size as needed */
+    height: 80px; 
+    background-color: rgb(212, 155, 21);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.image-circle img {
+    width: 50px; /* Adjust to fit inside the circle */
+    height: 50px;
+    object-fit: contain;
+}
+
+/* end coaching slide */
