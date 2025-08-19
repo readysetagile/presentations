@@ -444,3 +444,60 @@ img[alt=rsa-services] {
   	border: 5px solid #73AD21;
   	padding: 10px;
 }
+
+/****************************/
+/* Grid Layout for 4x4 grid */
+/****************************/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 0;
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.grid-item-caption {
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-item:nth-child(1) {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.grid-item:nth-child(2) {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.grid-item:nth-child(3) {
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.grid-item:nth-child(4) {
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+/* END: Grid Layout for 4x4 grid */
