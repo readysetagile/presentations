@@ -34,6 +34,11 @@ img[alt=ai-orchestrator] {
     vertical-align: top; 
 }
 
+img[alt=github-workshop] {
+    height: 350px;
+    vertical-align: top; 
+}
+
 img[alt^="grid-item-"] {
     height: 150px;
     width: 150px;
