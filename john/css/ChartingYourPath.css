@@ -1,5 +1,5 @@
 body {
-  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/ChartingYourPath/tbd.png' ) !important;
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' ) !important;
   background-repeat:no-repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: bottom left, center !important;
@@ -37,6 +37,12 @@ img[alt=github-workshop] {
     height: 350px;
     vertical-align: top; 
 }
+
+img[alt=huge-old-dictionary] {
+    height: 250px;
+    vertical-align: top; 
+}
+
 
 img[alt^="grid-item-"] {
     height: 150px;
