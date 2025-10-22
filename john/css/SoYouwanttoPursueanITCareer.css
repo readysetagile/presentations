@@ -1,0 +1,80 @@
+/*********************************************************/
+/* Custom CSS for >So You want to Pursue and IT Career
+/*********************************************************/
+
+body {
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/StartBusiness/background.jpg' ) !important;
+  background-repeat:no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed !important;
+  background-position: bottom left, center !important;
+  -webkit-background-size: auto, cover !important;
+  -moz-background-size: auto, cover !important;
+  -o-background-size: auto, cover !important;
+  background-size: 100px 100px, cover !important;
+  font-family: 'Raleway';
+}
+
+#logo-title {
+	height: 100px !important;
+}
+
+img[alt=jr-mug-2024] {
+	width: 350px;
+}
+    
+#pres-qr img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+img[alt^="grid-item-"] {
+    height: 150px;
+    width: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 1.25rem;
+}
+
+.role-grid {
+    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 4px 6px;
+    line-height: 1.35;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: border-color .15s ease, transform .08s ease;
+}
+
+.role-grid:focus-within, .role:hover {
+    border-color: var(--ring);
+}
+
+.dot {
+    width: 8px; height: 8px; border-radius: 999px; background: var(--ring);
+    box-shadow: 0 0 0 3px rgba(196, 125, 9, 0.55);
+    flex-shrink: 0;
+}
+
+.role-grid span {
+    display: block;                   /* Convert to a block element */
+    font-size: 22px;                 /* Retain font size */
+    text-align: left;                /* Left-align text */
+    
+    overflow: hidden;                /* Hide excess content */
+    text-overflow: ellipsis;         /* Optional: add ellipsis for overflow */
+    line-height: 1.35;               /* Retain line height */
+    
+    max-height: calc(2 * 1.35em);    /* Maximum height for two lines */
+    height: calc(2 * 1.35em);         /* Ensure height is fixed to two lines */
+    display: -webkit-box;            /* Use flexbox for multi-line truncation */
+    -webkit-box-orient: vertical;    /* Orient the box vertically */
+    -webkit-line-clamp: 2;           /* Limit to two lines */
+}
+
+
