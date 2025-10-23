@@ -21,11 +21,27 @@ body {
 img[alt=jr-mug-2024] {
 	width: 350px;
 }
-    
+ 
+img[alt=ITCareer-qr] {
+	height: 350px;
+}
+
 #pres-qr img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+#li-line {
+    display:inline-block;
+    font-size: 20pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#li-line img {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 img[alt^="grid-item-"] {
     height: 150px;
@@ -77,4 +93,8 @@ img[alt^="grid-item-"] {
     -webkit-line-clamp: 2;           /* Limit to two lines */
 }
 
-
+img[alt=work-profiler] {
+	height: 550px;
+	background-color: white !important;
+	vertical-align: top; 
+}
