@@ -21,7 +21,23 @@ body {
 img[alt=jr-mug-2024] {
 	width: 350px;
 }
- 
+
+img[alt=temetnosce] {
+	height: 400px;
+}
+
+img[alt=work-profiler] {
+	height: 400px;
+}
+
+img[alt=thinkbig] {
+	height: 400px;
+}
+
+img[alt=try-fail] {
+	height: 400px;
+}
+
 img[alt=ITCareer-qr] {
 	height: 350px;
 }
