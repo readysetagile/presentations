@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>About Ready Set Agile | Presentations | Ready Set Agile</title>
+
+		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<!-- custom styles -->
+		<link rel="stylesheet" href="john/css/RSA.css">
+		<!-- <link rel="stylesheet" href="john/css/tree.css"> -->
+		<link rel="stylesheet" href="john/css/AboutRSA.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="no-toc-progress">
+					<div id="left-split" style="text-align: center !important;">
+						<div class="rsa-logo"><img src="lib/img/global/RSA-logo-gray-round.svg"></div>
+					</div>
+					<div id="right-split">
+						<h4>About Ready Set Agile</h4>
+						<div class="mission-statement">We close the gap between business needs and talented teams, 
+							helping companies <b><i>maximize value</i></b> by <b><i>obtaining feedback rapidly</i></b> and <b><i>responding to change</i></b>.
+							<br><br> 
+							We achieve this through <b><i>proven training</i></b> and <b><i>effective coaching</i></b> to <b><i>get done quickly</i></b>.
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="grid-container-omj">
+						<div class="overlay-omj">
+							<div class="omj-funding-title">
+								Funding through OhioMeansJobs!
+							</div>
+							<div class="omj-funding-content">
+								All offerings from Ready Set Agile are eligible for OhioMeansJobs funding to support workforce development and skill enhancement.
+							</div>
+							<img alt="omj-logo" src="lib/img/logos/OhioMeansJobs.png">
+							<img alt="rsa-logo-long" src="/lib/img/logos/RSA_website_header.png">
+						</div> <!-- Overlay covering the left third -->
+						<div class="combined-cell-omj"></div> <!-- Combined cells with background image -->
+						<div class="grid-item-omj grid-item-4-omj"></div>
+						<div class="grid-item-omj grid-item-5-omj">
+							<ul class="bullet-list">
+								<li><span class="right-arrow-bullet"></span>All Classes</li>
+								<li><span class="right-arrow-bullet"></span>All Workshops</li>
+								<li><span class="right-arrow-bullet"></span>All Coaching</li>
+								<li><span class="right-arrow-bullet"></span>All Programs</li>
+							</ul>
+						</div>
+						<div class="grid-item-omj grid-item-6-omj">
+							<img alt="omj-tidycal-qr" src="lib/img/qr/qr-discovery-15.png">
+							<div class="omj-tidycal-desc">Scan to get started</div>
+						</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealSearch ],
+				
+				dependencies: [
+					{ src: 'plugin/remeal/remeal.js', async: true, callback: () => initRemeal() }
+				]
+			});
+		</script>
+	</body>
+</html>

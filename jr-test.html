@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            height: 100vh; /* Full height */
+            position: relative; /* Position relative for child absolute positioning */
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            grid-template-rows: 1fr 1fr; /* 2 rows of equal height */
+            gap: 10px; /* Space between cells */
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+        }
+        .grid-item {
+            background-color: #cce5ff; /* Light blue background for cells */
+            border: 1px solid #007BFF; /* Blue border */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em; /* Larger text */
+            color: #333; /* Dark text color */
+            border-radius: 8px; /* Rounded edges */
+        }
+        .combined-cell {
+            grid-column: 1 / 4; /* Combine all three columns */
+            grid-row: 1; /* Occupy the first row */
+            background-image: url('lib/img/global/workinghands.png'); /* Background image for combined cell */
+            background-size: cover; /* Cover the entire cell */
+            background-position: center; /* Center the image */
+            color: #fff; /* White text for contrast */
+            border-radius: 8px 8px 0 0; /* Rounded edges on the top */
+        }
+        .overlay {
+            position: absolute; /* Absolute positioning */
+            top: 0;
+            left: 0;
+            width: 33.33%; /* Cover 1/3 of the width */
+            height: 100%; /* Full height */
+            background-color: rgba(0, 123, 255, 0.7); /* Blue background with transparency */
+            z-index: 1; /* Ensure it is on top */
+            border-top-right-radius: 50px; /* Rounded corner at the top right */
+        }
+        .grid-item-4 {
+            grid-column: 1; /* Position cell 4 in the left column */
+            grid-row: 2; /* Occupy the second row */
+        }
+        .grid-item-5 {
+            grid-column: 2; /* Position cell 5 in the middle column */
+            grid-row: 2; /* Occupy the second row */
+        }
+        .grid-item-6 {
+            grid-column: 3; /* Position cell 6 in the right column */
+            grid-row: 2; /* Occupy the second row */
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div> <!-- Overlay covering the left third -->
+    <div class="grid-container">
+        <div class="combined-cell">1, 2 & 3</div> <!-- Combined cells with background image -->
+        <div class="grid-item grid-item-4">4</div>
+        <div class="grid-item grid-item-5">5</div>
+        <div class="grid-item grid-item-6">6</div>
+    </div>
+</body>
+</html>
