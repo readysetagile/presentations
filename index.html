@@ -359,7 +359,7 @@ header img { filter: none; }
   <script>
   (async function populateDates() {
     try {
-      const resp = await fetch('/presentation-dates.json', { cache: 'no-store' });
+      const resp = await fetch('presentation-dates.json', { cache: 'no-store' });
       if (!resp.ok) throw new Error('Dates JSON not found');
       const map = await resp.json();
 
