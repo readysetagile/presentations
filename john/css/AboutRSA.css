@@ -25,6 +25,7 @@ img[alt=basic-purposes] {
 img[alt=rsa-logo-long] {
     background-color: white;
     width: 300px;
+    margin: 0 !important
 }
 
 img[alt=omj-logo] {
@@ -35,7 +36,7 @@ img[alt=omj-logo] {
 }
 
 .mission-statement {
-    font-size: 0.55em;
+    font-size: 0.75em;
     font-style: normal;
     line-height: 1.5em;
     margin-top: 20px;
@@ -57,7 +58,7 @@ img[alt=omj-logo] {
     grid-template-rows: 1fr 2fr; /* 2 rows of equal height */
     gap: 10px; /* Space between cells */
     width: 100%; /* Full width */
-    height: 85vh;/* Full height */
+    height: 80vh;/* Full height */
     position: relative; /* Position relative for child absolute positioning */
 }
 

@@ -1,61 +1,403 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All Presentations | Ready Set Agile</title>
+  <link rel="icon" type="image/png" href="lib/img/global/favicon.png">
 
-		<title>All Presentations | Ready Set Agile</title>
+  <style>
+/* BRAND PALETTE ------------------------------------------------------ */
+:root {
+  /* Your imported palette */
+  --ocean-deep: hsla(214, 59%, 44%, 1);
+  --tropical-teal: hsla(181, 31%, 55%, 1);
+  --ash-grey: hsla(175, 17%, 75%, 1);
+  --black: hsla(0, 0%, 0%, 1);
+  --steel-blue: hsla(212, 48%, 49%, 1);
 
-		<link rel="icon" type="image/png" href="lib/img/global/favicon.png">
-		
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		
-		<!-- custom styles -->
-		<link rel="stylesheet" href="john/css/RSA.css">
-		<link rel="stylesheet" href="john/css/pres-index.css">
-	</head>
-	<body>
-		<h1>Ready Set Agile - All Presentations</h1>
-		<img id="logo-title" src="lib/img/global/RSALogoFull.png">
-		<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="ScrumMasterInterviewGames.html">Scrum Master Interview Games<br>Cinci Day Of Agile: July 27, 2018</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="DevOpsBirdsEye.html">A Bird's-eye View of DevOps<br>Columbus Idea Foundry: August 6, 2018</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="HowToWriteARecipeForAutomatedTesting.html?CMH">How To Write A Recipe For Automated Testing<br>Columbus IIBA: October 10, 2018</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="JiraXray.html">Automated Testing using Xray Test Management for Jira<br>Lifestyle Communities: November 13, 2018</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="HowToWriteARecipeForAutomatedTesting.html?INBADD">How To Write A Recipe For Automated Testing<br>INBADD: May 17, 2019</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="BigRoomPlanningAUG.html">Big Room Planning with Jira and Confluence<br>Atlassian AUG: September 10, 2019</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="BigRoomPlanningBAM.html">Big Room Planning Workshop<br>Business Agility Midwest: November 7, 2019</a></div>
-		  
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="AgileBirdsEye.html">Agile: A Bird's-Eye View</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="FosteringAnAgileCulture.html">Fostering an Agile Culture<br>Grange Elevate: November 4, 2020</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="PickYourThrowdown.html">Pick Your Throwdown!<br>Grange Elevate: November 5, 2020</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="FastTrackTesting.html">Fast-tracking a DevOps Movement with Jira</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="WhatIsSelfOrganizationAnyway.html">What Is Self-Organization Anyway?</a></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"><a href="GitIntro.html">Intro to Git<br>Free Code Camp Columbus: June 13, 2022</a></div>
-<!-- 		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height3"></div>
-		  <div class="grid-item grid-item--height2"></div>
-		  <div class="grid-item grid-item--width3"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height2"></div>
-		  <div class="grid-item grid-item--width2 grid-item--height3"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height2"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--width2 grid-item--height2"></div>
-		  <div class="grid-item grid-item--width2"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height2"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height3"></div>
-		  <div class="grid-item grid-item--height2"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item"></div>
-		  <div class="grid-item grid-item--height2"></div> -->
-		</div>
+  /* System colors derived from palette */
+  --bg: hsl(214 20% 98%);
+  --card: hsl(0 0% 100%);
+  --muted: hsla(175 17% 45%);
+  --accent: var(--ocean-deep);
+  --accent-2: var(--tropical-teal);
+  --accent-3: var(--steel-blue);
 
-	</body>
+  /* Tile colors updated to match palette */
+  --tile-1: color-mix(in srgb, var(--ash-grey) 25%, white);
+  --tile-2: color-mix(in srgb, var(--tropical-teal) 12%, white);
+
+  /* Layout tokens */
+  --gap: 16px;
+  --radius: 8px;
+  --maxw: 1100px;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* PAGE BASICS -------------------------------------------------------- */
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--black);
+}
+
+header img { filter: none; }
+.intro { color: var(--muted); }
+
+/* PRESENTATIONS CONTAINER ------------------------------------------- */
+/* Option 1: Branded soft mosaic tiles */
+.presentations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--gap);
+  padding: 20px;
+  border-radius: calc(var(--radius) + 4px);
+
+  background-image:
+    /* soft wash */
+    linear-gradient(90deg,
+      var(--tile-1) 0%,
+      var(--tile-2) 100%
+    ),
+    /* very subtle diagonal texture */
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--ocean-deep) 5%, transparent) 0%,
+      color-mix(in srgb, var(--ocean-deep) 5%, transparent) 50%,
+      transparent 50%
+    );
+
+  background-size: 100% 100%, 24px 24px;
+
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+
+/* CARD STYLING ------------------------------------------------------- */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid rgba(15,98,254,0.06);
+  box-shadow: 0 1px 4px rgba(16,24,40,0.06);
+
+  transition:
+    transform .12s ease,
+    box-shadow .12s ease,
+    border-color .12s ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(15,98,254,0.10);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+/* Accent stripe */
+.card::before {
+  content: '';
+  width: 6px;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  background: linear-gradient(
+    180deg,
+    var(--accent) 0%,
+    var(--accent-2) 60%,
+    var(--accent-3) 100%
+  );
+  margin: -16px 12px -16px -16px;
+  flex: 0 0 6px;
+}
+
+/* TEXT --------------------------------------------------------------- */
+.title {
+  font-weight: 600;
+  color: hsl(214 12% 10%);
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.date {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.link {
+  color: var(--accent-3);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* MOBILE ------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .presentations {
+    background-image:
+      linear-gradient(90deg, var(--tile-1) 0 100%);
+    background-size: auto;
+    padding: 12px;
+  }
+  .card::before { display: none; }
+}
+  </style>
+</head>
+
+<body>
+  <main class="site" role="main">
+    <header>
+      <img src="lib/img/global/RSA_website_header.png" alt="Ready Set Agile logo">
+      <div>
+        <h1>Ready Set Agile — All Presentations</h1>
+        <div class="intro">Select a presentation to view slides and resources. Dates are pulled from source control (placeholder shown).</div>
+      </div>
+    </header>
+
+    <section class="presentations" aria-label="Presentations list">
+
+      <!-- PRESENTATION CARDS (unchanged content) -->
+      <!-- ——————————————————————————————————————————————— -->
+      <!-- I am keeping your list exactly as given -->
+      <!-- ——————————————————————————————————————————————— -->
+
+      <article class="card">
+        <h2 class="title">Agile: A Bird's Eye View</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="AgileBirdsEye.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Outsmarting Applicant Tracking Systems</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ApplicantTrackingSystems.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Agile Big Room Planning for Jira and Confluence</hh2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="BigRoomPlanningAUG.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Agile Big Room Planning - Business Agility Midwest</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="BigRoomPlanningBAM.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Charting Your Path - IIBA Columbus</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ChartingYourPath-IIBAColumbus.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Charting Your Path - fCC Columbus</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ChartingYourPath-fCCColumbus.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Appliying Professoinal Scrum Intro</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="DACC-APS.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">DevOps: A Bird's-eye View</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="DevOpsBirdsEye.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Elevate Your Expertise with Professional Scrum Training</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ElevateYourExpertisewithProfessionalScrumCertification.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Establishing a Common Language on a Scrum Team</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="EstablishingaCommonLanguageonaScrumTeam.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Fast-tracking a DevOps Movement with Jira</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="FastTrackTesting.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Fostering A Mavon Culture</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="FosteringAMavonCulture.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Fostering An Agile Culture</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="FosteringAnAgileCulture.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Agile Coaching Interview with Gary Monti</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="GaryMontiInterview.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Introduction To Git</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="GitIntro.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">How To Use The Tree</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="HowToUseTheTree.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">How To Write A Recipe For Automated Testing</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="HowToWriteARecipeForAutomatedTesting.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Internships at Ready Set Agile</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="Internship.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Automated Testing using Xray Test Management for Jira</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="JiraXray.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Leading With Alignment</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="LeadingWithAlignment.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Pick Your Throwdown!</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="PickYourThrowdown.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">About Ready Set Agile</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ReadySetAgile-OMJ.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Scrum Master Interview Games</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="ScrumMasterInterviewGames.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">So You want to Pursue and IT Career</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="SoYouwanttoPursueanITCareer.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">So You want to Start Your Own Business</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="SoYouwanttoStartYourOwnBusiness.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">What Is Self-organization Anyway?</h2>
+        <p class="meta">Presentation — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="WhatIsSelfOrganizationAnyway.html">Open presentation →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">reveal.js – The HTML Presentation Framework (demo)</h2>
+        <p class="meta">Demo — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="demo.html">Open demo →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">Overlay Layout Example (jr-test)</h2>
+        <p class="meta">Demo — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="jr-test.html">Open example →</a>
+      </article>
+
+      <article class="card">
+        <h2 class="title">All Presentations (index)</h2>
+        <p class="meta">Index page — <span class="date">DATE_PLACEHOLDER</span></p>
+        <a class="link" href="index.html">Open index →</a>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- DATE POPULATOR SCRIPT ------------------------------------------ -->
+  <script>
+  (async function populateDates() {
+    try {
+      const resp = await fetch('/presentation-dates.json', { cache: 'no-store' });
+      if (!resp.ok) throw new Error('Dates JSON not found');
+      const map = await resp.json();
+
+      document.querySelectorAll('.card').forEach(card => {
+        const link = card.querySelector('.link');
+        if (!link) return;
+        const href = link.getAttribute('href');
+        const key = href.split('?')[0].split('#')[0];
+        const date = map[key] || map[href] || null;
+
+        const dateEl = card.querySelector('.date');
+        if (!dateEl) return;
+
+        if (date) {
+          try {
+            const d = new Date(date);
+            if (!isNaN(d)) {
+              dateEl.textContent = d.toLocaleDateString(undefined, {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+              });
+              dateEl.setAttribute('datetime', d.toISOString());
+            } else {
+              dateEl.textContent = date;
+            }
+          } catch (e) {
+            dateEl.textContent = date;
+          }
+        } else {
+          dateEl.textContent = 'DATE_PLACEHOLDER';
+        }
+      });
+    } catch (err) {
+      console.warn('Could not populate presentation dates:', err);
+    }
+  })();
+  </script>
+
+</body>
 </html>
