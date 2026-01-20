@@ -1,5 +1,5 @@
 body {
-  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/IIBA/title-background.png' ) !important;
+  background-image: url( '../../lib/img/global/logo_small.png' ), url( '../../lib/img/global/workinghands.png' ) !important;
   background-repeat:no-repeat, no-repeat !important;
   background-attachment: fixed, fixed !important;
   background-position: bottom left, center !important;
@@ -198,3 +198,56 @@ img[alt="commnity-event"] {
 .iiba-outline-with-icon ul {
   margin-top: 30px;
 }
+
+/* conclusion slide logos */
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between items */
+    margin-bottom: 15px;
+}
+
+.logo-row img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.qr-access-container {
+  position: relative; /* 🔑 anchor */
+  display: flex;
+  align-items: center;
+}
+
+.qr-access-text {
+  position: absolute;
+  left: 100%;          /* start at right edge of QR */
+  transform: translateY(-50%);
+
+  display: flex;
+
+  font-weight: bold;
+}
+
+.qr-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.rotated-arrow {
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    object-fit: contain;
+}
+
+.access-presentation-text {
+  font-family: 'markerfield', sans-serif;
+  font-size: 0.8em;     /* easy scaling */
+  letter-spacing: 0.03em;
+  color: red;
+}
+/****************************/

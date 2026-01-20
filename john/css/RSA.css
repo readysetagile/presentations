@@ -2,12 +2,29 @@
 /*********************************/
 /* Custom CSS for all my presentations 
 /*********************************/
+@font-face {
+  font-family: 'markerfield';
+  src: url('/john/font/markerfield.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 .logo-row {
-	display: flex;
-	width: 100%;
-	height: 200px; /* Set a fixed height or use relative units as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between items */
+    margin-bottom: 15px;
 }
+
+.logo-row img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
 .logo-col {
 	flex: 1 1 50%;
 	display: flex;
