@@ -16,6 +16,11 @@ body {
   margin-top: 40px;
 }
 
+#iiba-columbus-logo-title {
+  text-align: left;
+  height: 150px;
+}
+
 .iiba-framed-row {
   display: flex;
   gap: 20px;
@@ -89,6 +94,18 @@ img[alt=exam-focus-under-pressure] {
 }
  */
 
+ img[alt="jr-circle"] {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px 0 0 !important;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+img[alt="commnity-event"] {
+  height: 500px;
+}
+
 /* certification path slide */
 .certifications {
   max-width: 960px;
@@ -153,3 +170,31 @@ img[alt=exam-focus-under-pressure] {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 /* end certification path slide */
+
+/* Opt-in modifier for outlined content with icon */
+.iiba-outline-with-icon {
+  position: relative;
+}
+
+/* Icon styling */
+.iiba-outline-with-icon .iiba-outline-icon {
+  position: absolute;
+  top: -50px;
+  left: -22px;
+
+  width: 64px;
+  height: 64px;
+
+  border: 4px solid #73AD21;
+  border-radius: 50%;
+
+  background: white;
+  padding: 4px;
+
+  z-index: 2;
+}
+
+/* Prevent content collision */
+.iiba-outline-with-icon ul {
+  margin-top: 30px;
+}
