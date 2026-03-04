@@ -78,3 +78,72 @@ img[alt^="grid-item-"] {
     flex-shrink: 0;
 }
 .role-grid span { display: inline-block; font-size: 12px; }
+
+.logo-row-iiba{
+  display:flex;
+  width:100%;
+  gap:0;
+  margin:0;
+  padding:0;
+  align-items:center;
+}
+
+/* left: two images stacked horizontally with no gap */
+.logo-left-bacon{
+  display:flex;
+  flex:1;                 /* take half the row */
+  gap:0;
+  align-items:center;
+  background: white;
+  margin-right: 5px;
+}
+
+/* right: single image occupying the other half, right-aligned */
+.logo-right-rsa{
+  display:flex;
+  flex:1;                 /* take half the row */
+  justify-content:flex-end;
+  align-items:center;
+  gap:0;
+  margin-left: 5px;
+}
+
+/* images: fill their flex cell, no extra spacing */
+.logo-left-bacon img,
+.logo-right-rsa img{
+  display:block;
+  margin:0;
+  padding:0;
+  border:0;
+  height:150px;           /* adjust as needed (or use auto) */
+  object-fit:contain;
+}
+
+/* make the two left images share the left half equally */
+.logo-left-bacon img{
+  width:50%;
+}
+
+/* right image fills its half */
+.logo-right-rsa img{
+  width:100%;
+  max-width:100%;
+}
+
+img[alt=compentency-model] {
+    height: 550px;
+    background-color: white !important;
+}
+
+img[alt=sdo-pspo] {
+    height: 300px;
+}
+
+img[alt=qr-pspo-bacon] {
+    height: 150px;
+}
+
+img[alt=rsa-logo-conclusion] {
+    width: 450px !important
+}
+

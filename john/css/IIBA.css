@@ -200,7 +200,7 @@ img[alt="commnity-event"] {
 }
 
 /* conclusion slide logos */
-.logo-row {
+.logo-row-conclusion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,8 +208,8 @@ img[alt="commnity-event"] {
     margin-bottom: 15px;
 }
 
-.logo-row img {
-    width: 150px;
+.logo-row-conclusion img {
+    /* width: 150px; */
     height: 150px;
     object-fit: contain;
     max-width: 100%;
