@@ -238,7 +238,7 @@ img[alt="commnity-event"] {
 }
 
 .rotated-arrow {
-    width: 24px;
+    /* width: 24px; */
     height: 24px;
     transform: rotate(90deg);
     object-fit: contain;
