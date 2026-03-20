@@ -17,7 +17,7 @@ body {
     border: 2px solid #4dd0e1;
     border-radius: 10px;
     margin: 1em 0;
-    padding: 1em;
+    padding: 0.5em;
     background-color: #1c1c1c;
 }
 
@@ -74,7 +74,7 @@ body {
     border: 1px solid #ccc;
     padding: 0.5em;
     text-align: center;
-    font-size: 0.4em;
+    font-size: 0.35em;
     border-bottom: 1px solid !important
 }
 
@@ -100,8 +100,9 @@ img[alt=intensive-training-to-full-autonomy] {
 .two-by-two-grid {
     position: relative;
     width: 100%;
-    height: 400px;
-    margin-top: 20px;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: 15px
 }
 
 .grid-box {
@@ -114,21 +115,52 @@ img[alt=intensive-training-to-full-autonomy] {
 
 .axis-y {
     position: absolute;
-    left: -100px;
+    left: -55px;
     top: 40%;
     transform: rotate(-90deg);
-    font-size: 0.4em;
+    font-size: 0.35em;
     font-style: italic;
     color: cornflowerblue;
+    white-space: nowrap;
 }
 
 .axis-x {
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     left: 40%;
-    font-size: 0.4em;
+    font-size: 0.35em;
     font-style: italic;
     color: cornflowerblue;
+    white-space: nowrap;
+}
+
+/* Color-coded Status Marks */
+.check {
+    color: #4dd0e1; /* Cyan/Green-ish */
+    font-weight: bold;
+}
+
+.cross {
+    color: #ff5252; /* Red */
+    font-weight: bold;
+}
+
+/* Highlighted Row (NextGen) */
+.highlight-row {
+    background-color: rgba(77, 208, 225, 0.15) !important;
+    outline: 1px solid #4dd0e1;
+}
+
+/* Footnote Styling */
+.table-footnotes {
+    margin-top: 15px;
+    font-size: 0.35em;
+    color: #aaa;
+    text-align: left;
+    line-height: 1.2;
+    font-style: italic;
+    border-top: 1px solid #444;
+    padding-top: 5px;
 }
 
 .grid-item {
