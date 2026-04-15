@@ -128,85 +128,218 @@
             </div>
         </section>
 
+        <section>
+          <div data-markdown data-template>
+          ### Survey Features Ranking
+          ---
+          </div>
+          <div class="framed-slide">
+            <div class="framed-left">
+                <ul class="survey-results-list">
+                    <li><strong>Mentored Application (4.9):</strong> Highest urgency; confirms demand for guided implementation over solo study.</li>
+                    <li><strong>Grant Funding (4.8):</strong> Essential for budget approval; removes the primary friction for SME leadership.</li>
+                    <li><strong>Day 1 Readiness (4.7):</strong> Critical for scaling teams; reduces the 9-month "ramp-up" productivity loss.</li>
+                    <li><strong>Disciplined Methods (4.4):</strong> Combating "vibe coding" with rigorous engineering and analysis standards.</li>
+                    <li><strong>Autonomy & Management (4.3):</strong> Direct link to reducing manager burnout and micromanagement overhead.</li>
+                    <li><strong>AI Utility (4.2):</strong> Focus on practical efficiency and sifting through AI "fluff" to find real value.</li>
+                    <li><strong>Talent Pipeline (4.1):</strong> Moves from "emergency hiring" to a predictable, continuously ready talent flow.</li>
+                    <li><strong>Industry Credentials (3.5):</strong> Valued for portability, but ranked lower than functional performance and integrity.</li>
+                    <li>N=25 Verified Responses</li>
+                </ul>
+            </div>
+
+            <div class="framed-right" style="height: 400px; width: 500px;">
+              <canvas id="ngtlRadarChart" style="max-width: 100%;"></canvas>
+            </div>
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <script>
+            const ctxRadar = document.getElementById('ngtlRadarChart');
+            new Chart(ctxRadar, {
+              type: 'radar',
+              data: {
+                labels: [
+                  'AI Utility', 
+                  'Credentials', 
+                  'Ready Day 1', 
+                  'Mentored Application', 
+                  'Talent Pipeline', 
+                  ['Disciplined', 'Methods'], 
+                  'Autonomy', 
+                  'Grant Funding'
+                ],
+                datasets: [{
+                  label: 'Importance Score (1-5)',
+                  data: [4.2, 3.5, 4.7, 4.9, 4.1, 4.4, 4.3, 4.8],
+                  fill: true,
+                  backgroundColor: 'rgba(52, 152, 219, 0.2)', // Accent Blue
+                  borderColor: '#3498db',
+                  pointBackgroundColor: '#3498db',
+                  pointBorderColor: '#fff',
+                  pointHoverBackgroundColor: '#fff',
+                  pointHoverBorderColor: '#3498db'
+                }]
+              },
+              options: {
+                layout: {
+                  padding: -10 // Adjust this value until the labels fit
+                },
+                scales: {
+                  r: {
+                    angleLines: { color: '#444' },
+                    grid: { color: '#444' },
+                    pointLabels: { 
+                      color: '#fff',
+                      font: { size: 11 },
+                      padding: 5
+                    },
+                    ticks: { 
+                      display: false,
+                      stepSize: 1 
+                    },
+                    suggestMin: 0,
+                    suggestMax: 5
+                  }
+                },
+                plugins: {
+                  legend: { display: true }
+                }
+              }
+            });
+          </script>
+        </section>
+
+      <!-- Market capture, scaling  & 5-Year Roadmap -->
       <section>
         <div data-markdown data-template>
-        ### Feature Ranking
-        ---
+          #### Market Capture, Scaling & 5-Year Roadmap
+          ---
         </div>
+
         <div class="framed-slide">
           <div class="framed-left">
-            <ol>
-              <li>Real-world project application</li>
-              <li>Dedicated Senior Mentorship</li>
-              <li>Zero-cost (State Funded)</li>
-              <li>16-week structured timeline</li>
-            </ol>
+            <object type="image/svg+xml" 
+                    data="lib/img/ngtl-pitch/market-onion.svg" 
+                    style="width: 100%; height: auto;">
+            </object>
           </div>
-          <div class="framed-right">
-            <img src="lib/img/ngtl-pitch/ranking-star-badge.png" alt="ranking">
-          </div>
-          <blockquote class="slide-blockquote">
-            <img src="lib/img/global/jr-head-circle.png" alt="jr-circle">
-            <strong>John's take:</strong><br>
-            Live projects beat theoretical labs every time in the eyes of hiring managers.
-          </blockquote>
-        </div>
-      </section>
 
-      <section>
-        <div data-markdown data-template>
-        ### Market Opportunity
-        ---
-        </div>
-        <div class="framed-slide">
-          <div class="framed-left">
-            <ul>
-              <li><strong>TAM:</strong> $2.4B Ohio Workforce Market</li>
-              <li><strong>SAM:</strong> 11,000+ Ohio SMEs (11-200 employees)</li>
-              <li><strong>Model:</strong> $30k/student via State Grants</li>
-            </ul>
-          </div>
           <div class="framed-right">
-            <img src="lib/img/ngtl-pitch/map-ohio-highlighted.png" alt="ohio-market">
-          </div>
-          <blockquote class="slide-blockquote">
-            <img src="lib/img/global/jr-head-circle.png" alt="jr-circle">
-            <strong>John's take:</strong><br>
-            The state is paying for the bridge; we just have to build it.
-          </blockquote>
-        </div>
-      </section>
-
-      <section>
-        <div data-markdown data-template>
-        ### Competitive Landscape
-        ---
-        </div>
-        <div class="framed-slide">
-          <div class="framed-left" style="font-size: 0.7em;">
-            <table>
+            <table class="competitive-table" style="margin-top: 0;">
               <thead>
                 <tr>
-                  <th>Feature</th>
-                  <th>NGTL</th>
-                  <th>Status Quo</th>
+                  <th>Year</th>
+                  <th>Cohorts</th>
+                  <th>Seats</th>
+                  <th>ARR Target</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td>Mentorship</td><td>✔</td><td>-</td></tr>
-                <tr><td>Live Projects</td><td>✔</td><td>-</td></tr>
-                <tr><td>State Funded</td><td>✔</td><td>✔</td></tr>
-                <tr><td>Value-First</td><td>✔</td><td>-</td></tr>
+                <tr><td>2026</td><td>2</td><td>10</td><td>$300K</td></tr>
+                <tr><td>2027</td><td>4</td><td>40</td><td>$1.2M</td></tr>
+                <tr><td>2028</td><td>8</td><td>96</td><td>$2.8M</td></tr>
+                <tr><td>2029</td><td>12</td><td>180</td><td>$5.4M</td></tr>
+                <tr class="highlight-row">
+                  <td><strong>2030</strong></td>
+                  <td><strong>16</strong></td>
+                  <td><strong>240</strong></td>
+                  <td><strong>$7.2M</strong></td>
+                </tr>
               </tbody>
             </table>
+            <ul style="font-size: 0.35em; margin-top: 10px; text-align: left; color: #ccc;">
+              <li>Scaling from 5 to 15 students per cohort as AI-driven automation matures.</li>
+              <li>Fixed $30k price point leverages full IMAP/Grant funding per seat.</li>
+              <li>Year 5: Operational dominance across the Midwest (TAM) corridor.</li>
+            </ul>
+            <div class="table-footnotes" style="margin-top: 5px;">
+              *The "Review Tax": Seniors spend 50% of time fixing poor code. At $30k per student, the cost of NextGen is less than 50% of the annual "Review Tax" ($75k) incurred by a single un-mentored junior hire. 
+              In the Midwest alone, the addressable gap for high-integrity IT talent exceeds $1.2B.
+            </div>
           </div>
-          <div class="framed-right">
-            <img src="lib/img/ngtl-pitch/competitive-advantage-chess.png" alt="strategy">
-          </div>
+
           <blockquote class="slide-blockquote">
             <img src="lib/img/global/jr-head-circle.png" alt="jr-circle">
-            <strong>John's take:</strong><br>
-            Bootcamps sell certificates; we sell integrated performance.
+            <strong>John's take:</strong> These aren't just optimistic projections; they are a calculated response to the technical debt crisis. By 2030, our Midwest footprint will be the standard for high-integrity talent.
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- Competitive Landscape & Positioning -->
+      <section>
+        <div data-markdown data-template>
+          #### Competitive Landscape & Positioning
+          ---
+        </div>
+
+        <div class="framed-slide">
+          <div class="framed-left">
+            <table class="competitive-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Mentored App.</th>
+                  <th>Eng. Integrity</th>
+                  <th>Grant Funded</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="highlight-row">
+                  <td><strong>NextGen</strong></td>
+                  <td><strong>✔ High</strong></td>
+                  <td><strong>✔ High</strong></td>
+                  <td><strong>✔ 100%</strong></td>
+                </tr>
+                <tr>
+                  <td>Status Quo (Self-Led)²</td>
+                  <td><span class="cross">✘</span> Low</td>
+                  <td>Variable</td>
+                  <td><span class="cross">✘</span></td>
+                </tr>                
+                <tr>
+                  <td>Big Tech Labs¹</td>
+                  <td><span class="check">✔</span></td>
+                  <td><span class="check">✔</span></td>
+                  <td><span class="cross">✘</span></td>
+                </tr>
+                <tr>
+                  <td>Bootcamps</td>
+                  <td><span class="cross">✘</span></td>
+                  <td>Low</td>
+                  <td>Partial</td>
+                </tr>
+                <tr>
+                  <td>Consulting</td>
+                  <td>Med</td>
+                  <td><span class="check">✔</span></td>
+                  <td><span class="cross">✘</span></td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="table-footnotes">
+              ¹ High-integrity mentorship models exist internally at firms like Microsoft and JPMorgan, but they are inaccessible to SMEs. NextGen democratizes this "Big Tech" infrastructure for the broader market.<br><br>
+              ² The <strong>Status Quo</strong> relies on "Vibe Coding", trial-and-error, other workarounds which incurs a 50% "Review Tax" on senior staff and lacks the structured technical integrity required for modern AI-augmented environments.
+            </div>
+          </div>
+
+          <div class="framed-right">
+            <div class="two-by-two-grid">
+              <div class="axis-y">Mentored Application</div>
+              <div class="axis-x">Technical Integrity</div>
+              <div class="grid-box">
+                <div class="grid-item bootcamps" style="left: 10%; bottom: 15%;">Self-Led/Videos</div>
+                <div class="grid-item consulting" style="right: 15%; bottom: 45%;">Standard Consulting</div>
+                <div class="grid-item bigtech" style="left: 20%; top: 30%;">Internal Labs</div>
+                <div class="grid-item nextgen" style="right: 5%; top: 5%;">NextGen Talent Lab</div>
+              </div>
+            </div>
+          </div>
+
+          <blockquote class="slide-blockquote">
+            <img src="lib/img/global/jr-head-circle.png" alt="jr-circle">
+            <strong>John's take:</strong> We aren't competing with schools; we're competing with the "Status Quo" of trial-and-error. We provide the mentorship Big Tech uses, at a price point only grants can unlock.
           </blockquote>
         </div>
       </section>
@@ -219,14 +352,15 @@
         <div class="framed-slide">
           <div class="framed-left">
             <ul>
-              <li>Launch Pilot Cohort (Q2 2026)</li>
-              <li>Secure $150k Angel Funding</li>
-              <li>Refine "Train-the-Mentor" platform</li>
-              <li>Fill research gaps on long-term retention</li>
+              <li>Validate top features - one beta agreement</li>
+              <li>Launch Pilot Cohort (Q3 2026)</li>
+              <li>Secure $150k Operating Funding (Angel?)</li>
+              <li>"Industry-recognized" credentials optional?</li>
+              <li>Fill research gaps on long-term retention (customer testimonials)</li>
             </ul>
           </div>
           <div class="framed-right">
-            <img src="lib/img/ngtl-pitch/rocket-launch-blueprint.png" alt="roadmap">
+            <img src="lib/img/ngtl-pitch/the-ask.png" alt="the-ask">
           </div>
           <blockquote class="slide-blockquote">
             <img src="lib/img/global/jr-head-circle.png" alt="jr-circle">

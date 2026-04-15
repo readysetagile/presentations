@@ -197,3 +197,33 @@ img[alt=intensive-training-to-full-autonomy] {
     color: #000;
     font-weight: bold;
 }
+
+/* Survey Results List Styling */
+.survey-results-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.survey-results-list li {
+    font-size: 0.35em;
+    padding-bottom: 8px; /* Increases spacing between items */
+    line-height: 1.2;
+}
+
+/* Color Gradient: High contrast to Deep Blue */
+.survey-results-list li:nth-child(1) { color: #ffffff; } /* Pure White (Top Rank) */
+.survey-results-list li:nth-child(2) { color: #e0f2fe; } /* Very Light Blue */
+.survey-results-list li:nth-child(3) { color: #bae6fd; }
+.survey-results-list li:nth-child(4) { color: #7dd3fc; }
+.survey-results-list li:nth-child(5) { color: #38bdf8; }
+.survey-results-list li:nth-child(6) { color: #0ea5e9; }
+.survey-results-list li:nth-child(7) { color: #0284c7; }
+.survey-results-list li:nth-child(8) { color: #0369a1; } /* Deep Blue (Lowest Rank) */
+
+/* The N=25 Footer */
+.survey-results-list li:last-child {
+    color: #64748b; /* Muted slate for the metadata */
+    font-style: italic;
+    padding-top: 10px;
+}
