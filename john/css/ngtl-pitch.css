@@ -1,17 +1,55 @@
 /* Base styling */
 
 body {
-  background-image: url( '../../lib/img/global/NextGen\ Logo\ no\ title.png' ), url( '../../lib/img/atlassian/postits.png' ) !important;
-  background-repeat:no-repeat, no-repeat !important;
-  background-attachment: fixed, fixed !important;
-  background-position: bottom left, center !important;
-  -webkit-background-size: auto, cover !important;
-  -moz-background-size: auto, cover !important;
-  -o-background-size: auto, cover !important;
-  background-size: 100px 100px, cover !important;
+  position: relative;
   font-family: Arial, sans-serif;
-
 }
+
+body::before {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../lib/img/atlassian/postits.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  pointer-events: none;
+  z-index: 0;
+}
+
+html::before {
+  content: '';
+  position: fixed;
+  bottom: 0px;
+  left: 0;  
+  width: 100px;
+  height: 100px;
+  background-image: url('../../lib/img/global/NextGen\ Logo\ no\ title.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom left;
+  background-size: 100px 100px;
+  pointer-events: none;
+  z-index: 2;
+}
+
 
 .reveal h1,
 .reveal h2 {
