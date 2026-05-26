@@ -545,3 +545,7 @@ img[alt=rsa-services] {
 .fcc-discord {
     height: 400px;
 }
+
+.simple-link {
+	font-size: 14pt;
+}
